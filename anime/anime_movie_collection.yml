@@ -1,0 +1,3 @@
+dynamic_collections:
+  auto_tmdb_collections:
+    type: tmdb_collection
