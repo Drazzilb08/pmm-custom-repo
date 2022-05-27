@@ -1,0 +1,147 @@
+#############################################################
+#                  Other Chart Collections                  #
+#         Created by Yozora, Bullmoose20, & Sohjiro         #
+#############################################################
+#  Call this from your config.yml (Movie or Show)           #
+#  If nothing is specified these are the defaults           #
+#                                                           #
+#    metadata_path:                                         #
+#      - git: PMM/chart/other                               #
+#        template_variables:                                #
+#          # Sets the collection mode of the collection     #
+#          collection_mode:                                 #
+#          # Sets the value at the start of the sort title  #
+#          collection_section: "01"                         #
+#                                                           #
+#          # Turn the StevenLu's Popular collection on/off  #
+#          use_stevenlu: true                               #
+#          order_stevenlu:                                  #
+#          visible_library_stevenlu:                        #
+#          visible_home_stevenlu:                           #
+#          visible_shared_stevenlu:                         #
+#                                                           #
+#          # Turn the AniDB Popular collection on/off       #
+#          use_anidb: true                                  #
+#          order_anidb:                                     #
+#          visible_library_anidb:                           #
+#          visible_home_anidb:                              #
+#          visible_shared_anidb:                            #
+#                                                           #
+#          # Turn the Pirated Movies collection on/off      #
+#          use_pirated: true                                #
+#          order_pirated:                                   #
+#          visible_library_pirated:                         #
+#          visible_home_pirated:                            #
+#          visible_shared_pirated:                          #
+#                                                           #
+#          # Turn the Trending Movies collection on/off     #
+#          use_trending_movies: true                        #
+#          order_trending_movies:                           #
+#          visible_library_trending_movies:                 #
+#          visible_home_trending_movies:                    #
+#          visible_shared_trending_movies:                  #
+#                                                           #
+#          # Turn the Most Popular Movies collection on/off #
+#          use_popular_movies: true                         #
+#          order_popular_movies:                            #
+#          visible_library_popular_movies:                  #
+#          visible_home_trending_movies:                    #
+#          visible_shared_trending_movies:                  #
+#                                                           #
+#          # Turn the Trending Animated collection on/off   #
+#          use_trending_animated:                           #
+#          order_trending_animated:                         #
+#          visible_library_trending_animated:               #
+#          visible_home_trending_animated:                  #
+#          visible_shared_trending_animated:                #
+#                                                           #
+#          # Turn the Popular Series collection on/off      #
+#          use_popular_series:                              #
+#          order_popular_series:                            #
+#          visible_library_popular_series:                  #
+#          visible_home_popular_series:                     #
+#          visible_shared_popular_series:                   #
+#                                                           #
+#          # Turn the Trensing Series collection on/off     #
+#          use_trending_series:                             #
+#          order_trending_series:                           #
+#          visible_library_trending_series:                 #
+#          visible_home_trending_series:                    #
+#          visible_shared_popular_series:                   #
+#############################################################
+
+external_templates:
+  git: PMM/templates
+  template_variables:
+    collection_section: "01"
+
+collections:
+  StevenLu's Popular Movies:
+    summary: A collection of StevenLu's Most Popular Movies
+    stevenlu_popular: true
+    template:
+      - name: customsync
+      - name: chart_shared
+        key: stevenlu
+        check_library: movie
+
+  AniDB Popular:
+    summary: A collection of Popular Anime on AniDB
+    anidb_popular: 30
+    template:
+      - name: customsync
+      - name: chart_shared
+        key: anidb
+        
+  # Top 10 Pirated Movies of the Week:
+  #   mdblist: https://mdblist.com/lists/hdlists/top-ten-pirated-movies-of-the-week-torrent-freak-com/
+  #   summary: TorrentFreak.com's Weekly Top Ten Pirated Movies
+  #   template:
+  #     - name: customsync
+  #     - name: chart_shared
+  #       key: pirated
+
+  Trending Movies:
+    mdbllist: https://mdblist.com/lists/drazzilb/trending-movies-top-20
+    summary: Most Popular Movies TOP-20 is based on the vote increase on sites like IMDb, Trakt and Letterboxd in the last month
+    template:
+      - name: customsync
+      - name: chart_shared
+        key: trending_movies
+        check_library: movie
+  
+  Internet's Most Popular:
+    mdblist_list: https://mdblist.com/lists/drazzilb/top-200-movies
+    summary: Some of the most popular movies based on the number of vote on sites like IMDb, TheMovieDb and Trakt.
+    temlate:
+      - name: customsync
+      - name: chart_shared
+        key: popular_movies
+        check_library: movie
+  
+  Trending Animated Series:
+    mdblist_list: https://mdblist.com/lists/drazzilb/trending-animated-shows-50
+    summary: Trending TV Shows from around the internet. (Updated daily)
+    template:
+      - name: customsync
+      - name: chart_shared
+        key: trending_animated
+        check_library: show
+    
+  Popular Series:
+    mdblist_list: https://mdblist.com/lists/drazzilb/popular-shows-50
+    summary: Popular TV Shows from around the internet from sites such as IMDb, TheMovieDb, and Trakt.
+    template:
+      - name: customsync
+      - name: chart_shared
+        key: popular_series
+        check_library: show      
+
+  Trending Series:
+    mdblist_list: https://mdblist.com/lists/drazzilb/trending-shows-20
+    summary: Television's trending shows is based on the vote increase on sites like IMDb, Trakt and Letterboxd in the last month
+    template:
+      - name: customsync
+      - name: chart_shared
+        key: trending_series
+        check_library: show 

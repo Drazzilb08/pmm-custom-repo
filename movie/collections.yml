@@ -1,0 +1,1265 @@
+templates:
+  collection:
+    collection_mode: hide_items
+    collection_order: release
+    optional:
+      - collection
+      - movie
+    sync_mode: sync
+    tmdb_collection_details: <<collection>>
+    tmdb_movie: <<movie>>
+  kids-collection:
+    collection_mode: hide_items
+    collection_order: release
+    label: kids
+    optional:
+      - collection
+      - movie
+    sync_mode: sync
+    tmdb_collection_details: <<collection>>
+    tmdb_movie: <<movie>>
+  auto_collections:
+    minimum_items: 2
+    tmdb_collection_details: <<value>>
+    sort_title: <<collection_name>>
+    collection_mode: hide_items
+    collection_order: release
+dynamic_collections:
+  auto_tmdb_collections:
+    type: tmdb_collection
+    exclude:
+          - 933959
+          - 9485
+          - 34055
+          - 2344
+          - 809185
+          - 115762
+          - 1575
+          - 8091
+          - 135416
+          - 86027
+          - 275402
+          - 553717
+          - 725600
+          - 256377
+          - 248534
+          - 593251
+          - 466894
+          - 290933
+          - 334996
+          - 633815
+          - 10453
+          - 261590
+          - 702342
+          - 256287
+          - 846090
+          - 920666
+          - 535313
+    template: auto_collections
+collections:
+  101 Dalmatians (Animated) Collection:
+    template:
+      collection: 100693
+      name: kids-collection
+  A Christmas Story Collection:
+    template:
+      collection: 201873
+      movie:
+        - 485517
+      name: collection
+  A Dog's Purpose Collection:
+    template:
+      collection: 591028
+      movie:
+        - 508763
+      name: collection
+  A Goofy Movie Collection:
+    template:
+      collection: 410261
+      name: kids-collection
+  Aladdin Collection:
+    template:
+      movie:
+        - 812
+        - 15969
+        - 11238
+      name: kids-collection
+  Alien Complete Collection:
+    template:
+      collection:
+        - 8091
+        - 115762
+        - 135416
+      name: collection
+  An American Tail Collection:
+    template:
+      collection: 8783
+      name: kids-collection
+  Atlantis Collection:
+    template:
+      collection: 100965
+      name: kids-collection
+  Balto Collection:
+    template:
+      collection: 117693
+      name: kids-collection
+  Bambi Collection:
+    template:
+      collection: 87250
+      name: kids-collection
+  Barbershop Collection:
+    template:
+      collection: 176097
+      movie:
+        - 14177
+      name: collection
+  Beauty and the Beast Collection:
+    template:
+      collection: 153010
+      name: kids-collection
+  Blade Runner Collection:
+    template:
+      collection: 422837
+      movie:
+        - 473072
+        - 475759
+      name: collection
+  Bolt Collection:
+    template:
+      movie:
+        - 13053
+        - 16604
+      name: kids-collection
+  Borat Moviefilms Collection:
+    template:
+      collection: 747168
+      movie:
+        - 818789
+      name: collection
+  Brave Collection:
+    template:
+      movie:
+        - 62177
+        - 141423
+      name: kids-collection
+  Caballeros Collection:
+    template:
+      collection: 271668
+      name: kids-collection
+  Cars Collection:
+    template:
+      collection: 87118
+      collection_order: custom
+      movie:
+        - 13934
+        - 483396
+        - 56553
+        - 140967
+        - 39030
+        - 24328
+        - 171536
+        - 148605
+        - 148607
+        - 148608
+        - 148606
+        - 145316
+        - 141528
+        - 230767
+        - 296159
+        - 296137
+        - 286189
+      name: kids-collection
+  Cars Toon Mater's Tall Tales:
+    template:
+      movie:
+        - 13934
+        - 483396
+        - 56553
+        - 140967
+        - 39030
+        - 24328
+        - 171536
+        - 148605
+        - 148607
+        - 148608
+        - 148606
+        - 145316
+        - 141528
+        - 286189
+      name: kids-collection
+  Charlie's Angels Collection:
+    template:
+      collection: 86029
+      movie:
+        - 458897
+      name: collection
+  Cinderella Collection:
+    template:
+      collection: 55419
+      name: kids-collection
+  Cloudy with a Chance of Meatballs Collection:
+    template:
+      collection: 177467
+      movie:
+        - 252884
+        - 252882
+        - 252875
+        - 252878
+      name: kids-collection
+  Collection of the Dead:
+    template:
+      movie:
+        - 852779
+        - 503736
+        - 796499
+        - 10331
+        - 923
+        - 8408
+        - 19185
+        - 924
+        - 11683
+        - 13025
+        - 29426
+      name: collection
+  Cornetto Trilogy:
+    template:
+      movie:
+        - 747
+        - 4638
+        - 107985
+      name: collection
+  Curious George Collection:
+    template:
+      collection: 55428
+      name: kids-collection
+  Daredevil Collection:
+    template:
+      movie:
+        - 9480
+        - 9947
+      name: kids-collection
+  Deadpool Collection:
+    template:
+      collection: 448150
+      movie:
+        - 567604
+      name: collection
+  Descendants Collection:
+    template:
+      collection: 466463
+      movie:
+        - 805411
+        - 551298
+      name: collection
+  Despicable Me Collection:
+    template:
+      collection: 86066
+      movie:
+        - 54553
+        - 54559
+        - 54551
+        - 229407
+        - 229405
+        - 229408
+        - 484809
+      name: kids-collection
+  Disney's Hercules Collection:
+    template:
+      content_rating: G
+      movie:
+        - 153609
+        - 11970
+      name: kids-collection
+      summary: A collection of Disney movies and/or shows portraying the story of Hercules, son of the Greek God Zeus.
+  Eastrail 177 Collection:
+    template:
+      movie:
+        - 9741
+        - 450465
+        - 381288
+      name: collection
+  Fantasia Collection:
+    template:
+      collection: 55427
+      name: kids-collection
+  Fantastic Four Collection:
+    template:
+      collection: 9744
+      movie:
+        - 166424
+      name: collection
+  Finding Nemo Collection:
+    template:
+      collection: 137697
+      movie:
+        - 296850
+        - 427004
+      name: kids-collection
+  Friday the 13th Collection:
+    template:
+      collection: 9735
+      movie:
+        - 13207
+      name: collection
+  Frozen Collection:
+    template:
+      collection: 386382
+      movie:
+        - 460793
+        - 326359
+        - 741074
+        - 816688
+        - 431562
+      name: kids-collection
+  Ghostbusters Collection:
+    template:
+      collection: 2980
+      movie:
+        - 43074
+      name: collection
+  Gnomeo & Juliet Collection:
+    template:
+      collection: 493668
+      name: kids-collection
+  Happy Feet Collection:
+    template:
+      collection: 92012
+      name: kids-collection
+  Hellboy Collection:
+    template:
+      collection: 17235
+      movie:
+        - 456740
+      name: collection
+  Hey Arnold! Collection:
+    template:
+      movie:
+        - 17710
+        - 439058
+      name: kids-collection
+  Home Collection:
+    template:
+      movie:
+        - 228161
+        - 256346
+      name: kids-collection
+  Hoodwinked! Collection:
+    template:
+      collection: 87255
+      name: kids-collection
+  Hop Collection:
+    template:
+      movie:
+        - 50359
+        - 240159
+      name: collection
+  Hotel Transylvania Collection:
+    template:
+      collection: 185103
+      movie:
+        - 140974
+        - 459159
+        - 813258
+      name: kids-collection
+  How to Train Your Dragon Collection:
+    template:
+      collection: 89137
+      movie:
+        - 91417
+        - 47626
+        - 79379
+        - 298115
+      name: kids-collection
+  I am Legend Collection:
+    template:
+      movie:
+        - 21159
+        - 6479
+        - 11234
+      name: collection
+  Ice Age Collection:
+    template:
+      collection: 8354
+      movie:
+        - 774825
+        - 17963
+        - 46247
+        - 21044
+        - 55692
+        - 98857
+        - 367326
+        - 421725
+        - 79218
+        - 387893
+      name: kids-collection
+  Inside Out Collection:
+    template:
+      movie:
+        - 150540
+        - 355338
+      name: kids-collection
+  Ip Man Collection:
+    template:
+      collection: 70068
+      movie:
+        - 44249
+        - 44865
+        - 182127
+        - 450001
+        - 658009
+      name: collection
+  Judge Dredd Collection:
+    template:
+      movie:
+        - 49049
+        - 9482
+      name: collection
+  Jumanji Collection:
+    template:
+      collection: 495527
+      movie:
+        - 6795
+      name: collection
+  Jurassic Park Collection:
+    template:
+      collection: 328
+      movie:
+        - 630322
+      name: collection
+  Kingsman Collection:
+    template:
+      collection: 391860
+      movie:
+        - 476669
+      name: collection
+  Kung Fu Panda Collection:
+    template:
+      collection: 77816
+      movie:
+        - 50393
+        - 15854
+        - 381693
+        - 829339
+        - 456661
+      name: kids-collection
+  LEGO DC Comics Super Heroes Collection:
+    template:
+      collection: 386162
+      name: kids-collection
+  LEGO DC Super Hero Girls Collection:
+    template:
+      collection: 557495
+      name: kids-collection
+  LEGO Jurassic World Collection:
+    template:
+      collection: 752941
+      name: kids-collection
+  LEGO Marvel Super Heroes Collection:
+    template:
+      collection: 752937
+      name: kids-collection
+  LEGO Scooby-Doo Collection:
+    template:
+      collection: 537236
+      name: kids-collection
+  LEGO Star Wars Collection:
+    template:
+      collection: 302331
+      name: kids-collection
+  Lady and the Tramp Collection:
+    template:
+      collection: 97460
+      name: kids-collection
+  Lilo & Stitch Collection:
+    template:
+      collection: 97461
+      movie:
+        - 120115
+      name: kids-collection
+  Luca Collection:
+    template:
+      movie:
+        - 508943
+        - 876716
+      name: kids-collection
+  Madagascar Collection:
+    template:
+      collection: 14740
+      movie:
+        - 270946
+        - 25472
+        - 161143
+        - 10258
+      name: kids-collection
+  Mechanic Collection:
+    template:
+      collection: 280504
+      movie:
+        - 19403
+      name: collection
+  Megamind Collection:
+    template:
+      movie:
+        - 38055
+        - 57718
+      name: kids-collection
+  Mickey Mouse Collection:
+    template:
+      movie:
+        - 67009
+        - 14813
+        - 15400
+        - 67115
+        - 234567
+      name: kids-collection
+  Minions Collection:
+    template:
+      collection: 544669
+      movie:
+        - 366141
+        - 366142
+        - 366143
+        - 403052
+        - 579524
+        - 624995
+        - 878357
+      name: kids-collection
+  Monsters vs. Aliens Collection:
+    template:
+      movie:
+        - 15512
+        - 53985
+        - 24884
+      name: kids-collection
+  Monsters, Inc. Collection:
+    template:
+      collection: 137696
+      movie:
+        - 13931
+        - 258152
+      name: kids-collection
+  Mortal Kombat Collection:
+    template:
+      collection: 9818
+      movie:
+        - 460465
+      name: collection
+  Mulan Collection:
+    template:
+      collection: 87236
+      name: kids-collection
+  'My Little Pony: Equestria Girls Collection':
+    template:
+      collection: 343297
+      name: kids-collection
+  National Lampoon's Vacation Collection:
+    template:
+      collection: 108693
+      movie:
+        - 11155
+        - 296099
+      name: collection
+  Ocean's Collection:
+    template:
+      collection: 304
+      movie:
+        - 402900
+      name: collection
+  Open Season Collection:
+    template:
+      collection: 66761
+      movie:
+        - 71430
+      name: kids-collection
+  Over the Hedge Collection:
+    template:
+      movie:
+        - 7518
+        - 85693
+      name: kids-collection
+  Oz Collection:
+    template:
+      collection: 627517
+      movie:
+        - 13155
+        - 68728
+      name: collection
+  Peanuts (Charlie Brown) Collection:
+    template:
+      movie:
+        - 15374
+        - 13187
+        - 13479
+        - 37490
+        - 13353
+        - 15242
+      name: kids-collection
+  Pete's Dragon Collection:
+    template:
+      movie:
+        - 294272
+        - 11114
+      name: kids-collection
+  Phineas and Ferb Collection:
+    template:
+      collection: 715146
+      movie:
+        - 392216
+      name: kids-collection
+  Pirates of the Caribbean Collection:
+    template:
+      collection: 295
+      movie:
+        - 230652
+      name: collection
+  Pixar Shorts:
+    template:
+      movie:
+        - 13924
+        - 13925
+        - 13926
+        - 13927
+        - 13928
+        - 13929
+        - 13930
+        - 13062
+        - 13933
+        - 13060
+        - 13042
+        - 24480
+        - 40619
+        - 83564
+        - 200481
+        - 286192
+        - 345637
+        - 399106
+        - 433471
+        - 514754
+      name: kids-collection
+  Pixar SparkShorts:
+    template:
+      movie:
+        - 532953
+        - 532952
+        - 574074
+        - 574093
+        - 574091
+        - 574089
+        - 706860
+        - 747059
+        - 852719
+        - 852721
+      name: kids-collection
+  Pocahontas Collection:
+    template:
+      collection: 136214
+      name: kids-collection
+  'Poltergeist: Complete Collection':
+    template:
+      collection: 10453
+      movie:
+        - 243688
+      name: collection
+  Power Rangers Collection:
+    template:
+      collection: 708816
+      movie:
+        - 305470
+      name: collection
+  Puss in Boots Collection:
+    template:
+      collection: 94602
+      movie:
+        - 83201
+      name: kids-collection
+  Rankin-Bass Christmas Classics:
+    template:
+      movie:
+        - 13382
+        - 49743
+        - 18846
+        - 13675
+        - 13400
+        - 26547
+        - 13397
+        - 80529
+        - 26539
+        - 30059
+        - 26536
+        - 26537
+        - 46044
+        - 40246
+        - 26538
+        - 50934
+        - 50933
+        - 48880
+        - 28042
+        - 315906
+        - 305355
+      name: kids-collection
+  Ratatouille Collection:
+    template:
+      movie:
+        - 2062
+        - 13061
+      name: kids-collection
+  Resident Evil Collection:
+    template:
+      collection: 17255
+      movie:
+        - 460458
+      name: collection
+  Rio Collection:
+    template:
+      collection: 229932
+      name: kids-collection
+  Robots Collection:
+    template:
+      movie:
+        - 121678
+        - 9928
+      name: kids-collection
+  Rock Dog Collection:
+    template:
+      collection: 837216
+      name: kids-collection
+  Rocky/Creed Collection:
+    template:
+      collection:
+        - 1575
+        - 553717
+      name: collection
+  Rugrats Collection:
+    template:
+      collection: 57129
+      name: kids-collection
+  Saw Collection:
+    template:
+      collection: 656
+      movie:
+        - 602734
+      name: collection
+  Scooby-Doo Collection:
+    template:
+      collection: 86860
+      movie:
+        - 47533
+        - 22620
+        - 489939
+      name: collection
+  Shark Tale Collection:
+    template:
+      movie:
+        - 10555
+        - 118254
+      name: kids-collection
+  Shrek Collection:
+    template:
+      collection: 2150
+      movie:
+        - 26840
+        - 58508
+        - 51256
+        - 118249
+        - 82530
+        - 13394
+      name: kids-collection
+  'Sinbad: Legend of the Seven Seas Collection':
+    template:
+      movie:
+        - 14411
+        - 381690
+      name: kids-collection
+  Sing Collection:
+    template:
+      collection: 544670
+      movie:
+        - 448450
+        - 449124
+        - 449655
+      name: kids-collection
+  Soul Collection:
+    template:
+      movie:
+        - 508442
+        - 811367
+      name: kids-collection
+  Spirit Collection:
+    template:
+      collection: 806483
+      name: kids-collection
+  SpongeBob SquarePants Collection:
+    template:
+      movie:
+        - 11836
+        - 228165
+        - 400160
+      name: kids-collection
+  Stephen King Collection:
+    template:
+      movie:
+        - 8769
+        - 10489
+        - 11336
+        - 11495
+        - 17898
+        - 9980
+        - 235
+        - 865
+        - 20701
+        - 19158
+        - 1700
+        - 11428
+        - 10349
+        - 10657
+        - 278
+        - 11929
+        - 10280
+        - 12238
+        - 26215
+        - 10552
+        - 9445
+        - 497
+        - 17100
+        - 11313
+        - 6171
+        - 1586
+        - 180305
+        - 12483
+        - 10004
+        - 3021
+        - 5876
+        - 19823
+        - 39758
+        - 288281
+        - 297961
+        - 168098
+        - 353491
+        - 343674
+        - 452507
+        - 523139
+      name: collection
+  Surf's Up Collection:
+    template:
+      collection: 436295
+      name: kids-collection
+  Tangled Collection:
+    template:
+      movie:
+        - 82881
+        - 438747
+        - 38757
+      name: kids-collection
+  Tarzan (Animation) Collection:
+    template:
+      collection: 106768
+      name: kids-collection
+  The Addams Family (Animated) Collection:
+    template:
+      collection: 750822
+      name: kids-collection
+  The Angry Birds Collection:
+    template:
+      collection: 531315
+      movie:
+        - 657273
+      name: kids-collection
+  The Boss Baby Collection:
+    template:
+      collection: 519457
+      movie:
+        - 735364
+        - 460789
+      name: kids-collection
+  The Chronicles of Riddick Collection:
+    template:
+      collection: 2794
+      movie:
+        - 211449
+        - 244839
+        - 254631
+      name: collection
+  The Croods Collection:
+    template:
+      collection: 464577
+      name: kids-collection
+  The Emperor's New Groove Collection:
+    template:
+      collection: 178117
+      name: kids-collection
+  The Flintstones Collection:
+    template:
+      collection: 351684
+      name: kids-collection
+  The Fox and the Hound Collection:
+    template:
+      collection: 100970
+      name: kids-collection
+  The Grinch Collection:
+    template:
+      movie:
+        - 360920
+        - 580312
+      name: kids-collection
+  The Hunchback of Notre Dame Collection:
+    template:
+      collection: 97456
+      name: kids-collection
+  The Incredibles Collection:
+    template:
+      collection: 468222
+      movie:
+        - 13932
+        - 55423
+        - 546728
+      name: kids-collection
+  The Jack Ryan Collection:
+    template:
+      collection: 192492
+      movie:
+        - 4614
+        - 137094
+      name: collection
+  The Jungle Book Collection:
+    template:
+      collection: 97459
+      name: kids-collection
+  The Karate Kid Collection:
+    template:
+      collection: 8580
+      movie:
+        - 38575
+      name: collection
+  The Lego Movie Collection:
+    template:
+      collection: 325470
+      movie:
+        - 324849
+        - 274862
+      name: kids-collection
+  The Lion King Collection:
+    template:
+      collection: 94032
+      name: kids-collection
+  The Little Mermaid Collection:
+    template:
+      collection: 33085
+      name: kids-collection
+  The Lorax Collection:
+    template:
+      movie:
+        - 73723
+        - 125448
+        - 125453
+        - 125445
+      name: kids-collection
+  The Matrix Collection:
+    template:
+      collection: 2344
+      movie:
+        - 55931
+      name: collection
+  The Mitchells vs. the Machines Collection:
+    template:
+      movie:
+        - 501929
+        - 903033
+      name: kids-collection
+  The Muppets Collection:
+    template:
+      collection: 256377
+      movie:
+        - 11176
+        - 14900
+        - 11899
+        - 13247
+        - 10437
+        - 10874
+        - 10208
+        - 13352
+        - 20910
+        - 27190
+      name: kids-collection
+  The Nut Job Collection:
+    template:
+      collection: 464308
+      name: kids-collection
+  The Fugitive / U.S. Marshals Collection: 
+    template: 
+      name: collection
+      movie:
+        - 5503
+        - 11808
+  The Pirates! In an Adventure with Scientists! Collection:
+    template:
+      movie:
+        - 72197
+        - 130966
+      name: collection
+  The Punisher Collection:
+    template:
+      movie:
+        - 8867
+        - 7220
+        - 120605
+        - 13056
+      name: collection
+  The Rescuers Collection:
+    template:
+      collection: 57971
+      name: kids-collection
+  The Secret Life of Pets Collection:
+    template:
+      collection: 427084
+      movie:
+        - 424889
+        - 424873
+        - 624993
+      name: kids-collection
+  The Shining Colleciton:
+    template:
+      movie:
+        - 18875
+        - 501170
+      name: collection
+  The Smurfs (Theatrical) Collection:
+    template:
+      collection: 134897
+      movie:
+        - 79443
+        - 220845
+        - 137116
+      name: kids-collection
+  The Trolls Collection:
+    template:
+      collection: 489724
+      movie:
+        - 484510
+        - 896221
+      name: kids-collection
+  Tinker Bell Collection:
+    template:
+      collection: 315595
+      name: kids-collection
+  Tomb Raider Collection:
+    template:
+      collection:
+        - 2467
+        - 621142
+      name: collection
+  Total Recall:
+    template:
+      movie:
+        - 861
+        - 64635
+      name: collection
+  Toy Story Collection:
+    template:
+      collection: 10194
+      movie:
+        - 213121
+        - 256835
+        - 594530
+        - 77887
+        - 82424
+        - 130925
+      name: kids-collection
+  Transformers Collection:
+    template:
+      collection: 8650
+      movie:
+        - 424783
+      name: collection
+  Up Collection:
+    template:
+      movie:
+        - 14160
+        - 24589
+        - 72962
+      name: kids-collection
+  WALL·E Collection:
+    template:
+      movie:
+        - 10681
+        - 13413
+      name: kids-collection
+  Wallace & Gromit Collection:
+    template:
+      collection: 529
+      movie:
+        - 533
+      name: collection
+  Walt Disney Animation Shorts:
+    summary: Collection of all Walt Disney Animation Theatrical Shorts.
+    template:
+      movie:
+        - 406785
+        - 293299
+        - 140420
+        - 76346
+        - 352812
+        - 374502
+        - 38580
+        - 245003
+        - 35114
+        - 197725
+        - 831827
+        - 779047
+        - 326359
+        - 234567
+        - 82881
+        - 460793
+        - 105325
+      name: kids-collection
+  Watchmen Collection:
+    template:
+      movie:
+        - 13183
+        - 41207
+        - 16440
+      name: collection
+  Willy Wonka Collection:
+    template:
+      movie:
+        - 252
+        - 455411
+        - 118
+      name: collection
+  Winnie the Pooh (Animated) Collection:
+    template:
+      movie:
+        - 250480
+        - 15655
+        - 13691
+        - 13682
+        - 51162
+        - 14903
+        - 261339
+        - 13706
+        - 16394
+      name: kids-collection
+  Witch Mountain Collection:
+    template:
+      collection: 90348
+      movie:
+        - 13836
+      name: collection
+  Wreck-It Ralph Collection:
+    template:
+      collection: 404825
+      name: kids-collection
+  Alfred Hitchcock:
+    template:
+      name: collection
+      movie:
+        - 571
+        - 223
+        - 36056
+        - 13321
+        - 260
+        - 31997
+        - 845
+        - 567
+        - 381
+        - 213
+        - 573
+        - 25670
+        - 22527
+        - 426
+        - 506
+        - 5780
+        - 2370
+        - 5854
+        - 11462
+        - 21734
+        - 4174
+        - 303
+        - 31667
+        - 1580
+        - 4175
+        - 1978
+        - 30159
+        - 31930
+        - 52748
+        - 97867
+        - 8208
+        - 2762
+        - 940
+        - 31995
+        - 11219
+        - 574
+        - 2760
+        - 52782
+        - 35832
+        - 36054
+        - 20213
+        - 543
+        - 36049
+        - 15007
+        - 52907
+        - 2761
+        - 12684
+        - 539
+  The Fast and the Furious Collection:
+    template:
+      collection: 9485
+      movie: 384018
+      name: collection
+  Marvel One-Shots:
+    template:
+      name: collection
+      summary: Special features in the MCU films' Blu-ray and digital distribution releases, but are not included in the DVD releases. The films, which range from 4 to 15 minutes, are designed to be self-contained stories that provide more backstory for characters or events introduced in the films. Two of the shorts have been the inspiration for television series set in the MCU.
+      movie: 
+        - 119569
+        - 211387
+        - 76122
+        - 253980
+        - 76535
+  "Star Wars: Stories":
+    template:
+      name: collection
+      movie: "348350 , 330459"
+    summary: A collection of Star Wars stories, outside of the Skywalker Saga
+    collection_order: release
+  "Star Wars: The Original Trilogy":
+    template:
+      name: collection
+      movie: "11, 1891, 1892"
+    summary: The trilogy that started it all! George Lucas' original Star Wars , episodes 4-6
+    collection_order: release
+  "Star Wars: The Prequel Trilogy":
+    template:
+      name: collection
+      movie: "1893, 1894, 1895"
+    summary: The prequel trilogy, episodes 1-3
+    collection_order: release
+  "Star Wars: The Sequel Trilogy":
+    template:
+      name: collection
+      movie: "140607, 181808, 181812"
+    summary: The Disney Star Wars trilogy
+    collection_order: release    
+  # :
+  #   template:
+  #     collection: 
+  #     name: collection
+  # :
+  #   template:
+  #     collection: 
+  #     name: collection
+  # :
+  #   template:
+  #     collection: 
+  #     name: collection
+  # :
+  #   template:
+  #     collection: 
+  #     name: collection
+  # :
+  #   template:
+  #     collection: 
+  #     name: collection
+  # :
+  #   template:
+  #     collection: 
+  #     name: collection
