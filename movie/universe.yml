@@ -9,7 +9,7 @@
 #  If nothing is specified these are the defaults           #
 #                                                           #
 #    metadata_path:                                         #
-#      - git: PMM/movie/universe                            #
+#      - git: movie/universe                                #
 #        template_variables:                                #
 #          # Turn the separator collection on/off           #
 #          use_separator: true                              #
@@ -20,7 +20,7 @@
 #############################################################
 
 external_templates:
-  git: PMM/templates
+  git: templates
   template_variables:
     collection_section: "02"
 
@@ -31,7 +31,7 @@ templates:
     cache_builders: 1
     sync_mode: sync
     collection_order: custom
-    url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/franchise/<<image_encoded>>.jpg
+    
 
 collections:
   Universe Collections:
