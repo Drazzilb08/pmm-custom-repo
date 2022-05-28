@@ -6,7 +6,7 @@
 #  If nothing is specified these are the defaults           #
 #                                                           #
 #    metadata_path:                                         #
-#      - git: PMM/movie/seasonal                            #
+#      - git: movie/seasonal                                #
 #        template_variables:                                #
 #          # Turn the separator collection on/off           #
 #          use_separator: false                             #
@@ -35,7 +35,7 @@
 #############################################################
 
 external_templates:
-  git: PMM/templates
+  git: templates
 
 templates:
   Holiday:
@@ -52,7 +52,7 @@ templates:
     visible_shared: <<visible_shared_<<season>>>>
     smart_label: <<sort_by>>
     summary: A collection of <<collection_name>> and other movies that may relate to the season.
-    url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/<<season>>.jpg
+    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/seasonal/<<season>>.jpg
     delete_not_scheduled: true
 
 collections:
