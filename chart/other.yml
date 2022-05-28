@@ -6,7 +6,7 @@
 #  If nothing is specified these are the defaults           #
 #                                                           #
 #    metadata_path:                                         #
-#      - git: PMM/chart/other                               #
+#      - git: chart/other                                   #
 #        template_variables:                                #
 #          # Sets the collection mode of the collection     #
 #          collection_mode:                                 #
@@ -71,7 +71,7 @@
 #############################################################
 
 external_templates:
-  git: PMM/templates
+  git: templates
   template_variables:
     collection_section: "01"
 
