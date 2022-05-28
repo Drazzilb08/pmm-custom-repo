@@ -1239,6 +1239,44 @@ collections:
       movie: "140607, 181808, 181812"
     summary: The Disney Star Wars trilogy
     collection_order: release    
+  Twilight Saga:
+    template:
+      name: collection
+      collection: 33514
+  Are We... Collection:
+    template:
+      name: collection
+      collection: 176118
+  Bourne Collection:
+    template:
+      name: collection
+      collection: 31562
+  Hannibal Lecter Collection:
+    template:
+      name: collection
+      collection: 9743
+  Lord of the Rings Collection: 
+    template:
+      name: collection
+      collection: 119
+  Man from Earth collection:
+    template:
+      name: collection
+      collection: 464270
+  Robert Langdon collection: 
+    template:
+      name: collection
+      collection: 115776
+  Space Odyssey collection:
+    template:
+      name: collection
+      collection: 4438
+  Wolverine collection:
+    template:
+      name: collection
+      collection: 453993
+
+
   # :
   #   template:
   #     collection: 
