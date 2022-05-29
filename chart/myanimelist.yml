@@ -77,21 +77,13 @@ templates:
     summary: A collection of the Top Rated Anime Currently Airing according to MyAnimeList.
 
 collections:
-
   MyAnimeList Popular:
     template:
       - name: popular
       - name: customsync
       - name: chart_shared
         key: popular
-
-  MyAnimeList Favorited:
-    template:
-      - name: favorited
-      - name: customsync
-      - name: chart_shared
-        key: favorited
-
+        
   MyAnimeList Top Rated:
     template:
       - name: top
