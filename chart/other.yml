@@ -102,7 +102,7 @@ collections:
   #       key: pirated
 
   Trending Movies:
-    mdbllist: https://mdblist.com/lists/drazzilb/trending-movies-top-20
+    mdbllist_list: https://mdblist.com/lists/drazzilb/trending-movies-top-20
     summary: Most Popular Movies TOP-20 is based on the vote increase on sites like IMDb, Trakt and Letterboxd in the last month
     template:
       - name: customsync
