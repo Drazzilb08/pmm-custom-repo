@@ -30,153 +30,167 @@ templates:
     url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/anime_genre/<<collection_name>>.png
     
 collections:
-  Action:
-    template: 
-      name: anime_genre
-      genre_id: 1
-    summary: The action genre in anime depicts extremely high levels of intense action. More often than not, you’ll be witnessing thrilling battles and action-packed fight scenes in the shows from this genre. These series will make you jump off your seat or knock your socks off. Overall, the action genre usually possesses lots of battle scenes, fluid animation, and highly-engaging elements that will make your adrenaline rush!
-  Adventure:
-    template: 
-      name: anime_genre
-      genre_id: 2
-    summary: The adventure genre is about traveling and undertaking an adventure in a certain place or around the world (which may sometimes escalate to the whole universe or even to the other dimensions). In this genre, the main characters don’t usually stay in one place. They venture into several different places, usually with a goal in mind (e.g. searching for treasure, exploring some new place, defeating a heinous villain, or saving the world). Adventure anime are so broad and flexible that these shows can usually stretch to a huge genre_id of episodes as well as overlap with multiple genres, usually with action.
-  Comedy:
-    template: 
-      - name: anime_genre
-        genre_id: 4
-      - name: shared
-      - name: customsync
-    summary: The main purpose of the comedy genre is…you got it…to make you laugh! If it fails to make you laugh or at least make you giggle, then it’s a failure. But then again, humor can depend on your personal sense of humor. The animation may not be as impressive as TV shows in the action and drama category, but that can be forgiven for the laughs. Funny moments, hilarious scenes, wacky dialogue, comical happenings—all of these are covered by the comedy genre in anime!
-  Demons:
-    template: 
-      - name: anime_genre
-        genre_id: 6
-      - name: shared
-      - name: customsync
-    summary: Originally just an infrequent theme, the rise of demonic characters and themes have given rise to this subgenre. The term demon does not only encompass literal demon characters. It also extends to other entities such as monsters, beasts, ghosts, and other demon-type figures. The demons present can come from biblical backgrounds or come from Japanese culture. Believe it or not, this category doesn’t just come hand-in-hand with the horror genre; it surprisingly blends well with other genres as well.
-  Drama:
-    template: 
-      - name: anime_genre
-        genre_id: 8
-      - name: shared
-      - name: customsync
-    summary: Bringing us tears and a wave of emotions is basically what the drama genre does best! Drama anime tends to connect the viewers to the experiences of the characters. This results in viewers feeling what the characters are going through. Whether it's a tickle of emotion or a barrage of feelings, the goal of these series is to touch our hearts. In anime, one of the greatest signs that the drama effectively worked is if it was able to make you cry.
-  Fantasy:
-    template: 
-      - name: anime_genre
-        genre_id: 10
-      - name: shared
-      - name: customsync
-    summary: The fantasy genre in anime primarily deals with fantasy worlds and surreal events and locations. Most of the time, the setting is in a magical world where the characters start an adventure. Sometimes they get sent there from the real world. Magic is oftentimes a component of this genre, and various mystical elements serve as the building blocks of the story. You’ll often know it’s a fantasy anime if the environment and atmosphere seems so dazzling and dreamlike that it’ll make you feel captivated and allured.
-  Game:
-    template: 
-      - name: anime_genre
-        genre_id: 11
-      - name: shared
-      - name: customsync
-    summary: The game category encompasses shows revolving around the idea of gaming and playing. The anime can feature a card game, board game, puzzle game, or even a virtual online game. As long as it concerns any playable game of any kind, it belongs in this category. Sometimes, even videogame-based shows can count in this selection.
-  History:
-    template: 
-      - name: anime_genre
-        genre_id: 13
-      - name: shared
-      - name: customsync
-    summary: As the name suggests, historical anime revolves around events in history and moments of antiquity. Shows of this subgenre are typically set in Ancient Japan and the feudal period. Other settings such as the Middle Ages and medieval period of Europe exist but they’re much more rare in anime. As long as the time or setting (or even elements) are old and ancient, then the series can be considered a historical anime.
-  Horror:
-    template: 
-      - name: anime_genre
-        genre_id: 14
-      - name: shared
-      - name: customsync
-    summary: It’s not difficult to spot the horror genre in anime. Usually, if there are ghosts, monsters, gore, and creeps, then you’re likely watching a horror series. Heavy gore and bloody violence is a common trait. The most important factor for a show to be considered horror is its ability to scare and creep you out.
-  Martial Arts:
-    template: 
-      - name: anime_genre
-        genre_id: 17
-      - name: shared
-      - name: customsync
-    summary: Martial arts play a big role in every anime that has fighting/battles in it. Whether it's hand-to-hand combat, swordplay, gun fighting, or armed combat, there’s some kind of martial art element that plays through them. But did you know that there are shows that are primarily focused on martial arts itself and their battle techniques? There’s a lot of them, and they mainly involve hand-to-hand combat and technician battles.
-  Music:
-    template: 
-      - name: anime_genre
-        genre_id: 19
-      - name: shared
-      - name: customsync
-    summary: Anime shows in the music subgenre aren’t that popular nowadays, but they do exist and they are very timely. These shows typically focus on singing, dancing, or playing musical instruments. These usually fit within the larger categories of comedy and drama.
-  Mystery:
-    template: 
-      - name: anime_genre
-      - name: shared
-      - name: customsync
-        genre_id: 19
-    summary: If there’s one thing that’s similar in all mystery anime shows, it is the existence of a central enigma. Whether it’s an event, a place, or an item, there’s some sort of mystery surrounding the narrative. In the history of anime, the most popular shows in the genre have featured detectives and gumshoes.
-  Romance:
-    template: 
-      - name: anime_genre
-        genre_id: 7
-      - name: shared
-      - name: customsync
-    summary: Romance is all about love and sweet moments. Shows involved with this genre often have the skill to tug everyone’s heartstrings with their romantic scenes and tender moments. The focus of these shows is the romantic relationships between the characters as well as their blooming love with one another. You’ll often find romance anime tightly tied with the shoujo subgenre, but it also works pretty well with comedy, harem, and drama.
-  Samurai:
-    template: 
-      - name: anime_genre
-        genre_id: 21
-      - name: shared
-      - name: customsync
-    summary: Known for their honorable and highly skilled sword fighting and strict code to live by, samurai stories have proliferated in the world of anime as much as anywhere else, providing endless entertainment over the past several generations.
-  Sci-Fi:
-    template: 
-      - name: anime_genre
-        genre_id: 24
-      - name: shared
-      - name: customsync
-    summary: Sci-fi (short for science fiction) is a genre that showcases scientific and technological elements in its story. Machines and various kinds of technologies are staples of this genre. Most of the time, its focus is on the advancement and development of science and technology. That is why you’ll often find sci-fi combined with subgenres such as mecha and space.
-  Slice of Life:
-    template: 
-      - name: anime_genre
-        genre_id: 36
-      - name: shared
-      - name: customsync
-    summary: When one says slice of life, that means the mundane good ol’ life. Stories depicted in this genre are realistically set in the domain of real life. Nothing out-of-the-blue happens, but that’s the point! Everyday life is portrayed in a realistic light, with nothing out of the extraordinary wrecking the premise.
-  Space:
-    template: 
-      - name: anime_genre
-        genre_id: 36
-      - name: shared
-      - name: customsync
-    summary: The setting of space has always been massively popular. With so much anime taking place there, it has become a subgenre in itself. Any anime set in the cosmos can be labeled in this category. Space anime is often within the larger mecha and sci-fi genre.
-  Sports:
-    template: 
-      - name: anime_genre
-        genre_id: 30
-      - name: shared
-      - name: customsync
-    summary: Pretty much self-explanatory, sports anime are shows that cover characters engaging in athletic competition. Popular choices in this category includes basketball, tennis, baseball, and soccer. Other sports exists as well (including those that you wouldn’t expect showing up in anime). As time goes on, more and more of these series are produced. Just like real sports, shows in this subgenre are action-packed!
-  Super Power:
-    template: 
-      - name: anime_genre
-        genre_id: 31
-      - name: shared
-      - name: customsync
-    summary: You know you’re watching a super power anime if you’re seeing an array of explosive super powers scrambling right on the screen. If you see bursts of energy balls, death-defying attacks, and opposing forces battling it out throughout the story, then that means you’re probably witnessing a show in this subgenre. These shows generally fit in the action category.
-  Supernatural:
-    template: 
-      - name: anime_genre
-        genre_id: 37
-      - name: shared
-      - name: customsync
-    summary: When one says supernatural, they’re referring to stuff or events that are odd and out-of-the-blue. For this category, supernatural might refer to something mythical, mystical, bizarre, or something outside the bounds of accepted reality. There’s a shadow of mystery often found in shows involved with this genre.
-  Thriller:
-    template: 
-      - name: anime_genre
-        genre_id: 41
-      - name: shared
-      - name: customsync
-    Summary: Thriller is a genre of fiction, having numerous, often overlapping subgenres. Thrillers are characterized and defined by the moods they elicit, giving viewers heightened feelings of suspense, excitement, surprise, anticipation and anxiety.
-  Vampire:
-    template: 
-      - name: anime_genre
-        genre_id: 32
-      - name: shared
-      - name: customsync
-    summary: As vampires have become so popular throughout the world, it’s no shock that they’ve also infested the world of anime. There are lots of titles now featuring vampires and they’re not just exclusive to the horror category. They’ve also manifested themselves into other categories such as comedy, romance, and drama.
+  Top Action Anime:
+    mal_search:
+      limit: 100
+      sort_by: score.desc
+      genre: 1
+    collection_order: custom
+    sync_mode: sync
+  Top Slice of Life Anime:
+    mal_search:
+      limit: 100
+      sort_by: score.desc
+      genre: 36
+    collection_order: custom
+    sync_mode: sync
+  # Action:
+  #   template: 
+  #     name: anime_genre
+  #     genre_id: 1
+  #   summary: The action genre in anime depicts extremely high levels of intense action. More often than not, you’ll be witnessing thrilling battles and action-packed fight scenes in the shows from this genre. These series will make you jump off your seat or knock your socks off. Overall, the action genre usually possesses lots of battle scenes, fluid animation, and highly-engaging elements that will make your adrenaline rush!
+  # Adventure:
+  #   template: 
+  #     name: anime_genre
+  #     genre_id: 2
+  #   summary: The adventure genre is about traveling and undertaking an adventure in a certain place or around the world (which may sometimes escalate to the whole universe or even to the other dimensions). In this genre, the main characters don’t usually stay in one place. They venture into several different places, usually with a goal in mind (e.g. searching for treasure, exploring some new place, defeating a heinous villain, or saving the world). Adventure anime are so broad and flexible that these shows can usually stretch to a huge genre_id of episodes as well as overlap with multiple genres, usually with action.
+  # Comedy:
+  #   template: 
+  #     - name: anime_genre
+  #       genre_id: 4
+  #     - name: shared
+  #     - name: customsync
+  #   summary: The main purpose of the comedy genre is…you got it…to make you laugh! If it fails to make you laugh or at least make you giggle, then it’s a failure. But then again, humor can depend on your personal sense of humor. The animation may not be as impressive as TV shows in the action and drama category, but that can be forgiven for the laughs. Funny moments, hilarious scenes, wacky dialogue, comical happenings—all of these are covered by the comedy genre in anime!
+  # Demons:
+  #   template: 
+  #     - name: anime_genre
+  #       genre_id: 6
+  #     - name: shared
+  #     - name: customsync
+  #   summary: Originally just an infrequent theme, the rise of demonic characters and themes have given rise to this subgenre. The term demon does not only encompass literal demon characters. It also extends to other entities such as monsters, beasts, ghosts, and other demon-type figures. The demons present can come from biblical backgrounds or come from Japanese culture. Believe it or not, this category doesn’t just come hand-in-hand with the horror genre; it surprisingly blends well with other genres as well.
+  # Drama:
+  #   template: 
+  #     - name: anime_genre
+  #       genre_id: 8
+  #     - name: shared
+  #     - name: customsync
+  #   summary: Bringing us tears and a wave of emotions is basically what the drama genre does best! Drama anime tends to connect the viewers to the experiences of the characters. This results in viewers feeling what the characters are going through. Whether it's a tickle of emotion or a barrage of feelings, the goal of these series is to touch our hearts. In anime, one of the greatest signs that the drama effectively worked is if it was able to make you cry.
+  # Fantasy:
+  #   template: 
+  #     - name: anime_genre
+  #       genre_id: 10
+  #     - name: shared
+  #     - name: customsync
+  #   summary: The fantasy genre in anime primarily deals with fantasy worlds and surreal events and locations. Most of the time, the setting is in a magical world where the characters start an adventure. Sometimes they get sent there from the real world. Magic is oftentimes a component of this genre, and various mystical elements serve as the building blocks of the story. You’ll often know it’s a fantasy anime if the environment and atmosphere seems so dazzling and dreamlike that it’ll make you feel captivated and allured.
+  # Game:
+  #   template: 
+  #     - name: anime_genre
+  #       genre_id: 11
+  #     - name: shared
+  #     - name: customsync
+  #   summary: The game category encompasses shows revolving around the idea of gaming and playing. The anime can feature a card game, board game, puzzle game, or even a virtual online game. As long as it concerns any playable game of any kind, it belongs in this category. Sometimes, even videogame-based shows can count in this selection.
+  # History:
+  #   template: 
+  #     - name: anime_genre
+  #       genre_id: 13
+  #     - name: shared
+  #     - name: customsync
+  #   summary: As the name suggests, historical anime revolves around events in history and moments of antiquity. Shows of this subgenre are typically set in Ancient Japan and the feudal period. Other settings such as the Middle Ages and medieval period of Europe exist but they’re much more rare in anime. As long as the time or setting (or even elements) are old and ancient, then the series can be considered a historical anime.
+  # Horror:
+  #   template: 
+  #     - name: anime_genre
+  #       genre_id: 14
+  #     - name: shared
+  #     - name: customsync
+  #   summary: It’s not difficult to spot the horror genre in anime. Usually, if there are ghosts, monsters, gore, and creeps, then you’re likely watching a horror series. Heavy gore and bloody violence is a common trait. The most important factor for a show to be considered horror is its ability to scare and creep you out.
+  # Martial Arts:
+  #   template: 
+  #     - name: anime_genre
+  #       genre_id: 17
+  #     - name: shared
+  #     - name: customsync
+  #   summary: Martial arts play a big role in every anime that has fighting/battles in it. Whether it's hand-to-hand combat, swordplay, gun fighting, or armed combat, there’s some kind of martial art element that plays through them. But did you know that there are shows that are primarily focused on martial arts itself and their battle techniques? There’s a lot of them, and they mainly involve hand-to-hand combat and technician battles.
+  # Music:
+  #   template: 
+  #     - name: anime_genre
+  #       genre_id: 19
+  #     - name: shared
+  #     - name: customsync
+  #   summary: Anime shows in the music subgenre aren’t that popular nowadays, but they do exist and they are very timely. These shows typically focus on singing, dancing, or playing musical instruments. These usually fit within the larger categories of comedy and drama.
+  # Mystery:
+  #   template: 
+  #     - name: anime_genre
+  #     - name: shared
+  #     - name: customsync
+  #       genre_id: 19
+  #   summary: If there’s one thing that’s similar in all mystery anime shows, it is the existence of a central enigma. Whether it’s an event, a place, or an item, there’s some sort of mystery surrounding the narrative. In the history of anime, the most popular shows in the genre have featured detectives and gumshoes.
+  # Romance:
+  #   template: 
+  #     - name: anime_genre
+  #       genre_id: 7
+  #     - name: shared
+  #     - name: customsync
+  #   summary: Romance is all about love and sweet moments. Shows involved with this genre often have the skill to tug everyone’s heartstrings with their romantic scenes and tender moments. The focus of these shows is the romantic relationships between the characters as well as their blooming love with one another. You’ll often find romance anime tightly tied with the shoujo subgenre, but it also works pretty well with comedy, harem, and drama.
+  # Samurai:
+  #   template: 
+  #     - name: anime_genre
+  #       genre_id: 21
+  #     - name: shared
+  #     - name: customsync
+  #   summary: Known for their honorable and highly skilled sword fighting and strict code to live by, samurai stories have proliferated in the world of anime as much as anywhere else, providing endless entertainment over the past several generations.
+  # Sci-Fi:
+  #   template: 
+  #     - name: anime_genre
+  #       genre_id: 24
+  #     - name: shared
+  #     - name: customsync
+  #   summary: Sci-fi (short for science fiction) is a genre that showcases scientific and technological elements in its story. Machines and various kinds of technologies are staples of this genre. Most of the time, its focus is on the advancement and development of science and technology. That is why you’ll often find sci-fi combined with subgenres such as mecha and space.
+  # Slice of Life:
+  #   template: 
+  #     - name: anime_genre
+  #       genre_id: 36
+  #     - name: shared
+  #     - name: customsync
+  #   summary: When one says slice of life, that means the mundane good ol’ life. Stories depicted in this genre are realistically set in the domain of real life. Nothing out-of-the-blue happens, but that’s the point! Everyday life is portrayed in a realistic light, with nothing out of the extraordinary wrecking the premise.
+  # Space:
+  #   template: 
+  #     - name: anime_genre
+  #       genre_id: 36
+  #     - name: shared
+  #     - name: customsync
+  #   summary: The setting of space has always been massively popular. With so much anime taking place there, it has become a subgenre in itself. Any anime set in the cosmos can be labeled in this category. Space anime is often within the larger mecha and sci-fi genre.
+  # Sports:
+  #   template: 
+  #     - name: anime_genre
+  #       genre_id: 30
+  #     - name: shared
+  #     - name: customsync
+  #   summary: Pretty much self-explanatory, sports anime are shows that cover characters engaging in athletic competition. Popular choices in this category includes basketball, tennis, baseball, and soccer. Other sports exists as well (including those that you wouldn’t expect showing up in anime). As time goes on, more and more of these series are produced. Just like real sports, shows in this subgenre are action-packed!
+  # Super Power:
+  #   template: 
+  #     - name: anime_genre
+  #       genre_id: 31
+  #     - name: shared
+  #     - name: customsync
+  #   summary: You know you’re watching a super power anime if you’re seeing an array of explosive super powers scrambling right on the screen. If you see bursts of energy balls, death-defying attacks, and opposing forces battling it out throughout the story, then that means you’re probably witnessing a show in this subgenre. These shows generally fit in the action category.
+  # Supernatural:
+  #   template: 
+  #     - name: anime_genre
+  #       genre_id: 37
+  #     - name: shared
+  #     - name: customsync
+  #   summary: When one says supernatural, they’re referring to stuff or events that are odd and out-of-the-blue. For this category, supernatural might refer to something mythical, mystical, bizarre, or something outside the bounds of accepted reality. There’s a shadow of mystery often found in shows involved with this genre.
+  # Thriller:
+  #   template: 
+  #     - name: anime_genre
+  #       genre_id: 41
+  #     - name: shared
+  #     - name: customsync
+  #   Summary: Thriller is a genre of fiction, having numerous, often overlapping subgenres. Thrillers are characterized and defined by the moods they elicit, giving viewers heightened feelings of suspense, excitement, surprise, anticipation and anxiety.
+  # Vampire:
+  #   template: 
+  #     - name: anime_genre
+  #       genre_id: 32
+  #     - name: shared
+  #     - name: customsync
+  #   summary: As vampires have become so popular throughout the world, it’s no shock that they’ve also infested the world of anime. There are lots of titles now featuring vampires and they’re not just exclusive to the horror category. They’ve also manifested themselves into other categories such as comedy, romance, and drama.
