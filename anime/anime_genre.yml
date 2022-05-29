@@ -34,14 +34,14 @@ collections:
     mal_search:
       limit: 100
       sort_by: score.desc
-      genre: 1
+      genre: Action
     collection_order: custom
     sync_mode: sync
   Top Slice of Life Anime:
     mal_search:
       limit: 100
       sort_by: score.desc
-      genre: 36
+      genre: Slice of LIfe
     collection_order: custom
     sync_mode: sync
   # Action:
