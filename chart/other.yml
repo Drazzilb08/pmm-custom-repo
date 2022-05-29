@@ -45,8 +45,8 @@
 #          use_popular_movies: true                         #
 #          order_popular_movies:                            #
 #          visible_library_popular_movies:                  #
-#          visible_home_trending_movies:                    #
-#          visible_shared_trending_movies:                  #
+#          visible_home_popular_movies:                    #
+#          visible_shared_popular_movies:                  #
 #                                                           #
 #          # Turn the Trending Animated collection on/off   #
 #          use_trending_animated:                           #
