@@ -40,8 +40,8 @@ templates:
       sort_by: <<sort_by>>
       any:
         studio.is: <<value>>
-    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio/<<collection_name>>.jpg
-    
+    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio/<<collection_name>>.png
+
 collections:
   Studio Collections:
     template:
