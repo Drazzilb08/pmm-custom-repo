@@ -23,11 +23,14 @@ external_templates:
     collection_section: "06"
 
 templates:
- anime_genre:
-    mal_search:
-      sort_by: start_date.desc
-      genre: <<collection_name>>
+  anime_genre:
+    default:
+      sort_by: release.desc
     url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/anime/anime_genre/<<collection_name>>.png
+    smart_filter:
+      sort_by: <<sort_by>>
+      any:
+        genre: <<collection_name>>
 
 collections:
   Action:
