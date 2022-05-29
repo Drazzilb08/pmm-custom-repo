@@ -27,6 +27,7 @@ templates:
     mal_search:
       sort_by: score.desc
       genre: <<number>>
+      limit: 300
     url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/anime/anime_genre/<<collection_name>>.png
 
 collections:
