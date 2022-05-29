@@ -24,10 +24,8 @@ external_templates:
 
 templates:
  anime_genre:
-    default:
-      sort_by: start_date.desc
     mal_search:
-      sort_by: <<sort_by>>
+      sort_by: start_date.desc
       genre: <<collection_name>>
     url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/anime/anime_genre/<<collection_name>>.png
 
