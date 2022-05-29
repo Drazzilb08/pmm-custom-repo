@@ -6,7 +6,7 @@
 #  If nothing is specified these are the defaults           #
 #                                                           #
 #    metadata_path:                                         #
-#      - git: chart/anilist                                 #
+#      - repo: chart/anilist                                 #
 #        template_variables:                                #
 #          # Sets the collection mode of the collection     #
 #          collection_mode:                                 #
@@ -46,7 +46,7 @@
 #############################################################
 
 external_templates:
-  git: templates
+  repo: templates
   template_variables:
     collection_section: "01"
 

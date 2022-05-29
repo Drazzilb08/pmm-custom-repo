@@ -6,7 +6,7 @@
 #  If nothing is specified these are the defaults           #
 #                                                           #
 #    metadata_path:                                         #
-#      - git: movie/streaming                               #
+#      - repo: movie/streaming                               #
 #        template_variables:                                #
 #          # Turn the separator collection on/off           #
 #          use_separator: true                              #
@@ -127,7 +127,7 @@
 #############################################################
 
 external_templates:
-  git: templates
+  repo: templates
   template_variables:
     collection_section: "03"
 

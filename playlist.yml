@@ -11,14 +11,14 @@
 #  If nothing is specified these are the defaults           #
 #                                                           #
 #    playlist_files:                                        #
-#      - git: playlist                                      #
+#      - repo: playlist                                      #
 #        template_variables:                                #
 #          # Sets the names of the libraries to use         #
 #          libraries: Movies, TV Shows                      #
 #############################################################
 
 external_templates:
-  git: templates
+  repo: templates
 
 playlists:
   Arrowverse (Timeline Order):
