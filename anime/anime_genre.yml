@@ -31,7 +31,6 @@ templates:
       sort_by: <<sort_by>>
       any:
         genre: <<collection_name>>
-
 collections:
   Action:
     template: 
