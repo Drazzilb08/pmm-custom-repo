@@ -113,7 +113,7 @@ collections:
   Internet's Most Popular:
     mdblist_list: https://mdblist.com/lists/drazzilb/top-200-movies
     summary: Some of the most popular movies based on the number of vote on sites like IMDb, TheMovieDb and Trakt.
-    temlate:
+    template:
       - name: customsync
       - name: chart_shared
         key: popular_movies
