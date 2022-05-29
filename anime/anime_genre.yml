@@ -22,12 +22,13 @@ external_templates:
   template_variables:
     collection_section: "06"
 
-template:
+templates:
  anime_genre:
     mal_search:
       sort_by: <<sort_by>>
       genre: <<collection_name>>
     url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/anime/anime_genre/<<collection_name>>.png
+    
 collections:
   Action:
     template: 
