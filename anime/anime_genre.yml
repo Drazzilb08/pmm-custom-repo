@@ -26,6 +26,7 @@ templates:
   anime_genre:
     mal_search:
       genre: <<genre_id>>
+      limit: 300
     url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/anime_genre/<<collection_name>>.png
     
 collections:
