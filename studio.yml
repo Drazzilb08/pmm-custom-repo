@@ -35,11 +35,8 @@ templates:
     label: kids
   studio:
     default:
-      sort_by: release.desc
-    smart_filter:
-      sort_by: <<sort_by>>
-      any:
-        studio.is: <<value>>
+      smart_label: year.desc
+    smart_label: <<sort_by>>
     url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio/<<collection_name>>.png
 
 collections:
