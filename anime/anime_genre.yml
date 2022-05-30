@@ -193,6 +193,7 @@ collections:
   Shounen:
     template:
       - name: anime_genre
+        genre_id: 27
       - name: shared
       - name: customsync
     summary: Shounen refers to the demographic that this type of anime targets, which is male viewers around the age range of 10-18. These shows are usually a combination of action and adventure and are typically adapted from serial manga series. As such, these anime tend to have lengthy runs. One Piece currently has over 800 episodes and is still running. These shows are typically the most popular with mainstream audiences. They have done very well when exported to foreign markets thanks to their relatively simple plots and focus on action.
