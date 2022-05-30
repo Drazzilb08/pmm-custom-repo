@@ -44,7 +44,7 @@ collections:
     template:
       - name: separator
         separator: studio
-  Pixar Animation Stuidos:
+  Pixar Animation Studios:
     template:
       - name: studio
       - name: shared
