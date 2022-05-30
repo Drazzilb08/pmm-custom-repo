@@ -32,9 +32,6 @@ templates:
     sync_mode: sync
     collection_order: custom
   universe:
-    default:
-      smart_label: year.desc
-    smart_label: <<sort_by>>
     url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/universe/<<collection_name>>.png
     
 
