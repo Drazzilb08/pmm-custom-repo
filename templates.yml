@@ -65,7 +65,7 @@ templates:
     sonarr_add_missing: <<sonarr_add_missing>>
     collection_mode: <<collection_mode>>
     sort_title: "!<<collection_section>><<pre>><<order_<<key>>>><<sort>>"
-    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/chart/<<collection_name_encoded>>.png
+    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/chart/<<collection_name_encoded>>.jpg
 
   other_collection:
     default:
@@ -104,7 +104,7 @@ templates:
     smart_label: <<sort_by>>
     sync_mode: sync
     mdblist_list: https://mdblist.com/lists/plexmetamanager/<<key>>-<<library_type>>s
-    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key_name_encoded>>.png
+    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key_name_encoded>>.jpg
 
   use_year_collections:
     optional:

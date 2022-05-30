@@ -29,7 +29,7 @@ templates:
   networks_dynamic:
     default:
       sort_by: release.desc
-    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.png
+    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
     smart_filter:
       sort_by: <<sort_by>>
       any:
