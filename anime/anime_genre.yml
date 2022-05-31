@@ -6,7 +6,7 @@
 #  If nothing is specified these are the defaults           #
 #                                                           #
 #    metadata_path:                                         #
-#      - repo: anime_genre                                   #
+#      - repo: anime_genre                                  #
 #        template_variables:                                #
 #          # Turn the separator collection on/off           #
 #          use_separator: false                             #
@@ -27,7 +27,7 @@ templates:
     mal_genre:
       genre_id: <<genre_id>>
       limit: 300
-    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/anime_genre/<<collection_name>>.jpg
+    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/anime_genre/<<collection_name_encoded>>.jpg
 
 collections:
   Action:
@@ -133,7 +133,7 @@ collections:
     summary: Martial arts play a big role in every anime that has fighting/battles in it. Whether it's hand-to-hand combat, swordplay, gun fighting, or armed combat, there’s some kind of martial art element that plays through them. But did you know that there are shows that are primarily focused on martial arts itself and their battle techniques? There’s a lot of them, and they mainly involve hand-to-hand combat and technician battles.
   Military:
     template:
-      - name: anime_genre
+      - name: anime_genrecode
         genre_id: 38
     summary: As the name implies, this subgenre involves the military in one way or another. War may also be a huge part of military anime. One thing to note about this category is that it is often coupled with the mecha and action genre.
   Music:
