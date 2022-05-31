@@ -54,11 +54,17 @@ collections:
   Cars:
     template:
     - name: anime_genre
-      genre_id: 3
+      genre_id: 9
     - name:  shared
     - name: customsync
     summary: The action genre in anime depicts extremely high levels of intense action. More often than not, you’ll be witnessing thrilling battles and action-packed fight scenes in the shows from this genre. These series will make you jump off your seat or knock your socks off. Overall, the action genre usually possesses lots of battle scenes, fluid animation, and highly-engaging elements that will make your adrenaline rush!
-    Ecchi:
+  Ecchi:
+    template:
+      - name: anime_genre
+        genre_id: 3
+      - name:  shared
+      - name: customsync
+    summary: The word ecchi comes from the sound of H in the word hentai, which in turn means pervert in Japanese. This subgenre is generally accepted as being full of sexually provocative scenes (mild enough to be viewed by the general audience) and scenarios derived from innuendoes and humorous situations. It’s a fact that ecchi shows are taking an upswing nowadays as more and more titles are produced every season. More often than not, ecchi is paired up with comedy as both genres compliment each other well. This in turn serves as a buffer that prevents the shows from crossing the line and delving into something less appropriate for general audiences.
   Comedy:
     template: 
       - name: anime_genre
