@@ -32,7 +32,7 @@ templates:
     sync_mode: sync
     collection_order: custom
   universe:
-    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/universe/<<collection_name_encoded>>.jpg
+    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/universe/<<image_encoded>>.jpg
     
 
 collections:
@@ -52,7 +52,7 @@ collections:
       - name: shared
       - name: multi-franchise
       - name: universe
-        image: DC Universe
+        image: DC Animated Universe
     trakt_list: https://trakt.tv/users/donxy/lists/dc-animated-movie-universe
   DC Extended Universe:
     template:
