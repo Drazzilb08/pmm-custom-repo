@@ -104,11 +104,15 @@ collections:
     template:
       - name: anime_genre
         genre_id: 26
+      - name: shared
+      - name: customsync
     summary: Shoujo-ai literally translates to "girls love." The typically young female characters in shojou-ai anime show love and affection for each other. The romance is usually more milder in comparison to the more explicit yuri genre. Shows in this category portray blooming feelings of love and romance rather than intimate relationships.
   Harem:
     template:
       - name: anime_genre
         genre_id: 35
+      - name: shared
+      - name: customsync
     summary: If you see a reluctant male character surrounded by multiple female characters who all adore him, then you’re probably watching an anime of the harem subgenre. This type of show typically features more than two female characters go head-over-heels for a single male character. Anime in this category is typically within the comedy and romance genre. It's possible that a harem anime can have no romance and feature mostly slapstick comedy.
   Historical:
     template: 
@@ -133,8 +137,10 @@ collections:
     summary: Martial arts play a big role in every anime that has fighting/battles in it. Whether it's hand-to-hand combat, swordplay, gun fighting, or armed combat, there’s some kind of martial art element that plays through them. But did you know that there are shows that are primarily focused on martial arts itself and their battle techniques? There’s a lot of them, and they mainly involve hand-to-hand combat and technician battles.
   Military:
     template:
-      - name: anime_genrecode
+      - name: anime_genre
         genre_id: 38
+      - name: shared
+      - name: customsync
     summary: As the name implies, this subgenre involves the military in one way or another. War may also be a huge part of military anime. One thing to note about this category is that it is often coupled with the mecha and action genre.
   Music:
     template: 
@@ -154,16 +160,22 @@ collections:
     template:
       - name: anime_genre
         genre_id: 20
+      - name: shared
+      - name: customsync
     summary: A parody anime is one where countless numbers of other anime references are showcased throughout the plot. It might be a popular running gag, a famous symbol, a character reference, or any other attempt at bringing another show into its domain. One anime worthy to note is Gintama. They often use similar elements from other anime to showcase in their own show.
   Police:
     template:
       - name: anime_genre
         genre_id: 39
+      - name: shared
+      - name: customsync
     summary: The police subgenre emphasizes the life and struggles of law enforcement in their line of duty. Police-based characters have shown up in numerous shows and there are now anime that could be considered as police procedurals. This genre isn't exclusive to police officers; detectives, investigators, and enforcers of any type are included as well.
   Psychological:
     template:
       - name: anime_genre
         genre_id: 40
+      - name: shared
+      - name: customsync
     summary: Psychological anime are shows that delve into how the mind and psyche work. This genre tackles everything on a psychological level (sometimes even philosophical). You’ll often find mind games here as well as battles where the use of the wits is the primary focus. Series in this genre will play with your mind and make you think hard.
   Romance:
     template: 
@@ -183,6 +195,8 @@ collections:
     template:
       - name: anime_genre
         genre_id: 23
+      - name: shared
+      - name: customsync
     summary: There are countless anime that use school as a setting. An anime can be considered a part of the school subgenre if a school is the primary setting and the anime deals mostly with school and student life. This type of anime is usually seen within the comedy genre, though there are some entries in drama as well.
   Sci-Fi:
     template: 
@@ -195,6 +209,8 @@ collections:
     template:
       - name: anime_genre
         genre_id: 25
+      - name: shared
+      - name: customsync
     summary: Shoujo refers to the demographic of young girls. This subgenre specifically targets female viewers around the age range of 10-18. Most of the time, shoujo anime works hand-in-hand with the romance and comedy genre, particularly with the former. The protagonist is traditionally female and the narrative focuses on romance as well as personal growth. The world in these shows are often very idealized.
   Shounen:
     template:
