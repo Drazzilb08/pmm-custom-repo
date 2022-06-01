@@ -13,7 +13,7 @@ The studio albums were sourced from [musikmann2000](https://theposterdb.com/user
 ![Shows](screenshots/series.jpg)
 Lists are from [mdblist.com](https://mdblist.com)
 
-Thank you so much to everybody who has made this possible esepcially Sohjiro for PMM.
+Thank you so much to everybody who has made this possible especially Sohjiro for PMM.
 
 
 ___
