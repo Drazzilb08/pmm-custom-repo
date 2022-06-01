@@ -6,10 +6,15 @@ Thanks Bullmoose20 for support on modifying these images.
 The Anime Genre images were sourced from [jjjonesjr23](https://theposterdb.com/user/jjjonesjr33) on ThePosterDb's website.
 
 The studio albums were sourced from [musikmann2000](https://theposterdb.com/user/musikmann2000) on ThePosterDb's website
-
+<br>
+**Movies Screenshot**
+![movies](screenshots/movies.jpg)
+**Shows Screenshot**
+![Shows](screenshots/series.jpg)
 Lists are from [mdblist.com](https://mdblist.com)
 
 Thank you so much to everybody who has made this possible esepcially Sohjiro for PMM.
+
 
 ___
 Below you can see my current config file. The key notes you should take away from it is each of the collection files are called using the `- repo:` tag this is different from the `- git:` tag that is in the offical PMM config, the reason for this is I'm using a `custom_repo`. Which you can see near the bottom. 
@@ -438,7 +443,7 @@ Drop me a line if you have questions or any issues. I spent a bit of time to get
 
 PRs are welcome to update and improve the configs. 
 
-Screenshots coming soon:tm:
+Screenshots []
 
 Finally **Use at your own risk**, I take no responsability if you screw up your Plex instance. Always remember the golden rule **Back up, Back up, Back up**.
 
