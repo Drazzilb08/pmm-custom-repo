@@ -438,6 +438,8 @@ Drop me a line if you have questions or any issues. I spent a bit of time to get
 
 PRs are welcome to update and improve the configs. 
 
+Screenshots coming soon:tm:
+
 Finally **Use at your own risk**, I take no responsability if you screw up your Plex instance. Always remember the golden rule **Back up, Back up, Back up**.
 
 Cheers
