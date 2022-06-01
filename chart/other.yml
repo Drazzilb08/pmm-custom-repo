@@ -103,7 +103,7 @@ collections:
 
   Trending Movies:
     mdblist_list: https://mdblist.com/lists/drazzilb/trending-movies-top-20
-    summary: Most Popular Movies TOP-20 is based on the vote increase on sites like IMDb, Trakt and Letterboxd in the last month
+    summary: Trending movies from Traktlisting by release date.
     template:
       - name: customsync
       - name: chart_shared
@@ -112,7 +112,7 @@ collections:
   
   Internet's Most Popular:
     mdblist_list: https://mdblist.com/lists/drazzilb/top-200-movies
-    summary: Some of the most popular movies based on the number of vote on sites like IMDb, TheMovieDb and Trakt.
+    summary: The internet's most popular movies from the last 10 years sorted by score.
     template:
       - name: customsync
       - name: chart_shared
@@ -121,7 +121,7 @@ collections:
   
   Trending Animated Series:
     mdblist_list: https://mdblist.com/lists/drazzilb/trending-animated-shows-50
-    summary: Trending TV Shows from around the internet. (Updated daily)
+    summary: Trending animated shows collected from TheMovieDb and Trakt sorted by release date.
     template:
       - name: customsync
       - name: chart_shared
@@ -130,7 +130,7 @@ collections:
     
   Popular Series:
     mdblist_list: https://mdblist.com/lists/drazzilb/popular-shows-50
-    summary: Popular TV Shows from around the internet from sites such as IMDb, TheMovieDb, and Trakt.
+    summary: Most popular Trakt Popular shows plus mdblist's popular list released in the past 10 years sorted by score.
     template:
       - name: customsync
       - name: chart_shared
@@ -139,7 +139,7 @@ collections:
 
   Trending Series:
     mdblist_list: https://mdblist.com/lists/drazzilb/trending-shows-20
-    summary: Television's trending shows is based on the vote increase on sites like IMDb, Trakt and Letterboxd in the last month
+    summary: Trending shows from Trakt Trending rated above 50 sorted by most recent release.
     template:
       - name: customsync
       - name: chart_shared
