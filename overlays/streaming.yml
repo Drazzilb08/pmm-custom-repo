@@ -10,7 +10,7 @@
 #  If nothing is specified these are the defaults           #
 #                                                           #
 #    overlay_path:                                          #
-#      - repo: overlays/streaming                            #
+#      - repo: overlays/streaming                           #
 #        template_variables:                                #
 #          # Set episode or season to overlay               #
 #          overlay_level:                                   #

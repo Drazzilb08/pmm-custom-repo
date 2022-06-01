@@ -6,7 +6,7 @@
 #  If nothing is specified these are the defaults           #
 #                                                           #
 #    metadata_path:                                         #
-#      - repo: chart/anilist                                 #
+#      - repo: chart/anilist                                #
 #        template_variables:                                #
 #          # Sets the collection mode of the collection     #
 #          collection_mode:                                 #
