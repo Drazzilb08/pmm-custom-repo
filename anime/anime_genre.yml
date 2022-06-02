@@ -145,7 +145,7 @@ collections:
         genre_id: 62
       - name: shared
       - name: customsync
-    summary: Isekai is a genre of fantasy anime where a character travels from the world they know to an unfamiliar one. Typically, isekai series will place a person in a magical realm of fantasy and/or terror, though occasionally it happens in reverse.
+    summary: Isekai translates to "different world" or "otherworld," and as its name suggests, the genre is all about putting a character in a whole new world. The character can be any kind of person, and the world they end up in can range from fantasy to sci-fi.
   Mecha:
     template:
       - name: anime_genre
