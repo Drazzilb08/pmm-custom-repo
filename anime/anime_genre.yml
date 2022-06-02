@@ -40,7 +40,7 @@ collections:
         genre_id: 1
       - name: shared
       - name: customsync
-    summary: The JONZA action genre in anime depicts extremely high levels of intense action. More often than not, you’ll be witnessing thrilling battles and action-packed fight scenes in the shows from this genre. These series will make you jump off your seat or knock your socks off. Overall, the action genre usually possesses lots of battle scenes, fluid animation, and highly-engaging elements that will make your adrenaline rush!
+    summary: The action genre in anime depicts extremely high levels of intense action. More often than not, you’ll be witnessing thrilling battles and action-packed fight scenes in the shows from this genre. These series will make you jump off your seat or knock your socks off. Overall, the action genre usually possesses lots of battle scenes, fluid animation, and highly-engaging elements that will make your adrenaline rush!
   Adventure:
     template: 
     - name: anime_genre
@@ -138,7 +138,7 @@ collections:
         genre_id: 62
       - name: shared
       - name: customsync
-    summary: sekai is a genre of fantasy anime where a character travels from the world they know to an unfamiliar one. Typically, isekai series will place a person in a magical realm of fantasy and/or terror, though occasionally it happens in reverse.
+    summary: Isekai is a genre of fantasy anime where a character travels from the world they know to an unfamiliar one. Typically, isekai series will place a person in a magical realm of fantasy and/or terror, though occasionally it happens in reverse.
   Martial Arts:
     template: 
       - name: anime_genre
