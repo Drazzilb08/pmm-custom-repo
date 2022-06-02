@@ -58,14 +58,14 @@ collections:
   Cars:
     template:
     - name: anime_genre
-      genre_id: 9
+      genre_id: 3
     - name:  shared
     - name: customsync
     summary: The action genre in anime depicts extremely high levels of intense action. More often than not, you’ll be witnessing thrilling battles and action-packed fight scenes in the shows from this genre. These series will make you jump off your seat or knock your socks off. Overall, the action genre usually possesses lots of battle scenes, fluid animation, and highly-engaging elements that will make your adrenaline rush!
   Ecchi:
     template:
       - name: anime_genre
-        genre_id: 3
+        genre_id: 9
       - name:  shared
       - name: customsync
     summary: The word ecchi comes from the sound of H in the word hentai, which in turn means pervert in Japanese. This subgenre is generally accepted as being full of sexually provocative scenes (mild enough to be viewed by the general audience) and scenarios derived from innuendoes and humorous situations. It’s a fact that ecchi shows are taking an upswing nowadays as more and more titles are produced every season. More often than not, ecchi is paired up with comedy as both genres compliment each other well. This in turn serves as a buffer that prevents the shows from crossing the line and delving into something less appropriate for general audiences.
@@ -111,7 +111,14 @@ collections:
       - name: shared
       - name: customsync
     summary: Shoujo-ai literally translates to "girls love." The typically young female characters in shojou-ai anime show love and affection for each other. The romance is usually more milder in comparison to the more explicit yuri genre. Shows in this category portray blooming feelings of love and romance rather than intimate relationships.
-  Harem:
+  Gourmet:
+    template:
+      - name: anime_genre
+        genre_id: 26
+      - name: shared
+      - name: customsync
+    summary: Preparation and consumption of food or drink take focus in gourmet stories and the narrative is designed to feature numerous different dishes or beverages. Characters are often chefs or food connoisseurs, and special attention is given to all steps in the cooking process, ranging from detailed descriptions of recipes to the characters' often over-the-top reactions when tasting the finished product.
+  Harem: 
     template:
       - name: anime_genre
         genre_id: 35
@@ -132,6 +139,13 @@ collections:
       - name: shared
       - name: customsync
     summary: It’s not difficult to spot the horror genre in anime. Usually, if there are ghosts, monsters, gore, and creeps, then you’re likely watching a horror series. Heavy gore and bloody violence is a common trait. The most important factor for a show to be considered horror is its ability to scare and creep you out.
+  Mecha:
+    template:
+      - name: anime_genre
+        genre_id: 18
+      - name: shared
+      - name: customsync 
+    summary: You’ll never see a mecha anime without a robot or mechanical suit in it. That’s the most important element of it. And while this subgenre is rising in fame as the days go by, it almost always uses a standard formula to carry the plot.     
   Martial Arts:
     template: 
       - name: anime_genre
