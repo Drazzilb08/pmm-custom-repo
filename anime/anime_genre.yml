@@ -30,7 +30,6 @@ templates:
   anime_genre:
     mal_genre:
       genre_id: <<genre_id>>
-      limit: 750
     url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/anime_genre/<<collection_name_encoded>>.jpg
 
 collections:
