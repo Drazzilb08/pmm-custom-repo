@@ -139,6 +139,13 @@ collections:
       - name: shared
       - name: customsync
     summary: It’s not difficult to spot the horror genre in anime. Usually, if there are ghosts, monsters, gore, and creeps, then you’re likely watching a horror series. Heavy gore and bloody violence is a common trait. The most important factor for a show to be considered horror is its ability to scare and creep you out.
+  Isekai:
+    template:
+      - name: anime_genre
+        genre_id: 62
+      - name: shared
+      - name: customsync
+    summary: Isekai is a genre of fantasy anime where a character travels from the world they know to an unfamiliar one. Typically, isekai series will place a person in a magical realm of fantasy and/or terror, though occasionally it happens in reverse.
   Mecha:
     template:
       - name: anime_genre
