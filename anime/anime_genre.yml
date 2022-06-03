@@ -156,7 +156,7 @@ collections:
   Gourmet:
     template:
       - name: anime_genre
-        genre_id: 26
+        genre_id: 47
       - name: shared
       - name: customsync
     summary: Preparation and consumption of food or drink take focus in gourmet stories and the narrative is designed to feature numerous different dishes or beverages. Characters are often chefs or food connoisseurs, and special attention is given to all steps in the cooking process, ranging from detailed descriptions of recipes to the characters' often over-the-top reactions when tasting the finished product.
