@@ -24,15 +24,6 @@ external_templates:
     collection_section: "07"
 
 templates:
-  studio_dynamic:
-    default:
-      sort_by: release.desc
-    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio/<<key_encoded>>.jpg
-    smart_filter:
-      sort_by: <<sort_by>>
-      any:
-        studio.is: <<value>>
-    label: kids
   studio:
     default:
       smart_label: year.desc
@@ -99,7 +90,6 @@ collections:
     tmdb_list: https://www.themoviedb.org/list/8169611
     summary: "Nickelodeon Animation Studio is an American animation studio owned by ViacomCBS. It has created many original television programs for Nickelodeon, such as SpongeBob SquarePants, The Fairly OddParents, Rugrats and Avatar: The Last Airbender, among various others."
     label: kids
-  ##Broken Lizard Industries:
   Aardman Studios:
     template:
       - name: studio
@@ -133,3 +123,10 @@ collections:
       - name: shared
     tmdb_list: https://www.themoviedb.org/list/8174693
     summary: Cartoon Saloon is an Irish animation film, short film and television studio based in Kilkenny which provides film TV and short film services.
+  A24:
+    template:
+      - name: studio
+      - name: shared
+    mdblist_list: https://mdblist.com/lists/drazzilb/a24
+    summary: A24 is an American independent entertainment company that specializes in film and television production, as well as film distribution. It is based in New York City. A24 was founded in 2012 by Daniel Katz, David Fenkel and John Hodges.
+  #Broken Lizard Industries:
