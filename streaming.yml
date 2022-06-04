@@ -136,7 +136,7 @@
 #############################################################
 
 external_templates:
-  git: templates
+  repo: templates
   template_variables:
     collection_section: "03"
 
