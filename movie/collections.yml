@@ -317,7 +317,7 @@ collections:
       movie:
         - 43074
       name: collection
-  Gnomeo & Juliet Collection:
+  Gnomes Collection:
     template:
       collection: 493668
       name: kids-collection
