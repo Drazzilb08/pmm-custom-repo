@@ -145,7 +145,7 @@ templates:
     default:
       sort_by: release.desc
       key: <<collection_name>>
-      visible_home: false
+      <<visible_home_<<key>>>>: false
     optional:
       - use
       - use_<<key>>
