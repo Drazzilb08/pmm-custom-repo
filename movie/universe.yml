@@ -15,8 +15,6 @@
 #          use_separator: true                              #
 #          # Add Missing Movies to Radarr                   #
 #          radarr_add_missing: true                         #
-#          # Sets the collection order of the collection    #
-#          collection_order: alpha                          #
 #############################################################
 
 external_templates:
