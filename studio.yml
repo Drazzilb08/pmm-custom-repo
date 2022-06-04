@@ -10,8 +10,6 @@
 #        template_variables:                                #
 #          # Turn the separator collection on/off           #
 #          use_separator: true                              #
-#          # Sets how the collection is sorted              #
-#          sort_by: release.desc                            #
 #          # Sets the collection mode of the collection     #
 #          collection_mode:                                 #
 #          # Sets the value at the start of the sort title  #
@@ -25,8 +23,6 @@ external_templates:
 
 templates:
   studio:
-    default:
-      smart_label: year.asc
     url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio/<<collection_name_encoded>>.jpg
 
 collections:
@@ -130,3 +126,4 @@ collections:
     mdblist_list: https://mdblist.com/lists/drazzilb/a24
     summary: A24 is an American independent entertainment company that specializes in film and television production, as well as film distribution. It is based in New York City. A24 was founded in 2012 by Daniel Katz, David Fenkel and John Hodges.
   #Broken Lizard Industries:
+  #Studio Ghibli
