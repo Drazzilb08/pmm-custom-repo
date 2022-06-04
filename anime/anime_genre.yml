@@ -28,7 +28,7 @@ templates:
       - name: separator off
         separator: genre
   anime_genre:
-    schedule: weekly(monday)
+    #schedule: weekly(monday)
     mal_genre:
       genre_id: <<genre_id>>
     url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/anime_genre/<<collection_name_encoded>>.jpg
