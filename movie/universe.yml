@@ -27,9 +27,7 @@ templates:
     optional:
       - name_mapping
     cache_builders: 1
-    sync_mode: sync
-    collection_order: custom
-  universe:
+    smart_label: release.desc
     url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/universe/<<image_encoded>>.jpg
     
 
@@ -42,21 +40,18 @@ collections:
     template:
       - name: shared
       - name: multi-franchise
-      - name: universe
         image: Star Wars
     trakt_list: https://trakt.tv/users/zorge88/lists/star-wars
   DC Animated Universe:
     template:
       - name: shared
       - name: multi-franchise
-      - name: universe
         image: DC Animated Universe
     trakt_list: https://trakt.tv/users/donxy/lists/dc-animated-movie-universe
   DC Extended Universe:
     template:
       - name: shared
       - name: multi-franchise
-      - name: universe
         image: DC Universe
     trakt_list: https://trakt.tv/users/donxy/lists/dc-extended-universe
     summary: The DC Extended Universe (DECU) is the fictional shared universe where most stories in American comic book titles published by DC Comics take place. DC superheroes such as Superman, Batman, Wonder Woman, Martian Manhunter, The Flash, Green Lantern and Aquaman are from this universe, as well as teams such as the Justice League and the Teen Titans.
@@ -64,49 +59,42 @@ collections:
     template:
       - name: shared
       - name: multi-franchise
-      - name: universe
         image: Marvel Cinematic Universe
     trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
   Wizarding World:
     template:
       - name: shared
       - name: multi-franchise
-      - name: universe
         image: Wizarding World
     trakt_list: https://trakt.tv/users/strangerer/lists/harry-potter
   X-Men Universe:
     template:
       - name: shared
       - name: multi-franchise
-      - name: universe
         image: X-Men
     trakt_list: https://trakt.tv/users/donxy/lists/x-men-universe
   Middle Earth:
     template:
       - name: shared
       - name: multi-franchise
-      - name: universe
         image: Middle Earth
     trakt_list: https://trakt.tv/users/dybro/lists/lord-of-the-rings
   Fast & Furious:
     template:
       - name: shared
       - name: multi-franchise
-      - name: universe
         image: Fast & Furious
     trakt_list: https://trakt.tv/users/vargajoe/lists/fast-and-furious-chronology
   Star Trek:
     template:
       - name: shared
       - name: multi-franchise
-      - name: universe
         image: Star Trek
     trakt_list: https://trakt.tv/users/arachn0id/lists/star-trek-movies
   Rocky / Creed:
     template:
       - name: shared
       - name: multi-franchise
-      - name: universe
         image: Rocky Creed
     trakt_list: https://trakt.tv/users/strangerer/lists/rocky
     name_mapping: Rocky Creed
@@ -114,6 +102,5 @@ collections:
     template:
       - name: shared
       - name: multi-franchise
-      - name: universe
         image: The Mummy
     trakt_list: https://trakt.tv/users/rzepkowski/lists/the-mummy-movies
