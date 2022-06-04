@@ -51,7 +51,6 @@ external_templates:
     collection_section: "01"
 
 templates:
-
   popular:
     default:
       limit_popular: 100
@@ -83,7 +82,7 @@ collections:
       - name: customsync
       - name: chart_shared
         key: popular
-        
+
   MyAnimeList Top Rated:
     template:
       - name: top

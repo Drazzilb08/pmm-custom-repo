@@ -49,13 +49,13 @@ playlists:
     template:
       - name: playlist
     trakt_list: https://trakt.tv/users/pedrohcramos/lists/star-trek-timeline
-    summary: Few film franchises have lasted as long as Star Trek. Through five decades and three different crews, the Star Trek films have saved more than a few worlds (and the whales), traveling through time more than once to do it. With them being set in so many different time periods, their actual chronological order might get a little confusing. No need to fret as this is the proper order… in linear time, anyway. On a quantum level is a whole other thing. 
+    summary: Few film franchises have lasted as long as Star Trek. Through five decades and three different crews, the Star Trek films have saved more than a few worlds (and the whales), traveling through time more than once to do it. With them being set in so many different time periods, their actual chronological order might get a little confusing. No need to fret as this is the proper order… in linear time, anyway. On a quantum level is a whole other thing.
 
   Star Wars (Timeline Order):
     template:
       - name: playlist
     trakt_list: https://trakt.tv/users/ruben_vw_/lists/star-wars-canon-timeline
-    summary: A long time ago in a galaxy far, far away, a farm boy on a desert planet dreamed of joining a rebellion and saving a princess from a dark lord, and thus, one of the most successful cinematic sagas of all time was born. What began with one space opera in 1977 quickly grew into a media empire that included toys, comic books, video games, TV series, and memorabilia in every possible form. Today, more than 40 years after it first arrived, Star Wars remains a global pop culture phenomenon, and the story still isn't over. 
+    summary: A long time ago in a galaxy far, far away, a farm boy on a desert planet dreamed of joining a rebellion and saving a princess from a dark lord, and thus, one of the most successful cinematic sagas of all time was born. What began with one space opera in 1977 quickly grew into a media empire that included toys, comic books, video games, TV series, and memorabilia in every possible form. Today, more than 40 years after it first arrived, Star Wars remains a global pop culture phenomenon, and the story still isn't over.
 
   Star Wars The Clone Wars (Timeline Order):
     template:

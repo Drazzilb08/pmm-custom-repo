@@ -22,7 +22,6 @@ templates:
       vertical_align: bottom
 
 overlays:
-
   IMDB-Top-250:
     template:
       - name: IMDbTop250

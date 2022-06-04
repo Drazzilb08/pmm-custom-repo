@@ -28,33 +28,33 @@ dynamic_collections:
   auto_tmdb_collections:
     type: tmdb_collection
     exclude:
-          - 933959
-          - 9485
-          - 34055
-          - 2344
-          - 809185
-          - 115762
-          - 1575
-          - 8091
-          - 135416
-          - 86027
-          - 275402
-          - 553717
-          - 725600
-          - 256377
-          - 248534
-          - 593251
-          - 466894
-          - 290933
-          - 334996
-          - 633815
-          - 10453
-          - 261590
-          - 702342
-          - 256287
-          - 846090
-          - 920666
-          - 535313
+      - 933959
+      - 9485
+      - 34055
+      - 2344
+      - 809185
+      - 115762
+      - 1575
+      - 8091
+      - 135416
+      - 86027
+      - 275402
+      - 553717
+      - 725600
+      - 256377
+      - 248534
+      - 593251
+      - 466894
+      - 290933
+      - 334996
+      - 633815
+      - 10453
+      - 261590
+      - 702342
+      - 256287
+      - 846090
+      - 920666
+      - 535313
     template: auto_collections
 collections:
   101 Dalmatians (Animated) Collection:
@@ -548,7 +548,7 @@ collections:
     template:
       collection: 87236
       name: kids-collection
-  'My Little Pony: Equestria Girls Collection':
+  "My Little Pony: Equestria Girls Collection":
     template:
       collection: 343297
       name: kids-collection
@@ -654,7 +654,7 @@ collections:
     template:
       collection: 136214
       name: kids-collection
-  'Poltergeist: Complete Collection':
+  "Poltergeist: Complete Collection":
     template:
       collection: 10453
       movie:
@@ -764,7 +764,7 @@ collections:
         - 82530
         - 13394
       name: kids-collection
-  'Sinbad: Legend of the Seven Seas Collection':
+  "Sinbad: Legend of the Seven Seas Collection":
     template:
       movie:
         - 14411
@@ -984,8 +984,8 @@ collections:
     template:
       collection: 464308
       name: kids-collection
-  The Fugitive / U.S. Marshals Collection: 
-    template: 
+  The Fugitive / U.S. Marshals Collection:
+    template:
       name: collection
       movie:
         - 5503
@@ -1209,7 +1209,7 @@ collections:
     template:
       name: collection
       summary: Special features in the MCU films' Blu-ray and digital distribution releases, but are not included in the DVD releases. The films, which range from 4 to 15 minutes, are designed to be self-contained stories that provide more backstory for characters or events introduced in the films. Two of the shorts have been the inspiration for television series set in the MCU.
-      movie: 
+      movie:
         - 119569
         - 211387
         - 76122
@@ -1238,7 +1238,7 @@ collections:
       name: collection
       movie: "140607, 181808, 181812"
     summary: The Disney Star Wars trilogy
-    collection_order: release    
+    collection_order: release
   Twilight Saga:
     template:
       name: collection
@@ -1255,7 +1255,7 @@ collections:
     template:
       name: collection
       collection: 9743
-  Lord of the Rings Collection: 
+  Lord of the Rings Collection:
     template:
       name: collection
       collection: 119
@@ -1263,7 +1263,7 @@ collections:
     template:
       name: collection
       collection: 464270
-  Robert Langdon Collection: 
+  Robert Langdon Collection:
     template:
       name: collection
       collection: 115776
@@ -1276,28 +1276,27 @@ collections:
       name: collection
       collection: 453993
 
-
   # :
   #   template:
-  #     collection: 
+  #     collection:
   #     name: collection
   # :
   #   template:
-  #     collection: 
+  #     collection:
   #     name: collection
   # :
   #   template:
-  #     collection: 
+  #     collection:
   #     name: collection
   # :
   #   template:
-  #     collection: 
+  #     collection:
   #     name: collection
   # :
   #   template:
-  #     collection: 
+  #     collection:
   #     name: collection
   # :
   #   template:
-  #     collection: 
+  #     collection:
   #     name: collection

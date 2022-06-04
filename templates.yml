@@ -77,7 +77,6 @@ templates:
     allowed_library_types: <<use_other>>
     sort_title: "!<<collection_section>><<pre>><<sort>>"
 
-
   playlist:
     default:
       libraries: Movies, TV Shows

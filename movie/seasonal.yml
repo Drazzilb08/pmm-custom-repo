@@ -67,7 +67,7 @@ collections:
         season: independence
         schedule_independence: range(06/23-07/11)
       - name: shared
-    imdb_list: 
+    imdb_list:
       - https://www.imdb.com/list/ls068664510/
       - https://www.imdb.com/list/ls080925875/
 
@@ -77,7 +77,7 @@ collections:
         season: easter
         schedule_easter: range(03/22-04/25)
       - name: shared
-    imdb_list: 
+    imdb_list:
       - https://www.imdb.com/list/ls062665509/
       - https://www.imdb.com/list/ls051733651/
 
@@ -107,7 +107,7 @@ collections:
         season: thanksgiving
         schedule_thanksgiving: range(11/01-11/30)
       - name: shared
-    imdb_list: 
+    imdb_list:
       - https://www.imdb.com/list/ls000835734/
       - https://www.imdb.com/list/ls091597850/
 
@@ -121,12 +121,12 @@ collections:
       - https://www.imdb.com/list/ls023118929/
       - https://www.imdb.com/list/ls000099714/
     tmdb_collection:
-      - 91361    # Halloween Collection
-      - 8581     # A Nightmare on Elm Street Collection
-      - 1733     # The Mummy Collection
-      - 8091     # Alien Collection
+      - 91361 # Halloween Collection
+      - 8581 # A Nightmare on Elm Street Collection
+      - 1733 # The Mummy Collection
+      - 8091 # Alien Collection
     tmdb_movie:
-      - 23437    # A Nightmare on Elm Street (2010)
+      - 23437 # A Nightmare on Elm Street (2010)
 
   Christmas:
     template:
@@ -143,7 +143,7 @@ collections:
         schedule_years: range(12/26-01/04)
       - name: shared
     imdb_list: https://www.imdb.com/list/ls066838460/
-   
+
   May The Fourth Be With You:
     template:
       - name: Holiday

@@ -68,7 +68,6 @@ templates:
       filepath.regex: <<regex>>
 
 overlays:
-
   Amazon:
     template:
       - name: Streaming
