@@ -62,7 +62,6 @@ templates:
     mdblist_list: https://mdblist.com/lists/plexmetamanager/<<slug>>-<<library_type>>s
 
 overlays:
-
   Netflix:
     template:
       - name: Streaming
