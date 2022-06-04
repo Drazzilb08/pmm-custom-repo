@@ -46,7 +46,7 @@ libraries:
         template_variables:
           use_separator: false
           collection_mode: hide
-      - repo: show/streaming
+      - repo: streaming
         template_variables:
           use_separator: false
           collection_mode: hide
@@ -188,31 +188,10 @@ libraries:
       assets_for_all: true
   Documentary Movies:
     metadata_path:
-      - repo: movie/streaming
+      - repo: streaming
         template_variables:
           use_separator: false
           collection_mode: hide
-          visible_home_all4: false
-          visible_home_appletv: false
-          visible_home_bet: false
-          visible_home_britbox: false
-          visible_home_disney: false
-          visible_home_hayu: false
-          visible_home_hbomax: false
-          visible_home_hulu: false
-          visible_home_netflix: false
-          visible_home_paramount: false
-          visible_home_peacock: false
-          visible_home_amazon: false
-          visible_library_appletv: true
-          visible_library_bet: true
-          visible_library_britbox: true
-          visible_library_disney: true
-          visible_library_hbomax: true
-          visible_library_hulu: true
-          visible_library_netflix: true
-          visible_library_paramount: true
-          visible_library_peacock: true
           visible_library_amazon: true
     settings:
       asset_directory: config/assets/films/documentary-movies
@@ -221,34 +200,15 @@ libraries:
       assets_for_all: true
     overlay_path:
       - repo: overlays/imdb_top_250
+      - repo: overlays/streaming
+        template_variables:
+          vertical_offset: 15
   Movies:
     metadata_path:
-      - repo: movie/streaming
+      - repo: streaming
         template_variables:
           collection_mode: hide
           use_separator: false
-          visible_home_all4: false
-          visible_home_appletv: false
-          visible_home_bet: false
-          visible_home_britbox: false
-          visible_home_disney: false
-          visible_home_hayu: false
-          visible_home_hbomax: false
-          visible_home_hulu: false
-          visible_home_netflix: false
-          visible_home_paramount: false
-          visible_home_peacock: false
-          visible_home_amazon: false
-          visible_library_appletv: true
-          visible_library_bet: true
-          visible_library_britbox: true
-          visible_library_disney: true
-          visible_library_hbomax: true
-          visible_library_hulu: true
-          visible_library_netflix: true
-          visible_library_paramount: true
-          visible_library_peacock: true
-          visible_library_amazon: true
       - repo: chart/other
         template_variables:
           collection_mode: hide
@@ -281,10 +241,49 @@ libraries:
       assets_for_all: true
     overlay_path:
       - repo: overlays/imdb_top_250
+      - repo: overlays/streaming
+        template_variables:
+          vertical_offset: 15
 playlist_files:
   - repo: playlist
     template_variables:
       libraries: Movies, Series, Animated Series
+settings:
+  cache: true
+  cache_expiration: 60
+  asset_folders: true
+  asset_depth: 0
+  dimensional_asset_rename: true
+  show_missing_season_assets: false
+  sync_mode: sync
+  delete_below_minimum: false
+  delete_not_scheduled: false
+  run_again_delay: 0
+  missing_only_released: true
+  only_filter_missing: false
+  show_unmanaged: true
+  show_filtered: false
+  show_options: false
+  show_missing: false
+  show_missing_assets: false
+  tvdb_language: default
+  ignore_ids:
+  ignore_imdb_ids:
+  minimum_items: 2
+  default_collection_order:
+  create_asset_folders: true
+  download_url_assets: false
+  verify_ssl: true
+  item_refresh_delay: 0
+  playlist_sync_to_users: all
+  show_missing_episode_assets: false
+  show_asset_not_needed: false
+  custom_repo: https://github.com/Drazzilb08/pmm-custom-repo/tree/master/
+  save_missing: false
+  prioritize_assets: false
+  playlist_report: false
+  check_nightly: false
+  asset_directory:
 ```
 
 Drop me a line if you have questions or any issues. I spent a bit of time to get this to work on my setup without any problems. However if you do please let me know.
