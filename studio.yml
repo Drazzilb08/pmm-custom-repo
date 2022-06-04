@@ -26,7 +26,7 @@ external_templates:
 templates:
   studio:
     default:
-      smart_label: year.desc
+      smart_label: year.asc
     url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio/<<collection_name_encoded>>.jpg
 
 collections:
