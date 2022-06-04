@@ -52,7 +52,7 @@ templates:
     allowed_library_types: <<use_<<slug>>>>
     overlay:
       name: <<overlay_name>>
-      git: overlays/images/<<overlay>>
+      repo: overlays/images/<<overlay>>
       group: streaming
       weight: <<weight>>
       horizontal_offset: <<horizontal_offset>>
