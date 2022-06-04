@@ -162,7 +162,7 @@ templates:
     smart_label: <<sort_by>>
     sync_mode: sync
     mdblist_list: https://mdblist.com/lists/plexmetamanager/<<key>>-<<library_type>>s
-    url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/streaming/<<key_name_encoded>>.jpg
+    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key_name_encoded>>.jpg
 
 collections:
   Streaming Collections:
