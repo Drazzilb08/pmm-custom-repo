@@ -37,7 +37,7 @@ templates:
     collection_level: <<overlay_level>>
     overlay:
       name: <<overlay_name>>
-      file: config/overlays/<<overlay>>.png
+      repo: overlays/images/<<overlay>>
       group: special
       weight: <<weight>>
       horizontal_offset: <<horizontal_offset>>
