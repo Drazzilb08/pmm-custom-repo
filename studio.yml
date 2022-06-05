@@ -23,6 +23,7 @@ external_templates:
 
 templates:
   studio:
+    smart_label: release.desc
     url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio/<<collection_name_encoded>>.jpg
 
 collections:
