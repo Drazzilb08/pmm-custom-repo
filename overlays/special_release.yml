@@ -19,21 +19,23 @@
 #          # Set the horizontal align for the overlay       #
 #          horizontal_align: left                           #
 #          # Set the vertical offset for the overlay        #
-#          vertical_offset: 113                             #
+#          vertical_offset: 135                             #
 #          # Set the vertical align for the overlay         #
-#          vertical_align: bottom                           #
+#          vertical_align: top                              #
 #############################################################
 
 templates:
   SpecialRelease:
     optional:
       - overlay_level
+      - use_<<slug>>
     default:
       overlay: <<overlay_name>>
       horizontal_offset: 15
       horizontal_align: left
-      vertical_offset: 113
-      vertical_align: bottom
+      vertical_offset: 135
+      vertical_align: top
+    allowed_library_types: <<use_<<slug>>>>
     collection_level: <<overlay_level>>
     overlay:
       name: <<overlay_name>>
@@ -44,140 +46,56 @@ templates:
       horizontal_align: <<horizontal_align>>
       vertical_offset: <<vertical_offset>>
       vertical_align: <<vertical_align>>
-
-  Criterion:
-    default:
-      Criterion: true
-    allowed_library_types: <<Criterion>>
-
-  IMAX-E:
-    default:
-      IMAX-E: true
-    allowed_library_types: <<IMAX-E>>
-
-  IMAX:
-    default:
-      IMAX: true
-    allowed_library_types: <<IMAX>>
-
-  Special:
-    default:
-      Special: true
-    allowed_library_types: <<Special>>
-
-  Extended:
-    default:
-      Extended: true
-    allowed_library_types: <<Extended>>
-
-  Uncut:
-    default:
-      Uncut: true
-    allowed_library_types: <<Uncut>>
-
-  DirectorsCut:
-    default:
-      DirectorsCut: true
-    allowed_library_types: <<DirectorsCut>>
-
-  Remastered:
-    default:
-      Remastered: true
-    allowed_library_types: <<Remastered>>
+    regex: <<regex>>
 
 overlays:
-
   DirectorsCut:
     template:
       - name: SpecialRelease
         weight: 80
-      - name: DirectorsCut
-    horizontal_offset: 0
-    horizontal_align: center
-    vertical_offset: 135
-    vertical_align: bottom
-    plex_all: true
-    filters:
-      filepath.regex: '(?i)\[DirectorsCut\]'
-
+        slug: directorscut
+        regex: '(?i)\[DirectorsCut\]'
   Uncut:
     template:
       - name: SpecialRelease
         weight: 70
-      - name: Uncut
-    horizontal_offset: 0
-    horizontal_align: center
-    vertical_offset: 135
-    vertical_align: bottom
-    plex_all: true
-    filters:
-      filepath.regex: '(?i)\[Uncut\]'
-
+        slug: uncut
+        regex: '(?i)\[Uncut\]'
   Extended:
     template:
       - name: SpecialRelease
         weight: 60
-      - name: Extended
-    horizontal_offset: 0
-    horizontal_align: center
-    vertical_offset: 135
-    vertical_align: bottom
-    plex_all: true
-    filters:
-      filepath.regex: '(?i)\[Extended\]'
-
+        slug: extended
+        regex: '(?i)\[Extended\]'
   Remastered:
     template:
       - name: SpecialRelease
         weight: 50
-      - name: Remastered
-    horizontal_offset: 0
-    horizontal_align: center
-    vertical_offset: 135
-    vertical_align: bottom
-    plex_all: true
-    filters:
-      filepath.regex: '(?i)\[Remaster\]'
-
+        slug: remastered
+        regex: '(?i)\[Remaster\]'
   Special:
     template:
       - name: SpecialRelease
         weight: 40
-      - name: Special
-    horizontal_offset: 0
-    horizontal_align: center
-    vertical_offset: 135
-    vertical_align: bottom
-    plex_all: true
-    filters:
-      filepath.regex: '(?i)\[Special\]'
-
-
+        slug: special
+        regex: '(?i)\[Special\]'
   Criterion:
     template:
       - name: SpecialRelease
         weight: 30
-      - name: Criterion
-    plex_all: true
-    filters:
-      filepath.regex:
-        - '(?i)Criterion'
-        - '(?i)\[CC\]'
-
+        slug: criterion
+        regex:
+          - "(?i)Criterion"
+          - '(?i)\[CC\]'
   IMAX-E:
     template:
       - name: SpecialRelease
         weight: 20
-      - name: IMAX-E
-    plex_all: true
-    filters:
-      filepath.regex: '(?i)\[IMAX Enhanced\]'
-
+        slug: imax-e
+        regex: '(?i)\[IMAX Enhanced\]'
   IMAX:
     template:
       - name: SpecialRelease
         weight: 10
-      - name: IMAX
-    plex_all: true
-    filters:
-      filepath.regex: '(?i)\[IMAX\]'
+        slug: imax
+        regex: '(?i)\[IMAX\]'
