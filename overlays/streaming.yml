@@ -53,7 +53,6 @@ templates:
     overlay:
       name: <<overlay_name>>
       repo: overlays/images/<<overlay>>
-      group: streaming
       horizontal_offset: <<horizontal_offset>>
       horizontal_align: <<horizontal_align>>
       vertical_offset: <<vertical_offset>>
