@@ -54,7 +54,6 @@ templates:
       name: <<overlay_name>>
       repo: overlays/images/<<overlay>>
       group: streaming
-      weight: <<weight>>
       horizontal_offset: <<horizontal_offset>>
       horizontal_align: <<horizontal_align>>
       vertical_offset: <<vertical_offset>>
@@ -65,53 +64,44 @@ overlays:
   Netflix:
     template:
       - name: Streaming
-        weight: 200
         slug: netflix
 
   Amazon:
     template:
       - name: Streaming
-        weight: 190
         slug: amazon
 
   Disney:
     template:
       - name: Streaming
-        weight: 180
         slug: disney
 
   HBO-Max:
     template:
       - name: Streaming
-        weight: 170
         slug: hbomax
 
   YouTube:
     template:
       - name: Streaming
-        weight: 160
         slug: youtube
 
   Hulu:
     template:
       - name: Streaming
-        weight: 150
         slug: hulu
 
   Paramount:
     template:
       - name: Streaming
-        weight: 140
         slug: paramount
 
   AppleTV:
     template:
       - name: Streaming
-        weight: 130
         slug: appletv
 
   Peacock:
     template:
       - name: Streaming
-        weight: 120
         slug: peacock
