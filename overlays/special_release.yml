@@ -31,7 +31,6 @@ templates:
       - use_<<slug>>
     default:
       overlay: <<overlay_name>>
-      horizontal_offset: 15
       horizontal_align: left
       vertical_offset: 135
       vertical_align: top
