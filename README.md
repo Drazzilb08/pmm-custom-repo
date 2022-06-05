@@ -17,9 +17,10 @@ Thank you so much to everybody who has made this possible especially Sohjiro for
 
 ---
 Below you can see my current config file. The key notes you should take away from it is each of the collection files are called using the `- repo:` tag this is different from the `- git:` tag that is in the offical PMM config, the reason for this is I'm using a `custom_repo`. Which you can see near the bottom.
----
+
 Note: If you're going to use `chart/myanimelist` then you'll need to fill in all your myanimelist information. Info for this can be fhound [here](https://metamanager.wiki/en/latest/config/myanimelist.html) 
 Most of these lists require mdblist to operate. Fill in your information for this [here](https://metamanager.wiki/en/latest/config/mdblist.html)
+
 **Example:**
 
 ```yaml
