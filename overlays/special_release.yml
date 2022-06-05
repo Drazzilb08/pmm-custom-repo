@@ -41,11 +41,12 @@ templates:
       repo: overlays/images/<<overlay>>
       group: special
       weight: <<weight>>
-      horizontal_offset: <<horizontal_offset>>
       horizontal_align: <<horizontal_align>>
       vertical_offset: <<vertical_offset>>
       vertical_align: <<vertical_align>>
-    regex: <<regex>>
+    plex_all: true
+    filters:
+      filepath.regex: <<regex>>
 
 overlays:
   DirectorsCut:
