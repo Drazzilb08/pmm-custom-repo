@@ -53,6 +53,8 @@ templates:
     overlay:
       name: <<overlay_name>>
       repo: overlays/images/<<overlay>>
+      group: streaming
+      weight: <<weight>>
       horizontal_offset: <<horizontal_offset>>
       horizontal_align: <<horizontal_align>>
       vertical_offset: <<vertical_offset>>
@@ -60,47 +62,57 @@ templates:
     mdblist_list: https://mdblist.com/lists/plexmetamanager/<<slug>>-<<library_type>>s
 
 overlays:
+
   Netflix:
     template:
       - name: Streaming
+        weight: 200
         slug: netflix
 
   Amazon:
     template:
       - name: Streaming
+        weight: 200
         slug: amazon
 
   Disney:
     template:
       - name: Streaming
+        weight: 200
         slug: disney
 
   HBO-Max:
     template:
       - name: Streaming
+        weight: 200
         slug: hbomax
 
   YouTube:
     template:
       - name: Streaming
+        weight: 200
         slug: youtube
 
   Hulu:
     template:
       - name: Streaming
+        weight: 200
         slug: hulu
 
   Paramount:
     template:
       - name: Streaming
+        weight: 200
         slug: paramount
 
   AppleTV:
     template:
       - name: Streaming
+        weight: 200
         slug: appletv
 
   Peacock:
     template:
       - name: Streaming
+        weight: 200
         slug: peacock
