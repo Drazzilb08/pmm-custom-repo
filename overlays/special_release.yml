@@ -1,29 +1,3 @@
-#############################################################
-#                  Special Release Overlay                  #
-#         Created by Yozora, Bullmoose20, & Sohjiro         #
-#            Credit to Magic815 for base images             #
-#############################################################
-#  Designed for TRaSH Guides filename naming scheme         #
-#  https://trash-guides.info/                               #
-#                                                           #
-#  Call this from your config.yml (Movie or Show):          #
-#  If nothing is specified these are the defaults           #
-#                                                           #
-#    overlay_path:                                          #
-#      - repo: overlays/special_release                     #
-#        template_variables:                                #
-#          # Set episode or season to overlay               #
-#          overlay_level:                                   #
-#          # Set the horizontal offset for the overlay      #
-#          horizontal_offset: 15                            #
-#          # Set the horizontal align for the overlay       #
-#          horizontal_align: left                           #
-#          # Set the vertical offset for the overlay        #
-#          vertical_offset: 135                             #
-#          # Set the vertical align for the overlay         #
-#          vertical_align: top                              #
-#############################################################
-
 templates:
   SpecialRelease:
     optional:
