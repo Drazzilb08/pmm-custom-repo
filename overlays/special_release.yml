@@ -15,10 +15,11 @@
 #          # Set episode or season to overlay               #
 #          overlay_level:                                   #
 #          # Set the horizontal offset for the overlay      #
+#          horizontal_offset: 15                            #
 #          # Set the horizontal align for the overlay       #
 #          horizontal_align: left                           #
 #          # Set the vertical offset for the overlay        #
-#          vertical_offset: 15                              #
+#          vertical_offset: 135                             #
 #          # Set the vertical align for the overlay         #
 #          vertical_align: top                              #
 #############################################################
@@ -30,9 +31,6 @@ templates:
       - use_<<slug>>
     default:
       overlay: <<overlay_name>>
-      horizontal_align: left
-      vertical_offset: 15
-      vertical_align: top
     allowed_library_types: <<use_<<slug>>>>
     collection_level: <<overlay_level>>
     overlay:
@@ -40,9 +38,6 @@ templates:
       repo: overlays/images/<<overlay>>
       group: special
       weight: <<weight>>
-      horizontal_align: <<horizontal_align>>
-      vertical_offset: <<vertical_offset>>
-      vertical_align: <<vertical_align>>
     plex_all: true
     filters:
       filepath.regex: <<regex>>
