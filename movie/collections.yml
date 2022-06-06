@@ -1151,9 +1151,9 @@ collections:
       collection: 404825
       name: kids-collection
   Alfred Hitchcock:
+    collection_mode: hide
     template:
       name: collection
-      collection_mode: hide
       movie:
         - 571
         - 223
