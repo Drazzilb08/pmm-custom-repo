@@ -1151,6 +1151,7 @@ collections:
   Alfred Hitchcock:
     template:
       name: collection
+      collection_mode: hide
       movie:
         - 571
         - 223
