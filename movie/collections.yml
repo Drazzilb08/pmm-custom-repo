@@ -1221,7 +1221,7 @@ collections:
   "Star Wars: Stories":
     template:
       name: collection
-      movie: "348350 , 330459"
+      movie: "348350, 330459"
     summary: A collection of Star Wars stories, outside of the Skywalker Saga
     collection_order: release
   "Star Wars: The Original Trilogy":
@@ -1278,4 +1278,56 @@ collections:
     template:
       name: collection
       collection: 453993
-
+  Scooby-Doo (Animated) Collection:
+    template:
+       name: kids-collection
+       movie:
+        - 843906
+        - 682254
+        - 615774
+        - 560066
+        - 533592
+        - 484862
+        - 427564
+        - 409122
+        - 347688
+        - 340884
+        - 302960
+        - 284995
+        - 297102
+        - 258893
+        - 314387
+        - 203696
+        - 151535
+        - 119321
+        - 245881
+        - 81900
+        - 67900
+        - 45752
+        - 32916
+        - 16390
+        - 13354
+        - 13355
+        - 20558
+        - 24615
+        - 12902
+        - 21956
+        - 30074
+        - 511301
+        - 287757
+        - 15601
+        - 20410
+        - 17681
+        - 423336
+        - 13151
+        - 13351
+        - 37211
+        - 13350
+        - 24787
+        - 48919
+        - 36972
+        - 721656
+        - 210769
+        - 12903
+        - 286387
+        - 284908
