@@ -97,6 +97,13 @@ collections:
       - name: shared
       - name: customsync
     summary: The main purpose of the comedy genre is…you got it…to make you laugh! If it fails to make you laugh or at least make you giggle, then it’s a failure. But then again, humor can depend on your personal sense of humor. The animation may not be as impressive as TV shows in the action and drama category, but that can be forgiven for the laughs. Funny moments, hilarious scenes, wacky dialogue, comical happenings—all of these are covered by the comedy genre in anime!
+  Cute Girls Doing Cute Things:
+    template:
+      - name: anime_genre
+        genre_id: 52
+      - name: shared
+      - name: customsync
+    summary: Anime with a cast of all/mostly girls just having fun. Typically school life and/or slice of life.
   Delinquents:
     template:
       - name: anime_genre
@@ -385,3 +392,101 @@ collections:
       - name: shared
       - name: customsync
     summary: As vampires have become so popular throughout the world, it’s no shock that they’ve also infested the world of anime. There are lots of titles now featuring vampires and they’re not just exclusive to the horror category. They’ve also manifested themselves into other categories such as comedy, romance, and drama.
+  Combat Sports:
+    template:
+      - name: anime_genre
+        genre_id: 54
+      - name: shared
+      - name: customsync
+    summary: Individual sports which involve one-on-one physical confrontations. This theme includes sports such as boxing, wrestling, karate, judo etc. Since Combat Sports is a theme within the Sports genre, these stories must have matches held in a competitive or organized setting.
+  Crossdressing:
+    template:
+      - name: anime_genre
+        genre_id: 81
+      - name: shared
+      - name: customsync
+    summary: One or more main characters in these stories identify as their biological sex, but routinely dress in a way that results in them being mistaken for the opposite sex. Since the act of crossdressing must be a central theme, often the main character is trying to hide their identity or achieve some goal. If the character simply enjoys crossdressing, the narrative should be focused on how the important people in the character's life react to or come to accept it.
+  Educational:
+    template:
+      - name: anime_genre
+        genre_id: 56
+      - name: shared
+      - name: customsync
+    summary: These anime aim to inform you about a real world subject. Whether scientific, historical, cultural, social, or practical knowledge useful towards mastering a skill, facts are provided on a given set of topics throughout the story.
+  Idols Female:
+    template:
+      - name: anime_genre
+        genre_id: 60
+      - name: shared
+      - name: customsync
+    summary: Idols are heavily promoted multimedia stars. In Japan, they are adored by the masses and frequently perform at concerts or events; however, the idol industry is both competitive and harsh, and many involved have short-lived careers. These characters are idols in training, or are already involved in Showbiz.
+  Idols Male:
+    template:
+      - name: anime_genre
+        genre_id: 61
+      - name: shared
+      - name: customsync
+    summary: Idols are heavily promoted multimedia stars. In Japan, they are adored by the masses and frequently perform at concerts or events; however, the idol industry is both competitive and harsh, and many involved have short-lived careers. These characters are idols in training, or are already involved in Showbiz.
+  Josei:
+    template:
+      - name: anime_genre
+        genre_id: 43
+      - name: shared
+      - name: customsync
+    summary: Josei (女性), translated as "woman", is a demographic aimed at women from late teens through adulthood. These titles tend to be more mature, often focusing on realistic situations such as work life or romance. Josei is the counterpart of Seinen, a demographic aimed at older teens and men.
+  Kids:
+    template:
+      - name: anime_genre
+        genre_id: 15
+      - name: shared
+      - name: customsync
+    summary: Kids anime
+  Love Polygon:
+    template:
+      - name: anime_genre
+        genre_id: 64
+      - name: shared
+      - name: customsync
+    summary: A love triangle is a set of interconnected romantic relationships between three people. These anime focus on the trials and tribulations of characters who may at first be in love, uninterested, or completely oblivious, as they untangle their feelings, make their choices, and try to win the heart of their beloved. More complex sets of relationships involving more than three people, sometimes called love polygons, may also be included.
+  Magical Sex Shift:
+    template:
+      - name: anime_genre
+        genre_id: 65
+      - name: shared
+      - name: customsync
+    summary: One or more main characters in these stories identify as their biological sex, but their body is suddenly changed to the opposite sex through magical means. This Magical Sex Switch may be temporary, irreversible, or allow the character to change back and forth between the two. Since the character's original identity is not lost, coming to terms with the magical sex switch or finding a method to change back should play a central role in the plot.
+  Organized Crime:
+    template:
+      - name: anime_genre
+        genre_id: 68
+      - name: shared
+      - name: customsync
+    summary: Crime fiction is a genre that focuses on the planning, execution or solving of a crime. These anime typically focus on the investigation of a crime, and often include a cat-and-mouse chase between the perpetrator and the ones trying to catch them. The crime at the center of the story is traditionally a murder, though fraud, theft, money laundering, and complex criminal schemes can also be involved.
+  Otaku Culture:
+    template:
+      - name: anime_genre
+        genre_id: 69
+      - name: shared
+      - name: customsync
+    summary: Otaku is a term in used in modern Japan to refer to people with obsessive interests. Outside of Japan, it specifically denotes people who have a heavy interest in anime, manga, and other Japanese culture or entertainment. Otaku Culture themed stories have a plot which is related to the hobbies or occupation of a main cast who are heavily involved in anime-related media. Characters could be creating anime or manga (professionally or casually with friends), attending conventions or idol concerts, dressing up in cosplay, etc.
+  Performing Arts:
+    template:
+      - name: anime_genre
+        genre_id: 70
+      - name: shared
+      - name: customsync
+    summary: The main cast of these stories practice and perform live while using their body movements and/or voice as a form of artistic expression. Performing Arts are meant to capture attention with artistic beauty and deliver an unspoken message which evokes emotion in the audience. Often, characters will discuss the meanings behind classical sequences by renowned creators, or will strive to create their own.
+  Reincarnation:
+    template:
+      - name: anime_genre
+        genre_id: 72
+      - name: shared
+      - name: customsync
+    summary: Reincarnation is the concept that a person's essence continues after their body dies, and may be reborn into a new one after their lifetime. These anime focus on the theme of reincarnation, featuring characters who either have been reborn into a new life-cycle, or may be carrying the spirits of past lives as well as having their own personality.
+  Seinen:
+    template:
+      - name: anime_genre
+        genre_id: 42
+      - name: shared
+      - name: customsync
+    summary: Seinen (青年), translated as "youth", is a demographic aimed at men from late teens to adulthood who understand kanji. Seinen manga rarely include furigana with kanji, and have a wide variety of topics and themes. Seinen is the counterpart of Josei, a demographic aimed at women.
