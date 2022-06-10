@@ -120,7 +120,7 @@ collections:
       - name: shared
       - name: multi-franchise
         image: View Askewniverse
-    imdb_list: https://trakt.tv/users/drazzilb/lists/view-askewniverse
+    trakt_list: https://trakt.tv/users/drazzilb/lists/view-askewniverse
   Spiderverse:
     template: 
       - name: shared
