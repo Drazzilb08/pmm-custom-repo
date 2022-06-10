@@ -103,3 +103,27 @@ collections:
       - name: multi-franchise
         image: The Mummy
     trakt_list: https://trakt.tv/users/rzepkowski/lists/the-mummy-movies
+  The Conjuring Universe:
+    template:
+      - name: shared
+      - name: multi-franchise
+        image: The Conjuring
+    imdb_list: hhttps://www.imdb.com/list/ls068768438/
+  In Association With Marvel:
+    template: 
+      - name: shared
+      - name: multi-franchise
+        image: In Association With Marvel
+    imdb_list: https://www.imdb.com/list/ls538850776/
+  View Askewniverse:
+    template: 
+      - name: shared
+      - name: multi-franchise
+        image: View Askewniverse
+    imdb_list: https://www.imdb.com/list/ls025086192/
+  Spiderverse:
+    template: 
+      - name: shared
+      - name: multi-franchise
+        image: Spiderverse
+    imdb_list: https://www.imdb.com/list/ls049852613/
