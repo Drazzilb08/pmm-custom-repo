@@ -1299,7 +1299,7 @@ collections:
   "The Fugitive: U.S. Marshals Collection":
     template:
       name: collection
-      colleciton: 721111
+      collection: 721111
   Stargate Collection: 
     template: 
       name: collection

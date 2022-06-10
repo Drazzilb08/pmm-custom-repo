@@ -108,7 +108,7 @@ collections:
       - name: shared
       - name: multi-franchise
         image: The Conjuring
-    imdb_list: hhttps://www.imdb.com/list/ls068768438/
+    imdb_list: https://www.imdb.com/list/ls068768438/
   In Association With Marvel:
     template: 
       - name: shared
