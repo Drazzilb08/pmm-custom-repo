@@ -103,6 +103,7 @@ collections:
       - name: multi-franchise
         image: The Mummy
     mdblist_list: https://mdblist.com/lists/drazzilb/the-mummy-universe
+    summary: The Mummy is a horror-adventure media franchise based on films by Universal Pictures about a mummified ancient Egyptian priest who is accidentally resurrected, bringing with him a powerful curse, and the ensuing efforts of heroic archaeologists to stop him.
   The Conjuring Universe:
     template:
       - name: shared
@@ -133,7 +134,7 @@ collections:
       - name: multi-franchise
         image: Batman Universe
     mdblist_list: https://mdblist.com/lists/drazzilb/batman-universe
-  In Association with DC:
+  In Association With DC:
     template: 
       - name: shared
       - name: multi-franchise
