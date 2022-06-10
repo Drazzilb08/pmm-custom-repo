@@ -47,7 +47,7 @@ collections:
       - name: multi-franchise
         image: DC Animated Universe
     trakt_list: https://trakt.tv/users/donxy/lists/dc-animated-movie-universe
-  DC Extended Universe:
+  Worlds of DC (DCEU):
     template:
       - name: shared
       - name: multi-franchise
@@ -127,3 +127,15 @@ collections:
       - name: multi-franchise
         image: Spiderverse
     imdb_list: https://www.imdb.com/list/ls049852613/
+  Batman Universe:
+    template: 
+      - name: shared
+      - name: multi-franchise
+        image: Batman Universe
+    trakt_list: https://trakt.tv/users/rzepkowski/lists/batman-movies
+  In Association with DC:
+    template: 
+      - name: shared
+      - name: multi-franchise
+        image: In Association With DC
+    trakt_list: https://trakt.tv/users/drazzilb/lists/in-association-with-dc
