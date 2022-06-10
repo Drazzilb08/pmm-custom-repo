@@ -55,6 +55,20 @@ dynamic_collections:
       - 846090
       - 920666
       - 535313
+      - 493668
+      - 979545
+      - 876125
+      - 1575
+      - 869205
+      - 762458
+      - 404770
+      - 944437
+      - 575987
+      - 119
+      - 911352
+      - 115776
+      - 4438
+      - 299748
     template: auto_collections
 collections:
   101 Dalmatians (Animated) Collection:
@@ -1278,6 +1292,32 @@ collections:
     template:
       name: collection
       collection: 453993
+  "Family Guy Trilogy Collection: Laugh It Up, Fuzzball!": 
+    template:
+      name: collection
+      collection: 701402
+  "The Fugitive: U.S. Marshals Collection":
+    template:
+      name: collection
+      colleciton: 721111
+  Stargate Collection: 
+    template: 
+      name: collection
+      collection: 44215
+      movie:
+        - 2164
+  Millennium collection:
+    template:
+      name: collection
+      collection: 575987
+  Walking Tall Collection:
+    template:
+      name: collection
+      collection: 299748
+      movie:
+        - 25473
+        - 72455
+        - 86651
   Scooby-Doo (Animated) Collection:
     template:
        name: kids-collection
