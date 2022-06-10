@@ -95,47 +95,47 @@ collections:
       - name: shared
       - name: multi-franchise
         image: Rocky Creed
-    trakt_list: https://trakt.tv/users/strangerer/lists/rocky
+    mdblist_list: https://mdblist.com/lists/drazzilb/rocky-creed
     name_mapping: Rocky Creed
   The Mummy Universe:
     template:
       - name: shared
       - name: multi-franchise
         image: The Mummy
-    trakt_list: https://trakt.tv/users/rzepkowski/lists/the-mummy-movies
+    mdblist_list: https://mdblist.com/lists/drazzilb/the-mummy-universe
   The Conjuring Universe:
     template:
       - name: shared
       - name: multi-franchise
         image: The Conjuring
-    imdb_list: https://www.imdb.com/list/ls068768438/
+    mdblist_list: https://mdblist.com/lists/drazzilb/the-conjuring-universe
   In Association With Marvel:
     template: 
       - name: shared
       - name: multi-franchise
         image: In Association With Marvel
-    imdb_list: https://www.imdb.com/list/ls538850776/
+    mdblist_list: https://mdblist.com/lists/drazzilb/in-association-with-marvel
   View Askewniverse:
     template: 
       - name: shared
       - name: multi-franchise
         image: View Askewniverse
-    trakt_list: https://trakt.tv/users/drazzilb/lists/view-askewniverse
+    mdblist_list: https://mdblist.com/lists/drazzilb/view-askewniverse
   Spiderverse:
     template: 
       - name: shared
       - name: multi-franchise
         image: Spiderverse
-    imdb_list: https://www.imdb.com/list/ls049852613/
+    mdblist_list: https://mdblist.com/lists/drazzilb/spiderverse
   Batman Universe:
     template: 
       - name: shared
       - name: multi-franchise
         image: Batman Universe
-    trakt_list: https://trakt.tv/users/rzepkowski/lists/batman-movies
+    mdblist_list: https://mdblist.com/lists/drazzilb/batman-universe
   In Association with DC:
     template: 
       - name: shared
       - name: multi-franchise
         image: In Association With DC
-    trakt_list: https://trakt.tv/users/drazzilb/lists/in-association-with-dc
+    mdblist_list: https://mdblist.com/lists/drazzilb/in-association-with-dc
