@@ -738,12 +738,6 @@ collections:
     template:
       collection: 837216
       name: kids-collection
-  Rocky/Creed Collection:
-    template:
-      collection:
-        - 1575
-        - 553717
-      name: collection
   Rugrats Collection:
     template:
       collection: 57129
@@ -1306,7 +1300,7 @@ collections:
       collection: 44215
       movie:
         - 2164
-  Millennium collection:
+  Millennium Collection:
     template:
       name: collection
       collection: 575987
