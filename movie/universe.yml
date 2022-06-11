@@ -1,9 +1,14 @@
 #############################################################
 #                   Universe Collections                    #
 #     Created by Yozora, Bullmoose20, Sohjiro & Drazzilb    #
+#                                                           #
+# Note: Some lists were kept with outside builders as I     #
+# felt it would be kept more up to date by somebody more    #
+# Knowledgable about the subject/time to keep up to date    #
 #############################################################
-#  REQUIRES TRAKT AUTHENTICATION                            #
+#  REQUIRES TRAKT/MDBList AUTHENTICATION                    #
 #  https://metamanager.wiki/en/latest/config/trakt.html     #
+#  https://metamanager.wiki/en/latest/config/mdblist.html   #
 #                                                           #
 #  Call this from your config.yml (Movie only)              #
 #  If nothing is specified these are the defaults           #
@@ -35,12 +40,6 @@ collections:
     template:
       - name: separator
         separator: universe
-  Star Wars Universe:
-    template:
-      - name: shared
-      - name: multi-franchise
-        image: Star Wars
-    mdblist_list: https://mdblist.com/lists/drazzilb/star-wars-universe
   DC Animated Universe:
     template:
       - name: shared
@@ -60,36 +59,42 @@ collections:
       - name: multi-franchise
         image: Marvel Cinematic Universe
     trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
+  Star Wars Universe:
+    template:
+      - name: shared
+      - name: multi-franchise
+        image: Star Wars
+    mdblist_list: https://mdblist.com/lists/drazzilb/star-wars-universe
   Wizarding World:
     template:
       - name: shared
       - name: multi-franchise
         image: Wizarding World
-    trakt_list: https://trakt.tv/users/strangerer/lists/harry-potter
+    mdblist_list: https://mdblist.com/lists/drazzilb/wizarding-world
   X-Men Universe:
     template:
       - name: shared
       - name: multi-franchise
         image: X-Men
-    trakt_list: https://trakt.tv/users/donxy/lists/x-men-universe
+    mdblist_list: https://mdblist.com/lists/drazzilb/x-men-universe
   Middle Earth:
     template:
       - name: shared
       - name: multi-franchise
         image: Middle Earth
-    trakt_list: https://trakt.tv/users/dybro/lists/lord-of-the-rings
+    mdblist_list: https://mdblist.com/lists/drazzilb/middle-earth-universe
   Fast & Furious:
     template:
       - name: shared
       - name: multi-franchise
         image: Fast & Furious
-    trakt_list: https://trakt.tv/users/vargajoe/lists/fast-and-furious-chronology
+    mdblist_list: https://mdblist.com/lists/drazzilb/star-trek-universe
   Star Trek:
     template:
       - name: shared
       - name: multi-franchise
         image: Star Trek
-    trakt_list: https://trakt.tv/users/arachn0id/lists/star-trek-movies
+    mdblist_list: https://mdblist.com/lists/drazzilb/star-trek-universe
   Rocky / Creed:
     template:
       - name: shared
