@@ -78,6 +78,7 @@ dynamic_collections:
       - 299748
       - 721111
       - 44215
+      - 978459
     template: auto_collections
 collections:
   101 Dalmatians (Animated) Collection:
@@ -294,7 +295,7 @@ collections:
         - 153609
         - 11970
       name: kids-collection
-      summary: A collection of Disney movies and/or shows portraying the story of Hercules, son of the Greek God Zeus.
+    summary: A collection of Disney movies and/or shows portraying the story of Hercules, son of the Greek God Zeus.
   Eastrail 177 Collection:
     template:
       movie:
@@ -438,6 +439,7 @@ collections:
         - 49049
         - 9482
       name: collection
+    summary: Movies based on the 2000 AD comic strip Judge Dredd and its eponymous character created by John Wagner and Carlos Ezquerra. Judge Dredd is a law enforcement and judicial officer in the dystopian future city of Mega-City One, which covers most of the east coast of North America. He is a "street judge", empowered to summarily arrest, convict, sentence, and execute criminals.
   Jumanji Collection:
     template:
       collection: 495527
@@ -808,7 +810,7 @@ collections:
     template:
       collection: 806483
       name: kids-collection
-  SpongeBob SquarePants Collection:
+  SpongeBob Collection:
     template:
       movie:
         - 11836

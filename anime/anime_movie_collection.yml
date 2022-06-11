@@ -1,4 +1,13 @@
 templates:
+  collection:
+    collection_mode: hide_items
+    collection_order: release
+    optional:
+      - collection
+      - movie
+    sync_mode: sync
+    tmdb_collection_details: <<collection>>
+    tmdb_movie: <<movie>>
   auto_collections:
     minimum_items: 2
     tmdb_collection_details: <<value>>
@@ -9,3 +18,25 @@ dynamic_collections:
   auto_tmdb_collections:
     template: auto_collections
     type: tmdb_collection
+    exclude: 
+      - 96850
+      - 703485
+collection:
+  Neon Genesis Evangelion Collection:
+    template: 
+      name: collection
+      movie:
+        - 857862
+        - 21832
+        - 18491
+        - 54270
+  Ghost in the Shell (Animated) collection: 
+    template:
+      name: collection
+      collection: 23026
+      movie:
+        - 965244
+  The Seven Deadly Sins collection:
+    template:
+      name: collection
+      collection: 703485
