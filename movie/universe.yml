@@ -115,7 +115,7 @@ collections:
       - name: multi-franchise
         image: The Conjuring
     mdblist_list: https://mdblist.com/lists/drazzilb/the-conjuring-universe
-  In Association with Marvel:
+  In Association With Marvel:
     template:
       - name: shared
       - name: multi-franchise
@@ -139,7 +139,7 @@ collections:
       - name: multi-franchise
         image: Batman Universe
     mdblist_list: https://mdblist.com/lists/drazzilb/batman-universe
-  In Association with DC:
+  In Association With DC:
     template:
       - name: shared
       - name: multi-franchise
