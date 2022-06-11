@@ -8,6 +8,13 @@ templates:
     sync_mode: sync
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
+  mixed-collection:
+    optional:
+      - collection
+      - movie
+    sync_mode: sync
+    tmdb_collection_details: <<collection>>
+    tmdb_movie: <<movie>>
   kids-collection:
     collection_mode: hide_items
     collection_order: release
@@ -139,6 +146,7 @@ collections:
       movie:
         - 473072
         - 475759
+        - 475946
       name: collection
   Bolt Collection:
     template:
@@ -1164,7 +1172,7 @@ collections:
     collection_mode: hide
     smart_label: release.desc
     template:
-      name: collection
+      name: mixed-collection
       movie:
         - 571
         - 223
