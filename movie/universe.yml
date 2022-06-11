@@ -40,7 +40,7 @@ collections:
       - name: shared
       - name: multi-franchise
         image: Star Wars
-    trakt_list: https://trakt.tv/users/zorge88/lists/star-wars
+    mdblist_list: https://mdblist.com/lists/drazzilb/star-wars-universe
   DC Animated Universe:
     template:
       - name: shared
