@@ -88,7 +88,7 @@ collections:
       - name: shared
       - name: multi-franchise
         image: Fast & Furious
-    mdblist_list: https://mdblist.com/lists/drazzilb/star-trek-universe
+    mdblist_list: https://mdblist.com/lists/drazzilb/fast-and-furious-universe/
   Star Trek:
     template:
       - name: shared
