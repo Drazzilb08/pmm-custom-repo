@@ -36,8 +36,6 @@ collection:
     template:
       name: collection
       collection: 23026
-      movie:
-        - 965244
   The Seven Deadly Sins collection:
     template:
       name: collection
