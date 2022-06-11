@@ -31,6 +31,7 @@ collection:
         - 21832
         - 18491
         - 54270
+        - 34055
   Ghost in the Shell (Animated) collection: 
     template:
       name: collection
@@ -42,9 +43,13 @@ collection:
       name: collection
       collection: 703485
   Dragon Ball Z collection:
-    templates:
+    template:
       name: collection
       collection: 425164
       movie:
         - 39323
         - 39324
+  Pokémon collection:
+    template:
+      name: collection
+      collection: 34055
