@@ -4,6 +4,10 @@
 #############################################################
 #  Call this from your config.yml (Movie or Show)           #
 #  If nothing is specified these are the defaults           #
+#############################################################
+#           Requires MyAnimeList Authentication             #
+# https://metamanager.wiki/en/latest/config/myanimelist.html#
+#############################################################
 #                                                           #
 #    metadata_path:                                         #
 #      - repo: chart/anilist                                #
