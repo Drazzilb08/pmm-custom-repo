@@ -21,6 +21,7 @@ dynamic_collections:
     exclude: 
       - 96850
       - 703485
+      - 425164
 collection:
   Neon Genesis Evangelion Collection:
     template: 
@@ -40,3 +41,10 @@ collection:
     template:
       name: collection
       collection: 703485
+  Dragon Ball Z collection:
+    templates:
+      name: collection
+      collection: 425164
+      movie:
+        - 39323
+        - 39324
