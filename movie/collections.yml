@@ -70,6 +70,7 @@ dynamic_collections:
       - 4438
       - 299748
       - 721111
+      - 44215
     template: auto_collections
 collections:
   101 Dalmatians (Animated) Collection:
@@ -1161,6 +1162,7 @@ collections:
       name: kids-collection
   Alfred Hitchcock:
     collection_mode: hide
+    smart_label: release.desc
     template:
       name: collection
       movie:
