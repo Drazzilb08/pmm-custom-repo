@@ -116,31 +116,31 @@ collections:
         image: The Conjuring
     mdblist_list: https://mdblist.com/lists/drazzilb/the-conjuring-universe
   In Association with Marvel:
-    template: 
+    template:
       - name: shared
       - name: multi-franchise
         image: In Association with Marvel
     mdblist_list: https://mdblist.com/lists/drazzilb/in-association-with-marvel
   View Askewniverse:
-    template: 
+    template:
       - name: shared
       - name: multi-franchise
         image: View Askewniverse
     mdblist_list: https://mdblist.com/lists/drazzilb/view-askewniverse
   Spiderverse:
-    template: 
+    template:
       - name: shared
       - name: multi-franchise
         image: Spiderverse
     mdblist_list: https://mdblist.com/lists/drazzilb/spiderverse
   Batman Universe:
-    template: 
+    template:
       - name: shared
       - name: multi-franchise
         image: Batman Universe
     mdblist_list: https://mdblist.com/lists/drazzilb/batman-universe
   In Association with DC:
-    template: 
+    template:
       - name: shared
       - name: multi-franchise
         image: In Association with DC
