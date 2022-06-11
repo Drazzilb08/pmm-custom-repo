@@ -22,7 +22,7 @@ dynamic_collections:
       - 96850
       - 703485
       - 425164
-collection:
+collections:
   Neon Genesis Evangelion Collection:
     template: 
       name: collection
@@ -40,7 +40,7 @@ collection:
     template:
       name: collection
       collection: 703485
-  Dragon Ball Z collection:
+  Dragon Ball Z Collection:
     template:
       name: collection
       collection: 425164
