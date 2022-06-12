@@ -32,11 +32,11 @@ collections:
         - 18491
         - 54270
         - 34055
-  Ghost in the Shell (Animated) collection: 
+  Ghost in the Shell (Animated) Collection: 
     template:
       name: collection
       collection: 23026
-  The Seven Deadly Sins collection:
+  The Seven Deadly Sins Collection:
     template:
       name: collection
       collection: 703485
@@ -47,7 +47,7 @@ collections:
       movie:
         - 39323
         - 39324
-  Pokémon collection:
+  Pokémon Collection:
     template:
       name: collection
       collection: 34055
