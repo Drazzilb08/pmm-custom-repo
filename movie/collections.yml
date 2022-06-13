@@ -1325,6 +1325,14 @@ collections:
         - 25473
         - 72455
         - 86651
+  Cloverfield:
+    template:
+      name: collection
+      movie:
+        - 7191
+        - 333371
+        - 384521
+        - 706643
   Scooby-Doo (Animated) Collection:
     template:
        name: kids-collection
