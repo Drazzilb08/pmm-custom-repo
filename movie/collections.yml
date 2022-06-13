@@ -56,6 +56,7 @@ dynamic_collections:
       - 334996
       - 633815
       - 10453
+      - 363015
       - 261590
       - 702342
       - 256287
@@ -273,7 +274,7 @@ collections:
     template:
       collection: 466463
       movie:
-        - 805411
+        - 805411pe
         - 551298
       name: collection
   Despicable Me Collection:
@@ -288,7 +289,7 @@ collections:
         - 229408
         - 484809
       name: kids-collection
-  Disney's Hercules Collection:
+  Hercules (Disney) Collection:
     template:
       content_rating: G
       movie:
@@ -394,6 +395,8 @@ collections:
         - 47626
         - 79379
         - 298115
+        - 638507
+        - 654571
       name: kids-collection
   I am Legend Collection:
     template:
@@ -1170,6 +1173,11 @@ collections:
     template:
       collection: 404825
       name: kids-collection
+  Peter Rabbit Collection:
+    template:
+      name: collection
+      collection: 595693
+      movie: 521353
   Alfred Hitchcock:
     collection_mode: hide
     smart_label: release.desc
@@ -1333,6 +1341,26 @@ collections:
         - 333371
         - 384521
         - 706643
+  Coco Collection:
+    template:
+      name: kids-collection
+      movie:
+        - 354912
+        - 449621
+  MonsterVerse collection:
+    template:
+      name: collection
+      movie: 
+        - 124905
+        - 399566
+        - 373571
+        - 293167
+  Moana Collection:
+    templates:
+      name: kids-collection
+      movie:
+        - 277834
+        - 444341
   Scooby-Doo (Animated) Collection:
     template:
        name: kids-collection
