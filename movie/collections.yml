@@ -1307,7 +1307,7 @@ collections:
     template:
       name: collection
       collection: 453993
-  "Family Guy Trilogy Collection: Laugh It Up, Fuzzball!": 
+  "Family Guy Trilogy Collection: Laugh It Up, Fuzzball!":
     template:
       name: collection
       collection: 701402
@@ -1315,8 +1315,8 @@ collections:
     template:
       name: collection
       collection: 721111
-  Stargate Collection: 
-    template: 
+  Stargate Collection:
+    template:
       name: collection
       collection: 44215
       movie:
@@ -1350,21 +1350,21 @@ collections:
   MonsterVerse collection:
     template:
       name: collection
-      movie: 
+      movie:
         - 124905
         - 399566
         - 373571
         - 293167
   Moana Collection:
-    templates:
+    template:
       name: kids-collection
       movie:
         - 277834
         - 444341
   Scooby-Doo (Animated) Collection:
     template:
-       name: kids-collection
-       movie:
+      name: kids-collection
+      movie:
         - 843906
         - 682254
         - 615774
