@@ -107,7 +107,7 @@ collections:
 
   Trending Movies:
     mdblist_list: https://mdblist.com/lists/drazzilb/trending-movies-top-20
-    summary: Trending movies from Traktlisting by release date.
+    summary: Trending movies from the internet listing from release date.
     template:
       - name: chart
       - name: chart_shared
