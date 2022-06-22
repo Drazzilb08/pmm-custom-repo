@@ -116,7 +116,7 @@ collections:
 
   Internet's Most Popular:
     mdblist_list: https://mdblist.com/lists/drazzilb/top-200-movies
-    summary: The internet's most popular movies from the last 10 years sorted by score.
+    summary: The internet's most popular movies from the last 10 years sorted by release date.
     template:
       - name: chart
       - name: chart_shared
