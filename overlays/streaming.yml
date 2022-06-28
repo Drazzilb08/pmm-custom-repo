@@ -7,7 +7,7 @@
 #  If nothing is specified these are the defaults           #
 #                                                           #
 #    overlay_path:                                          #
-#      - git: overlays/streaming                            #
+#      - repo: overlays/streaming                           #
 #        template_variables:                                #
 #          # Set the horizontal offset for the overlay      #
 #          horizontal_offset: 15                            #
@@ -47,8 +47,8 @@ templates:
       overlay: <<overlay_name>>
       horizontal_offset: 15
       horizontal_align: left
-      vertical_offset: 135
-      vertical_align: top
+      vertical_offset: 150
+      vertical_align: bottom
     allowed_library_types: <<use_<<slug>>>>
     overlay:
       name: <<overlay_name>>
@@ -59,6 +59,10 @@ templates:
       horizontal_align: <<horizontal_align>>
       vertical_offset: <<vertical_offset>>
       vertical_align: <<vertical_align>>
+      back_color: "#00000099"
+      back_radius: 30
+      back_width: 305
+      back_height: 105
     mdblist_list: https://mdblist.com/lists/plexmetamanager/<<slug>>-<<library_type>>s
 
 overlays:
