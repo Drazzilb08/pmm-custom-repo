@@ -10,7 +10,7 @@
 #  If nothing is specified these are the defaults           #
 #                                                           #
 #    overlay_path:                                          #
-#      - git: PMM/overlays/special_release                  #
+#      - repo: overlays/special_release                     #
 #        template_variables:                                #
 #          # Set episode or season to overlay               #
 #          overlay_level:                                   #
