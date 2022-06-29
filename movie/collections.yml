@@ -254,6 +254,7 @@ collections:
         - 4638
         - 107985
       name: collection
+    summary: The Three Flavours Cornetto trilogy is an anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. 
   Curious George Collection:
     template:
       collection: 55428
