@@ -35,6 +35,7 @@ dynamic_collections:
   auto_tmdb_collections:
     type: tmdb_collection
     exclude:
+      - 993048
       - 933959
       - 9485
       - 34055
