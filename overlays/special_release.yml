@@ -10,7 +10,6 @@
 #  If nothing is specified these are the defaults           #
 #                                                           #
 #    overlay_path:                                          #
-#      - repo: overlays/special_release                     #
 #        template_variables:                                #
 #          # Set episode or season to overlay               #
 #          overlay_level:                                   #
@@ -39,6 +38,8 @@
 #          use_remastered: true                             #
 #          # Use the Special overlay                        #
 #          use_special: true                                #
+#          # Use the Final Cut overlay                      #
+#          use_finalcut: true                               #
 #############################################################
 
 templates:
@@ -65,6 +66,7 @@ templates:
       vertical_align: <<vertical_align>>
 
 overlays:
+
   Directors-Cut:
     template:
       - name: SpecialRelease
@@ -73,24 +75,6 @@ overlays:
     plex_all: true
     filters:
       filepath.regex: '(?i)\bDirector|Directors\b'
-
-  Uncut-Edition:
-    template:
-      - name: SpecialRelease
-        weight: 70
-        slug: uncut
-    plex_all: true
-    filters:
-      filepath.regex: '(?i)\bUncut\b'
-
-  Unrated-Edition:
-    template:
-      - name: SpecialRelease
-        weight: 60
-        slug: unrated
-    plex_all: true
-    filters:
-      filepath.regex: '(?i)\bUnrated\b'
 
   Extended-Edition:
     template:
@@ -101,14 +85,24 @@ overlays:
     filters:
       filepath.regex: '(?i)\bExtended\b'
 
-  Remastered:
+  Uncut-Edition:
     template:
       - name: SpecialRelease
-        weight: 10
-        slug: remastered
+        weight: 70
+        slug: uncut
     plex_all: true
     filters:
-      filepath.regex: '(?i)\bRemaster\b'
+      filepath.regex: '(?i)\bUncut\b'
+
+
+  Unrated-Edition:
+    template:
+      - name: SpecialRelease
+        weight: 60
+        slug: unrated
+    plex_all: true
+    filters:
+      filepath.regex: '(?i)\bUnrated\b'
 
   Special-Edition:
     template:
@@ -118,17 +112,6 @@ overlays:
     plex_all: true
     filters:
       filepath.regex: '(?i)\bSpecial\b'
-
-  Criterion:
-    template:
-      - name: SpecialRelease
-        weight: 20
-        slug: criterion
-    plex_all: true
-    filters:
-      filepath.regex:
-        - "(?i)Criterion"
-        - '(?i)\[CC\]'
 
   IMAX-E:
     template:
@@ -147,3 +130,32 @@ overlays:
     plex_all: true
     filters:
       filepath.regex: '(?i)\bIMAX\b'
+
+  Criterion:
+    template:
+      - name: SpecialRelease
+        weight: 20
+        slug: criterion
+    plex_all: true
+    filters:
+      filepath.regex:
+        - '(?i)Criterion'
+        - '(?i)\[CC\]'
+
+  Final-Cut:
+    template:
+      - name: SpecialRelease
+        weight: 15
+        slug: finalcut
+    plex_all: true
+    filters:
+      filepath.regex: '(?i)\bFinal Cut\b'
+
+  Remastered:
+    template:
+      - name: SpecialRelease
+        weight: 10
+        slug: remastered
+    plex_all: true
+    filters:
+      filepath.regex: '(?i)\bRemaster\b'
