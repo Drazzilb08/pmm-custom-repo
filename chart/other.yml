@@ -119,6 +119,7 @@ collections:
     summary: The internet's most popular movies from the last 10 years sorted by release date.
     template:
       - name: customsync
+      - name: chart_shared
         key: popular_movies
         check_library: movie
 
@@ -136,6 +137,7 @@ collections:
     summary: Most popular Trakt Popular shows plus mdblist's popular list released in the past 10 years sorted by audiance score.
     template:
       - name: customsync
+      - name: chart_shared
         key: popular_series
         check_library: show
 
