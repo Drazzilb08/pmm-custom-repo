@@ -117,7 +117,6 @@ collections:
   Internet's Most Popular:
     mdblist_list: https://mdblist.com/lists/drazzilb/top-200-movies
     summary: The internet's most popular movies from the last 10 years sorted by release date.
-    smart_label: audience_rating.desc
     template:
       - name: customsync
         key: popular_movies
@@ -135,7 +134,6 @@ collections:
   Popular Series:
     mdblist_list: https://mdblist.com/lists/drazzilb/popular-shows-50
     summary: Most popular Trakt Popular shows plus mdblist's popular list released in the past 10 years sorted by audiance score.
-    smart_label: audience_rating.desc
     template:
       - name: customsync
         key: popular_series
