@@ -93,7 +93,7 @@ collections:
     summary: A collection of Popular Anime on AniDB
     anidb_popular: 30
     template:
-      - name: chart
+      - name: customsync
       - name: chart_shared
         key: anidb
 
@@ -109,7 +109,7 @@ collections:
     mdblist_list: https://mdblist.com/lists/drazzilb/trending-movies-top-20
     summary: Trending movies from the internet listing from release date.
     template:
-      - name: chart
+      - name: customsync
       - name: chart_shared
         key: trending_movies
         check_library: movie
@@ -119,7 +119,7 @@ collections:
     summary: The internet's most popular movies from the last 10 years sorted by release date.
     smart_label: audience_rating.desc
     template:
-      - name: chart_shared
+      - name: customsync
         key: popular_movies
         check_library: movie
 
@@ -127,7 +127,7 @@ collections:
     mdblist_list: https://mdblist.com/lists/drazzilb/trending-animated-shows-50
     summary: Trending animated shows collected from TheMovieDb and Trakt sorted by release date.
     template:
-      - name: chart
+      - name: customsync
       - name: chart_shared
         key: trending_animated
         check_library: show
@@ -137,7 +137,7 @@ collections:
     summary: Most popular Trakt Popular shows plus mdblist's popular list released in the past 10 years sorted by audiance score.
     smart_label: audience_rating.desc
     template:
-      - name: chart_shared
+      - name: customsync
         key: popular_series
         check_library: show
 
@@ -145,7 +145,7 @@ collections:
     mdblist_list: https://mdblist.com/lists/drazzilb/trending-shows-20
     summary: Trending shows from Trakt Trending rated above 50 sorted by release date.
     template:
-      - name: chart
+      - name: customsync
       - name: chart_shared
         key: trending_series
         check_library: show
