@@ -63,7 +63,9 @@ collections:
         key: anidb
 
   Trending Movies:
-    mdblist_list: https://mdblist.com/lists/drazzilb/trending-movies-top-20
+    mdblist_list: 
+      url: https://mdblist.com/lists/drazzilb/trending-movies-top-20
+      sort_by: released.asc
     summary: Trending movies from the internet listing from release date.
     collection_order: custom
     sync_mode: sync
