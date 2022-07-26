@@ -67,7 +67,6 @@ collections:
     summary: Trending movies from the internet listing from release date.
     template:
       - name: customsync
-      - name: chart_shared
         key: trending_movies
 
   Internet's Most Popular:
