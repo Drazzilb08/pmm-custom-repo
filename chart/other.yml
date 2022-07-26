@@ -77,7 +77,7 @@ collections:
     mdblist_list: 
       url: https://mdblist.com/lists/drazzilb/top-200-movies
       sort_by: rank.asc
-    summary: The internet's most popular movies from the last 10 years sorted by release date.
+    summary: The internet's most popular movies from the last 10 years sorted by rank.
     collection_order: custom
     sync_mode: sync
     template:
