@@ -65,9 +65,8 @@ collections:
   Trending Movies:
     mdblist_list: https://mdblist.com/lists/drazzilb/trending-movies-top-20
     summary: Trending movies from the internet listing from release date.
-    template:
-      - name: customsync
-        key: trending_movies
+    collection_order: custom
+    sync_mode: sync
 
   Internet's Most Popular:
     mdblist_list: https://mdblist.com/lists/drazzilb/top-200-movies
