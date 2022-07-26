@@ -65,6 +65,7 @@ collections:
   Trending Movies:
     mdblist_list: https://mdblist.com/lists/drazzilb/trending-movies-top-20
     summary: Trending movies from the internet listing from release date.
+    sort_by: released.asc
     template:
       - name: chart_shared
         key: trending_movies
