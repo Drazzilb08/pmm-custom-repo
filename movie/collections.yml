@@ -489,8 +489,12 @@ collections:
       collection: 752937
       name: kids-collection
   LEGO Scooby-Doo Collection:
+    summary: Movies based on Scooby-Doo in LEGO animated style.
     template:
-      collection: 537236
+      movie:
+          - 392536
+          - 461054
+          - 370086
       name: kids-collection
   LEGO Star Wars Collection:
     template:
@@ -1069,7 +1073,8 @@ collections:
     template:
       collection:
         - 2467
-        - 621142
+      movie:
+        - 338970
       name: collection
   Total Recall:
     template:
