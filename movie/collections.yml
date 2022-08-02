@@ -1361,6 +1361,12 @@ collections:
       movie:
         - 277834
         - 444341
+  Knocked Up collection:
+      template:
+        name: collection
+        movie:
+          - 4964
+          - 89492
   Scooby-Doo (Animated) Collection:
     template:
       name: kids-collection
