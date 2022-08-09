@@ -16,6 +16,7 @@ templates:
     sync_mode: sync
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
+    sort_title: <<collection_sort>>
   kids-collection:
     collection_mode: hide_items
     collection_order: release
@@ -25,6 +26,7 @@ templates:
       - movie
     sync_mode: sync
     tmdb_collection_details: <<collection>>
+    sort_title: <<collection_sort>>
     tmdb_movie: <<movie>>
   auto_collections:
     minimum_items: 2
