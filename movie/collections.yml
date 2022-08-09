@@ -28,7 +28,8 @@ templates:
   auto_collections:
     minimum_items: 2
     tmdb_collection_details: <<value>>
-    sort_title: <<collection_name>>
+    sort_title: <<collection_sort>>
+    move_prefix: The,A
     collection_mode: hide_items
     collection_order: release
 dynamic_collections:
@@ -1420,3 +1421,4 @@ collections:
         - 12903
         - 286387
         - 284908
+
