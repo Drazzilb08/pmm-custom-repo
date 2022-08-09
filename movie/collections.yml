@@ -1421,4 +1421,12 @@ collections:
         - 12903
         - 286387
         - 284908
+  Men In Black collection:
+      template: 
+        name: collections
+        movie: 
+          - 607
+          - 608
+          - 41154
+          - 479455
 
