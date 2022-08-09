@@ -66,7 +66,7 @@ collections:
     mdblist_list: 
       url: https://mdblist.com/lists/drazzilb/trending-movies-top-20
     smart_filter:
-      sort_by: release.desc
+      sort_by: random
     summary: Trending movies from the internet listing from release date.
     template:
       - name: chart_shared
@@ -76,7 +76,7 @@ collections:
     mdblist_list: 
       url: https://mdblist.com/lists/drazzilb/top-200-movies
       smart_filter:
-        sort_by: rank.asc
+        sort_by: random
     summary: The internet's most popular movies from the last 10 years sorted by rank.
     template:
       - name: chart_shared
