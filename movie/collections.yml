@@ -8,6 +8,7 @@ templates:
     sync_mode: sync
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
+    sort_title: <<collection_sort>>
   mixed-collection:
     optional:
       - collection
