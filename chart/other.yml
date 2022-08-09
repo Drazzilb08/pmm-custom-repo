@@ -74,7 +74,7 @@ collections:
   Internet's Most Popular:
     mdblist_list: https://mdblist.com/lists/drazzilb/top-200-movies
     smart_filter:
-      sort_by: rank.asc
+      sort_by: random
     summary: The internet's most popular movies from the last 10 years sorted by rank.
     template:
       - name: chart_shared
