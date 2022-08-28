@@ -85,6 +85,8 @@ dynamic_collections:
       - 44215
       - 978459
       - 725681
+      - 920650
+      - 402074
     template: auto_collections
 collections:
   101 Dalmatians (Animated) Collection:
@@ -259,7 +261,7 @@ collections:
         - 4638
         - 107985
       name: collection
-    summary: The Three Flavours Cornetto trilogy is an anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. 
+    summary: The Three Flavours Cornetto trilogy is an anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost.
   Curious George Collection:
     template:
       collection: 55428
@@ -497,9 +499,9 @@ collections:
     summary: Movies based on Scooby-Doo in LEGO animated style.
     template:
       movie:
-          - 392536
-          - 461054
-          - 370086
+        - 392536
+        - 461054
+        - 370086
       name: kids-collection
   LEGO Star Wars Collection:
     template:
@@ -1367,11 +1369,11 @@ collections:
         - 277834
         - 444341
   Knocked Up collection:
-      template:
-        name: collection
-        movie:
-          - 4964
-          - 89492
+    template:
+      name: collection
+      movie:
+        - 4964
+        - 89492
   Scooby-Doo (Animated) Collection:
     template:
       name: kids-collection
@@ -1426,11 +1428,10 @@ collections:
         - 286387
         - 284908
   Men In Black Collection:
-      template: 
-        name: collection
-        movie: 
-          - 607
-          - 608
-          - 41154
-          - 479455
-
+    template:
+      name: collection
+      movie:
+        - 607
+        - 608
+        - 41154
+        - 479455
