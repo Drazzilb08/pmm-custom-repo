@@ -88,6 +88,12 @@ dynamic_collections:
       - 920650
       - 439053
       - 271668
+      - 97445
+      - 31562
+      - 91698
+      - 783869
+      - 9743
+      - 1004630
     template: auto_collections
 collections:
   101 Dalmatians (Animated) Collection:
@@ -203,24 +209,18 @@ collections:
         - 296137
         - 286189
       name: kids-collection
-  Cars Toon Mater's Tall Tales:
+  Child's Play collection:
     template:
+      collection: 10455
       movie:
-        - 13934
-        - 483396
-        - 56553
-        - 140967
-        - 39030
-        - 24328
-        - 171536
-        - 148605
-        - 148607
-        - 148608
-        - 148606
-        - 145316
-        - 141528
-        - 286189
-      name: kids-collection
+        - 10585
+        - 11186
+        - 11187
+        - 11932
+        - 11249
+        - 167032
+        - 393345
+        - 533642
   Charlie's Angels Collection:
     template:
       collection: 86029
@@ -272,7 +272,7 @@ collections:
       movie:
         - 9480
         - 9947
-      name: kids-collection
+      name: collection
   Deadpool Collection:
     template:
       collection: 448150
@@ -506,7 +506,9 @@ collections:
       name: kids-collection
   LEGO Star Wars Collection:
     template:
-      collection: 302331
+      collection: 
+        - 302331
+        - 1004630
       name: kids-collection
   Lady and the Tramp Collection:
     template:
@@ -916,6 +918,7 @@ collections:
         - 211449
         - 244839
         - 254631
+        - 2791
       name: collection
   The Croods Collection:
     template:
