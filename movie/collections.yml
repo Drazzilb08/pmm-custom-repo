@@ -40,18 +40,17 @@ dynamic_collections:
     type: tmdb_collection
     exclude:
       - 993048
+      - 33514
       - 933959
       - 9485
       - 34055
       - 2344
       - 809185
       - 115762
-      - 1575
       - 8091
       - 135416
       - 86027
       - 275402
-      - 553717
       - 725600
       - 256377
       - 593251
@@ -63,6 +62,7 @@ dynamic_collections:
       - 363015
       - 261590
       - 702342
+      - 242587
       - 256287
       - 846090
       - 920666
@@ -211,6 +211,7 @@ collections:
       name: kids-collection
   Child's Play collection:
     template:
+      name: collection
       collection: 10455
       movie:
         - 10585
@@ -895,16 +896,18 @@ collections:
       collection: 106768
       name: kids-collection
   The Addams Family (Animated) Collection:
+    sort_title: Addams Family (Animated) Collection
     template:
       collection: 750822
       name: kids-collection
   The Angry Birds Collection:
+    sort_title: Angry Birds Collection
     template:
       collection: 531315
       movie:
         - 657273
       name: kids-collection
-  The Boss Baby Collection:
+  Boss Baby Collection:
     template:
       collection: 519457
       movie:
@@ -912,6 +915,7 @@ collections:
         - 460789
       name: kids-collection
   The Chronicles of Riddick Collection:
+    sort_title: Chronicles of Riddick Collection
     template:
       collection: 2794
       movie:
@@ -921,10 +925,12 @@ collections:
         - 2791
       name: collection
   The Croods Collection:
+    sort_title: Croods Collection
     template:
       collection: 464577
       name: kids-collection
   The Emperor's New Groove Collection:
+    sort_title: Emperor's New Groove Collection
     template:
       collection: 178117
       name: kids-collection
@@ -932,7 +938,9 @@ collections:
     template:
       collection: 351684
       name: kids-collection
+    sort_title: Flintstones Collection
   The Fox and the Hound Collection:
+    sort_title: Fox and the Hound Collection
     template:
       collection: 100970
       name: kids-collection
@@ -943,10 +951,12 @@ collections:
         - 580312
       name: kids-collection
   The Hunchback of Notre Dame Collection:
+    sort_title: Hunchback of Notre Dame Collection
     template:
       collection: 97456
       name: kids-collection
   The Incredibles Collection:
+    sort_title: Incredibles Collection
     template:
       collection: 468222
       movie:
@@ -955,6 +965,7 @@ collections:
         - 546728
       name: kids-collection
   The Jack Ryan Collection:
+    sort_title: Jack Ryan Collection
     template:
       collection: 192492
       movie:
@@ -962,16 +973,19 @@ collections:
         - 137094
       name: collection
   The Jungle Book Collection:
+    sort_title: Jungle Book Collection
     template:
       collection: 97459
       name: kids-collection
   The Karate Kid Collection:
+    sort_title: Karate Kid Collection
     template:
       collection: 8580
       movie:
         - 38575
       name: collection
   The Lego Movie Collection:
+    sort_title: Lego Movie Collection
     template:
       collection: 325470
       movie:
@@ -979,14 +993,17 @@ collections:
         - 274862
       name: kids-collection
   The Lion King Collection:
+    sort_title: Lion King Collection
     template:
       collection: 94032
       name: kids-collection
   The Little Mermaid Collection:
+    sort_title: Little Mermaid Collection
     template:
       collection: 33085
       name: kids-collection
   The Lorax Collection:
+    sort_title: Lorax Collection
     template:
       movie:
         - 73723
@@ -995,6 +1012,7 @@ collections:
         - 125445
       name: kids-collection
   The Matrix Collection:
+    sort_title: Matrix Collection
     template:
       collection: 2344
       movie:
@@ -1007,6 +1025,7 @@ collections:
         - 903033
       name: kids-collection
   The Muppets Collection:
+    sort_title: Muppets Collection
     template:
       collection: 256377
       movie:
@@ -1022,6 +1041,7 @@ collections:
         - 27190
       name: kids-collection
   The Nut Job Collection:
+    sort_title: Nut Job Collection
     template:
       collection: 464308
       name: kids-collection
@@ -1036,6 +1056,7 @@ collections:
         - 130966
       name: collection
   The Punisher Collection:
+    sort_title: Punisher Collection
     template:
       movie:
         - 8867
@@ -1044,10 +1065,12 @@ collections:
         - 13056
       name: collection
   The Rescuers Collection:
+    sort_title: Rescuers Collection
     template:
       collection: 57971
       name: kids-collection
   The Secret Life of Pets Collection:
+    sort_title: Secret Life of Pets Collection
     template:
       collection: 427084
       movie:
@@ -1062,6 +1085,7 @@ collections:
         - 501170
       name: collection
   The Smurfs (Theatrical) Collection:
+    sort_title: Smurfs (Theatrical) Collection
     template:
       collection: 134897
       movie:
@@ -1070,6 +1094,7 @@ collections:
         - 137116
       name: kids-collection
   The Trolls Collection:
+    sort_title: Trolls Collection
     template:
       collection: 489724
       movie:
@@ -1177,6 +1202,7 @@ collections:
         - 261339
         - 13706
         - 16394
+        - 14885
       name: kids-collection
   Witch Mountain Collection:
     template:
@@ -1248,6 +1274,7 @@ collections:
         - 12684
         - 539
   The Fast and the Furious Collection:
+    sort_title: Fast and the Furious Collection
     template:
       collection: 9485
       movie: 384018
@@ -1439,3 +1466,34 @@ collections:
         - 608
         - 41154
         - 479455
+  A Nightmare on Elm Street collection:
+    template:
+      name: collection
+      collection: 8581
+      movie: 23437
+  Prep & Landing collection:
+    template:
+      name: kids-collection
+      collection: 93788
+      movie:
+        - 88212
+  Superman Collection: 
+    template:
+      name: collection
+      collection: 8537
+      movie:
+        - 624479
+  Team Thor Collection:
+    template:
+      name: collection
+      movie:
+        - 413279
+        - 441829
+        - 505945
+  Tales from the Crypt Collection:
+    template:
+      name: collection
+      collection: 53868
+      movie: 
+        - 53868
+        - 38939
