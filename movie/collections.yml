@@ -508,7 +508,7 @@ collections:
       name: kids-collection
   LEGO Star Wars Collection:
     template:
-      collection: 
+      collection:
         - 302331
         - 1004630
       name: kids-collection
@@ -1478,7 +1478,7 @@ collections:
       collection: 93788
       movie:
         - 88212
-  Superman Collection: 
+  Superman Collection:
     template:
       name: collection
       collection: 8537
@@ -1495,6 +1495,6 @@ collections:
     template:
       name: collection
       collection: 115142
-      movie: 
+      movie:
         - 53868
         - 38939
