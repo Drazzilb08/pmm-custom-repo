@@ -1494,7 +1494,7 @@ collections:
   Tales from the Crypt Collection:
     template:
       name: collection
-      collection: 53868
+      collection: 115142
       movie: 
         - 53868
         - 38939
