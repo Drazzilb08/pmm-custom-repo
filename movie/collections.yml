@@ -97,6 +97,7 @@ dynamic_collections:
       - 9743
       - 1004630
       - 464270
+      - 103577
     template: auto_collections
 collections:
   101 Dalmatians (Animated) Collection:
@@ -1045,7 +1046,7 @@ collections:
     template:
       collection: 464308
       name: kids-collection
-  The Fugitive / U.S. Marshals Collection:
+  U.S. Marshals Collection:
     template:
       name: collection
       collection: 721111
@@ -1497,3 +1498,7 @@ collections:
       movie:
         - 53868
         - 38939
+  "The Whole Nine # Ten Yards Collection":
+    template:
+      name: collection
+      collection: 
