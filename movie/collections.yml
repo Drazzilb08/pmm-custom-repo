@@ -93,6 +93,7 @@ dynamic_collections:
       - 97445
       - 31562
       - 91698
+      - 176118
       - 783869
       - 9743
       - 1004630
@@ -1335,10 +1336,6 @@ collections:
     template:
       name: collection
       collection: 119
-  Man from Earth Collection:
-    template:
-      name: collection
-      collection: 464270
   Robert Langdon Collection:
     template:
       name: collection
@@ -1502,4 +1499,4 @@ collections:
   "The Whole Nine # Ten Yards Collection":
     template:
       name: collection
-      collection: 
+      collection: 103577
