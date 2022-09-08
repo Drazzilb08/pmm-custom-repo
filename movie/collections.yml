@@ -908,6 +908,7 @@ collections:
         - 657273
       name: kids-collection
   The Boss Baby Collection:
+    sort_title: Boss Baby Collection
     template:
       collection: 519457
       movie:
