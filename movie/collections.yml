@@ -948,6 +948,7 @@ collections:
       collection: 100970
       name: kids-collection
   The Grinch Collection:
+    sort_title: Grinch Collection
     template:
       movie:
         - 360920
