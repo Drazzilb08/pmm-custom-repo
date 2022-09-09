@@ -55,9 +55,10 @@ templates:
       vertical_align: top
     collection_level: <<overlay_level>>
     allowed_library_types: <<use_<<slug>>>>
+    ignore_blank_results: true
     overlay:
       name: <<overlay_name>>
-      repo: overlays/images/<<overlay>>-Box
+      git: overlays/images/<<overlay>>
       group: special
       weight: <<weight>>
       horizontal_offset: <<horizontal_offset>>
@@ -66,6 +67,7 @@ templates:
       vertical_align: <<vertical_align>>
 
 overlays:
+
   Directors-Cut:
     template:
       - name: SpecialRelease
@@ -137,7 +139,7 @@ overlays:
     plex_all: true
     filters:
       filepath.regex:
-        - "(?i)Criterion"
+        - '(?i)Criterion'
         - '(?i)\[CC\]'
 
   Final-Cut:
