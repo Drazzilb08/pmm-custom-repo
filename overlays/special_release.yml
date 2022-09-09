@@ -75,7 +75,7 @@ overlays:
         slug: directorscut
     plex_all: true
     filters:
-      filepath.regex: '(?<=[0-9]{4}[)}>\]]\s)\bDirector|Directors\b'
+      filepath.regex: (?:{edition-\bdirector(?:\'?s)?\b([a-z0-9 ]+)}
 
   Extended-Edition:
     template:
@@ -84,7 +84,7 @@ overlays:
         slug: extended
     plex_all: true
     filters:
-      filepath.regex: '(?<=[0-9]{4}[)}>\]]\s)\bExtended\b'
+      filepath.regex: '(?:{edition-\bExtended\b([a-z0-9 ]+)})'
 
   Uncut-Edition:
     template:
@@ -93,7 +93,7 @@ overlays:
         slug: uncut
     plex_all: true
     filters:
-      filepath.regex: '(?<=[0-9]{4}[)}>\]]\s)\bUncut\b'
+      filepath.regex: '(?:{edition-\buncut\b})'
 
   Unrated-Edition:
     template:
@@ -102,7 +102,7 @@ overlays:
         slug: unrated
     plex_all: true
     filters:
-      filepath.regex: '(?<=[0-9]{4}[)}>\]]\s)\bUnrated\b'
+      filepath.regex: '(?:{edition-\bUnrated\b})'
 
   Special-Edition:
     template:
@@ -111,7 +111,7 @@ overlays:
         slug: special
     plex_all: true
     filters:
-      filepath.regex: '(?<=[0-9]{4}[)}>\]]\s)\bSpecial\b'
+      filepath.regex: '(?:{edition-\Special\b([a-z0-9 ]+)})'
 
   IMAX-E:
     template:
@@ -149,7 +149,7 @@ overlays:
         slug: finalcut
     plex_all: true
     filters:
-      filepath.regex: '(?<=[0-9]{4}[)}>\]]\s)\bFinal Cut\b'
+      filepath.regex: '(\bFinal Cut\b)'
 
   Remastered:
     template:
@@ -158,4 +158,4 @@ overlays:
         slug: remastered
     plex_all: true
     filters:
-      filepath.regex: '(?<=[0-9]{4}[)}>\]]\s)\bRemaster\b'
+      filepath.regex: '(?:\bremaster(?:ed)?\b)'
