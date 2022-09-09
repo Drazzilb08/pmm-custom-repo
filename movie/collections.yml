@@ -1281,7 +1281,6 @@ collections:
     sort_title: Fast and the Furious Collection
     template:
       collection: 9485
-      movie: 384018
       name: collection
   Marvel One-Shots:
     template:
