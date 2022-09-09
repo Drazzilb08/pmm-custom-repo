@@ -1497,6 +1497,7 @@ collections:
         - 53868
         - 38939
   "The Whole Nine # Ten Yards Collection":
+    sort_title: "Whole Nine # Ten Yards Collection"
     template:
       name: collection
       collection: 103577
