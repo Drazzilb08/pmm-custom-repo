@@ -1321,7 +1321,8 @@ collections:
     template:
       name: collection
       collection: 33514
-  Are We... Collection:
+  "The Are We... Collection":
+    sort_title: "Are We... Collection"
     template:
       name: collection
       collection: 176118
