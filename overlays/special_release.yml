@@ -67,6 +67,15 @@ templates:
       vertical_align: <<vertical_align>>
 
 overlays:
+  
+  Ultimate-Cut:
+    template:
+      - name: SpecialRelease
+        weight: 100
+        slug: ultimatecut
+    plex_all: true
+    filters:
+      filepath.regex: "(?:{edition-\bUltimate\b([aA-zZ ]+)?})"
 
   Directors-Cut:
     template:
