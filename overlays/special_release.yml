@@ -75,7 +75,7 @@ overlays:
         slug: ultimatecut
     plex_all: true
     filters:
-      filepath.regex: "(?:{edition-\bUltimate\b([aA-zZ' ]+)?})"
+      filepath.regex: "(?:{edition-Ultimate([aA-zZ' ]+)?})"
 
   Directors-Cut:
     template:
