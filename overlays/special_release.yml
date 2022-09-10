@@ -75,7 +75,7 @@ overlays:
         slug: directorscut
     plex_all: true
     filters:
-      filepath.regex: "(?:{edition-\bDirector(?:'?s)?\b([aA-zZ ]+)?})"
+      filepath.regex: "(?:{edition-Director(?:'?s)?([aA-zZ ]+)?})"
 
   Extended-Edition:
     template:
