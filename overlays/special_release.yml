@@ -58,7 +58,7 @@ templates:
     ignore_blank_results: true
     overlay:
       name: <<overlay_name>>
-      repo: overlays/images/<<overlay>>
+      repo: overlays/images/<<overlay>>-Box
       group: special
       weight: <<weight>>
       horizontal_offset: <<horizontal_offset>>
