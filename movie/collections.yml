@@ -210,10 +210,9 @@ collections:
         - 296137
         - 286189
       name: kids-collection
-  Child's Play collection:
+  Child's Play Collection:
     template:
       name: collection
-      collection: 10455
       movie:
         - 10585
         - 11186
@@ -1399,7 +1398,7 @@ collections:
       movie:
         - 277834
         - 444341
-  Knocked Up collection:
+  Knocked Up Collection:
     template:
       name: collection
       movie:
@@ -1466,17 +1465,11 @@ collections:
         - 608
         - 41154
         - 479455
-  A Nightmare on Elm Street collection:
+  A Nightmare on Elm Street Collection:
     template:
       name: collection
       collection: 8581
       movie: 23437
-  Prep & Landing collection:
-    template:
-      name: kids-collection
-      collection: 93788
-      movie:
-        - 88212
   Superman Collection:
     template:
       name: collection
