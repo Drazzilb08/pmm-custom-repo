@@ -40,6 +40,8 @@ dynamic_collections:
     type: tmdb_collection
     exclude:
       - 1028525
+      - 1028532
+      - 1029835
       - 993048
       - 33514
       - 933959
