@@ -62,15 +62,6 @@
 #          # Set visible_shared for Disney+                 #
 #          visible_shared_disney: true                      #
 #                                                           #
-#          # Turn the hayu collection on/off                #
-#          use_haya: true                                   #
-#          # Set visible_library for hayu                   #
-#          visible_library_hayu: true                       #
-#          # Set visible_home for hayu                      #
-#          visible_home_hayu: false                         #
-#          # Set visible_shared for hayu                    #
-#          visible_shared_hayu: true                        #
-#                                                           #
 #          # Turn the HBO Max collection on/off             #
 #          use_hbomax: true                                 #
 #          # Set visible_library for HBO Max                #
@@ -167,7 +158,6 @@ dynamic_collections:
       bet: BET+
       britbox: BritBox
       disney: Disney+
-      hayu: hayu
       hbomax: HBO Max
       hulu: Hulu
       netflix: Netflix
