@@ -45,7 +45,7 @@ collections:
       - name: shared
       - name: multi-franchise
         image: DC Animated Universe
-    trakt_list: https://trakt.tv/users/donxy/lists/dc-animated-movie-universe
+    mdblist_list: https://mdblist.com/lists/drazzilb/dc-animated-universe
   Worlds of DC (DCEU):
     template:
       - name: shared
