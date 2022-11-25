@@ -1549,3 +1549,14 @@ collections:
     template:
       name: collection
       collection: 103577
+  DC Showcase:
+    template:
+      name: collection
+      movie:
+        - 76420
+        - 637663
+        - 46718
+        - 41988
+        - 618352
+        - 618346
+        - 38180
