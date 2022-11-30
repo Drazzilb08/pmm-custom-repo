@@ -1568,3 +1568,10 @@ collections:
         - 43641
         - 618353
         - 791348
+  Super Mario Bros. Collection:
+      template:
+        name: collection
+        movie:
+          - 502356
+          - 9607
+          - 28152
