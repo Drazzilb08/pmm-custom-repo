@@ -109,6 +109,9 @@ dynamic_collections:
       - 464270
       - 103577
       - 952095
+      - 1063254
+      - 242587
+      - 722971
     template: auto_collections
 collections:
   101 Dalmatians (Animated) Collection:
@@ -1574,9 +1577,13 @@ collections:
         - 618353
         - 791348
   Super Mario Bros. Collection:
-      template:
-        name: collection
-        movie:
-          - 502356
-          - 9607
-          - 28152
+    template:
+      name: collection
+      movie:
+        - 502356
+        - 9607
+        - 28152
+  Knives Out Collection:
+    template:
+      name: collection
+      collection: 722971
