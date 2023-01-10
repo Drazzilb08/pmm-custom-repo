@@ -68,7 +68,7 @@ templates:
 
 overlays:
   
-  Ultimate-Cut:
+  Ultimate-Cut-Box:
     template:
       - name: SpecialRelease
         weight: 100
@@ -77,7 +77,7 @@ overlays:
     filters:
       filepath.regex: "(?:{edition-\bUltimate\b([aA-zZ' ]+)?})"
 
-  Directors-Cut:
+  Directors-Cut-Box:
     template:
       - name: SpecialRelease
         weight: 90
@@ -86,7 +86,7 @@ overlays:
     filters:
       filepath.regex: "(?:{edition-Director(?:'?s)?([aA-zZ ]+)?})"
 
-  Extended-Edition:
+  Extended-Edition-Box:
     template:
       - name: SpecialRelease
         weight: 80
@@ -95,7 +95,7 @@ overlays:
     filters:
       filepath.regex: '(?:edition-\bExtended\b([aA-zZ ]+)?})'
 
-  Uncut-Edition:
+  Uncut-Edition-Box:
     template:
       - name: SpecialRelease
         weight: 70
@@ -104,7 +104,7 @@ overlays:
     filters:
       filepath.regex: '(?:{edition-\bUncut\b})'
 
-  Unrated-Edition:
+  Unrated-Edition-Box:
     template:
       - name: SpecialRelease
         weight: 60
@@ -113,7 +113,7 @@ overlays:
     filters:
       filepath.regex: '(?:{edition-\bUnrated\b})'
 
-  Special-Edition:
+  Special-Edition-Box:
     template:
       - name: SpecialRelease
         weight: 50
@@ -122,7 +122,7 @@ overlays:
     filters:
       filepath.regex: '(?:{edition-\bSpecial\b([aA-zZ ]+)?})'
 
-  IMAX-E:
+  IMAX-E-Box:
     template:
       - name: SpecialRelease
         weight: 40
@@ -131,7 +131,7 @@ overlays:
     filters:
       filepath.regex: '(?i)\bIMAX Enhanced\b|^(?=.*(DSNP|Disney\+|CORE(?=[ ._-]web[ ._-]?(dl|rip)\b)|\bBC(?=[ ._-]web[ ._-]?(dl|rip)\b)|IMAX[- .]Enhanced)\b)(?=.*\b(IMAX|IMAX[- .]Enhanced)\b).*'
 
-  IMAX:
+  IMAX-Box:
     template:
       - name: SpecialRelease
         weight: 30
@@ -140,7 +140,7 @@ overlays:
     filters:
       filepath.regex: '(?i)\bIMAX\b'
 
-  Criterion:
+  Criterion-Box:
     template:
       - name: SpecialRelease
         weight: 20
@@ -151,7 +151,7 @@ overlays:
         - '(?i)Criterion'
         - '(?i)\[CC\]'
 
-  Final-Cut:
+  Final-Cut-Box:
     template:
       - name: SpecialRelease
         weight: 15
@@ -160,7 +160,7 @@ overlays:
     filters:
       filepath.regex: '(\bFinal Cut\b)'
 
-  Remastered:
+  Remastered-Box:
     template:
       - name: SpecialRelease
         weight: 10
