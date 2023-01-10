@@ -10,7 +10,7 @@
 #  If nothing is specified these are the defaults           #
 #                                                           #
 #    overlay_path:                                          #
-#      - git: PMM/overlays/resolution                       #
+#      - repo: overlays/resolution                          #
 #        template_variables:                                #
 #          # Set episode or season to overlay               #
 #          overlay_level:                                   #
@@ -74,7 +74,7 @@ templates:
       - Criterion
     overlay:
       name: <<overlay_name>>
-      git: PMM/overlays/images/<<overlay>>
+      repo: overlays/images/<<overlay>>
       group: res
       weight: <<weight>>
       horizontal_offset: <<horizontal_offset>>
