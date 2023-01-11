@@ -35,28 +35,28 @@ collections:
     template:
       - name: studio
       - name: shared
-    mdblist_list: https://mdblist.com/lists/hdlists/pixar-movie-collection/
+    mdblist_list: https://mdblist.com/lists/drazzilb/pixar-animation-studios
     summary: Pixar Animation Studios is an American animation studio based in Emeryville, California, that is a subsidiary of The Walt Disney Studios, owned by The Walt Disney Company.
     label: kids
   Walt Disney Animation Studio:
     template:
       - name: studio
       - name: shared
-    tmdb_list: https://www.themoviedb.org/list/8071947
+    mdblist_list: https://mdblist.com/lists/drazzilb/walt-disney-animation-studio
     summary: Walt Disney Animation Studios, also referred to as Disney Animation, is an American animation studio that creates animated feature films, short films, and television specials for The Walt Disney Company.
     label: kids
   Illumination Entertainment:
     template:
       - name: studio
       - name: shared
-    tmdb_list: https://www.themoviedb.org/list/8072805
+    mdblist_list: https://mdblist.com/lists/drazzilb/illumination-entertainment
     summary: Illumination is an American film and animation studio responsible for the Despicable Me and The Secret Life of Pets franchises and the film adaptations of Dr. Seuss books The Lorax and How the Grinch Stole Christmas. The Minions, characters from the Despicable Me series, are the studio mascots.
     label: kids
   Sony Pictures Animation:
     template:
       - name: studio
       - name: shared
-    tmdb_list: https://www.themoviedb.org/list/8071291
+    mdblist_list: https://mdblist.com/lists/drazzilb/sony-pictures-animation
     summary: Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002. The studio's films are distributed worldwide by Sony Pictures Releasing under their Columbia Pictures label, while all direct-to-video releases are released by Sony Pictures Home Entertainment.
     label: kids
   DreamWorks Animation:
