@@ -21,6 +21,7 @@ dynamic_collections:
     exclude: 
       - 96850
       - 703485
+      - 662002
       - 425164
 collections:
   Neon Genesis Evangelion Collection:
@@ -51,3 +52,13 @@ collections:
     template:
       name: collection
       collection: 34055
+  My Hero Academia:
+    template:
+      name: collection
+      movie:
+        - 768744
+        - 592350
+        - 505262
+        - 1054116
+        - 1057063
+        - 1057067
