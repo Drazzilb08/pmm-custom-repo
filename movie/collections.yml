@@ -1223,7 +1223,7 @@ collections:
       movie:
         - 533
       name: collection
-  Walt Disney Animation Shorts:
+  Walt Disney Animated Shorts:
     summary: Collection of all Walt Disney Animation Theatrical Shorts.
     template:
       movie:
