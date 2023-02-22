@@ -1,20 +1,3 @@
-#############################################################
-#                Dynamic Studio Collections                 #
-#         Created by Yozora, Bullmoose20, & Sohjiro         #
-#############################################################
-#  Call this from your config.yml (Movie or Show)           #
-#  If nothing is specified these are the defaults           #
-#                                                           #
-#    metadata_path:                                         #
-#      - repo: studio                                       #
-#        template_variables:                                #
-#          # Turn the separator collection on/off           #
-#          use_separator: true                              #
-#          # Sets the collection mode of the collection     #
-#          collection_mode:                                 #
-#          # Sets the value at the start of the sort title  #
-#          collection_section: "07"                         #
-#############################################################
 
 external_templates:
   repo: templates
