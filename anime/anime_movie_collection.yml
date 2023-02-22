@@ -13,8 +13,6 @@ templates:
     tmdb_movie: <<movie>>
     sort_title: <<collection_sort>>
   auto_collections:
-    tmdb_collection_details: <<value>>
-    sort_title: <<collection_sort>>
     move_prefix: The,A
 dynamic_collections:
   TMDb Collections:
