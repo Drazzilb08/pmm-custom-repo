@@ -28,12 +28,6 @@ templates:
   studio:
     smart_label: release.desc
   template_variables:
-      search_term:
-        default: studio.is
-      search_term2:
-        20th Century Studios: studio
-      search_value2:
-        20th Century Studios: 20th Century
       image:
         default: studio/<<key_encoded>>
       translation_key:
