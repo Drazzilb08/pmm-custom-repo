@@ -40,7 +40,7 @@ templates:
       order_<<key>>: <<order>>
       item_radarr_tag_<<key>>: <<item_radarr_tag>>
       item_sonarr_tag_<<key>>: <<item_sonarr_tag>>
-      url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/<<image>>.jpg
+      url_poster: https://raw.githubusercontent.comDrazzilb08/pmm-custom-repo-posters/master/<<image>>.jpg
       url_poster_<<key>>: <<url_poster>>
       visible_library_<<key>>: <<visible_library>>
       visible_home_<<key>>: <<visible_home>>
@@ -60,7 +60,6 @@ templates:
       - ignore_ids
       - ignore_imdb_ids
       - minimum_items
-      - movie
     allowed_library_types:
       - <<use_<<key>>>>
       - <<allowed_libraries>>
