@@ -27,6 +27,11 @@ translations:
 templates:
   studio:
     smart_label: release.desc
+template_variables:
+      image:
+        default: studio/<<key_encoded>>
+      translation_key:
+        default: studio
 
 collections:
   Studio Collections:
@@ -36,6 +41,11 @@ collections:
       - name: translation
         key_name: Studio
         translation_key: separator
+    template_variables:
+      image:
+        default: studio/<<key_encoded>>
+      translation_key:
+        default: studio
   Pixar Animation Studios:
     template:
       - name: studio
@@ -52,10 +62,6 @@ collections:
     template:
       - name: studio
       - name: shared
-    template_variables:
-      image:
-        default: studio/<<key_encoded>>
-      translation_key:
     mdblist_list: https://mdblist.com/lists/drazzilb/walt-disney-animation-studio
     summary: Walt Disney Animation Studios, also referred to as Disney Animation, is an American animation studio that creates animated feature films, short films, and television specials for The Walt Disney Company.
     label: kids
@@ -63,10 +69,6 @@ collections:
     template:
       - name: studio
       - name: shared
-    template_variables:
-      image:
-        default: studio/<<key_encoded>>
-      translation_key:
     mdblist_list: https://mdblist.com/lists/drazzilb/illumination-entertainment
     summary: Illumination is an American film and animation studio responsible for the Despicable Me and The Secret Life of Pets franchises and the film adaptations of Dr. Seuss books The Lorax and How the Grinch Stole Christmas. The Minions, characters from the Despicable Me series, are the studio mascots.
     label: kids
@@ -74,10 +76,6 @@ collections:
     template:
       - name: studio
       - name: shared
-    template_variables:
-      image:
-        default: studio/<<key_encoded>>
-      translation_key:
     mdblist_list: https://mdblist.com/lists/drazzilb/sony-pictures-animation
     summary: Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002. The studio's films are distributed worldwide by Sony Pictures Releasing under their Columbia Pictures label, while all direct-to-video releases are released by Sony Pictures Home Entertainment.
     label: kids
@@ -85,10 +83,6 @@ collections:
     template:
       - name: studio
       - name: shared
-    template_variables:
-      image:
-        default: studio/<<key_encoded>>
-      translation_key:
     mdblist_list: https://mdblist.com/lists/hdlists/dreamworks-movie-collection/
     summary: DreamWorks Animation LLC (also simply known as DreamWorks) is an American animation studio and a subsidiary of Universal Pictures, itself a subsidiary of Comcast's NBCUniversal. It is based in Glendale, California, and produces animated feature films, television programs, and online virtual games.
     label: kids
@@ -96,10 +90,6 @@ collections:
     template:
       - name: studio
       - name: shared
-    template_variables:
-      image:
-        default: studio/<<key_encoded>>
-      translation_key:
     tmdb_list: https://www.themoviedb.org/list/8070163
     summary: The Warner Animation Group (WAG) is an American animation studio that is the feature animation division of Warner Bros. Entertainment. Established on January 7, 2013, the studio is the successor to the dissolved 2D traditional hand-drawn animation studio Warner Bros. Feature Animation, which shut down in 2003 and the dissolved family film division Warner Bros. Family Entertainment, which shut down in 2009. The entity is also a sister animation studio of the regular animation studio Warner Bros. Animation
     label: kids
@@ -107,10 +97,6 @@ collections:
     template:
       - name: studio
       - name: shared
-    template_variables:
-      image:
-        default: studio/<<key_encoded>>
-      translation_key:
     tmdb_list: https://www.themoviedb.org/list/8169603
     summary: Blue Sky Studios, Inc. was an American computer animation film studio based in Greenwich.
     label: kids
@@ -118,10 +104,6 @@ collections:
     template:
       - name: studio
       - name: shared
-    template_variables:
-      image:
-        default: studio/<<key_encoded>>
-      translation_key:
     tmdb_list: https://www.themoviedb.org/list/8169611
     summary: "Nickelodeon Animation Studio is an American animation studio owned by ViacomCBS. It has created many original television programs for Nickelodeon, such as SpongeBob SquarePants, The Fairly OddParents, Rugrats and Avatar: The Last Airbender, among various others."
     label: kids
@@ -129,10 +111,6 @@ collections:
     template:
       - name: studio
       - name: shared
-    template_variables:
-      image:
-        default: studio/<<key_encoded>>
-      translation_key:
     tmdb_list: https://www.themoviedb.org/list/8174158
     summary: The Aardman collection is made by films and series animated by Aardman Animations; a British film production company founded in 1972. The founders are Peter Lord and David Sproxton. The company is best known for their clay-animated productions Wallace and Gromit and Shaun the Sheep. and Chicken Run
     label: kids
@@ -140,10 +118,6 @@ collections:
     template:
       - name: studio
       - name: shared
-    template_variables:
-      image:
-        default: studio/<<key_encoded>>
-      translation_key:
     tmdb_list: https://www.themoviedb.org/list/8174159
     summary: Laika, LLC, simply known as Laika, is an American stop-motion animation studio specializing in feature films, commercial content for all media, music videos, and short films.
     label: kids
@@ -151,10 +125,6 @@ collections:
     template:
       - name: studio
       - name: shared
-    template_variables:
-      image:
-        default: studio/<<key_encoded>>
-      translation_key:
     tmdb_list: https://www.themoviedb.org/list/8174161
     summary: Don Bluth Studios was an Irish-American animation studio established in 1979 by animator Don Bluth. Bluth and several colleagues, all of whom were former Disney animators, left Disney on September 13, 1979
     label: kids
@@ -162,30 +132,18 @@ collections:
     template:
       - name: studio
       - name: shared
-    template_variables:
-      image:
-        default: studio/<<key_encoded>>
-      translation_key:
     tmdb_list: https://www.themoviedb.org/list/8174280
     summary: This is a list of live-action or photorealistic remakes produced by Walt Disney Pictures of its animated films.
   Cartoon Saloon:
     template:
       - name: studio
       - name: shared
-    template_variables:
-      image:
-        default: studio/<<key_encoded>>
-      translation_key:
     tmdb_list: https://www.themoviedb.org/list/8174693
     summary: Cartoon Saloon is an Irish animation film, short film and television studio based in Kilkenny which provides film TV and short film services.
   A24:
     template:
       - name: studio
       - name: shared
-    template_variables:
-      image:
-        default: studio/<<key_encoded>>
-      translation_key:
     mdblist_list: https://mdblist.com/lists/drazzilb/a24-ctgm1e6c7c
     summary: A24 is an American independent entertainment company that specializes in film and television production, as well as film distribution. It is based in New York City. A24 was founded in 2012 by Daniel Katz, David Fenkel and John Hodges.
   #Broken Lizard Industries:
