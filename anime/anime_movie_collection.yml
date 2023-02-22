@@ -31,25 +31,25 @@ collections:
     templates: 
       - name: shared
       - name: collection
-        movie:
-          - 857862
-          - 21832
-          - 18491
-          - 54270
+    movie:
+      - 857862
+      - 21832
+      - 18491
+      - 54270
   Dragon Ball Z Collection:
     template:
       - name: shared
       - name: collection
-        collection: 425164
-        movie:
-          - 39323
-          - 39324
+    collection: 425164
+    movie:
+      - 39323
+      - 39324
   My Hero Academia Collection:
     template:
       - name: shared
       - name: collection
-        movie:
-          - 768744
-          - 592350
-          - 505262
-          - 1054116
+    movie:
+      - 768744
+      - 592350
+      - 505262
+      - 1054116
