@@ -28,7 +28,7 @@ dynamic_collections:
       - 425164
 collections:
   Neon Genesis Evangelion Collection:
-    template: 
+    templates: 
       - name: shared
       - name: collection
         movie:
