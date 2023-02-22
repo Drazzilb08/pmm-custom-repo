@@ -21,40 +21,20 @@ external_templates:
   template_variables:
     collection_section: "07"
 
-translations:
-  pmm: translations
-
 templates:
   studio:
     smart_label: release.desc
-template_variables:
-      image:
-        default: studio/<<key_encoded>>
-      translation_key:
-        default: studio
+    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio/<<collection_name_encoded>>.jpg
 
 collections:
   Studio Collections:
     template:
       - name: separator
         separator: studio
-      - name: translation
-        key_name: Studio
-        translation_key: separator
-    template_variables:
-      image:
-        default: studio/<<key_encoded>>
-      translation_key:
-        default: studio
   Pixar Animation Studios:
     template:
       - name: studio
       - name: shared
-    template_variables:
-      image:
-        default: studio/<<key_encoded>>
-      translation_key:
-        default: studio
     mdblist_list: https://mdblist.com/lists/drazzilb/pixar-animation-studios
     summary: Pixar Animation Studios is an American animation studio based in Emeryville, California, that is a subsidiary of The Walt Disney Studios, owned by The Walt Disney Company.
     label: kids
