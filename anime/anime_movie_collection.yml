@@ -13,6 +13,7 @@ templates:
     tmdb_movie: <<movie>>
     sort_title: <<collection_sort>>
   auto_collections:
+    tmdb_collection_details: <<value>>
     move_prefix: The,A
 dynamic_collections:
   TMDb Collections:
@@ -34,7 +35,6 @@ collections:
         - 21832
         - 18491
         - 54270
-        - 34055
   Ghost in the Shell (Animated) Collection: 
     template:
       name: collection
@@ -62,5 +62,3 @@ collections:
         - 592350
         - 505262
         - 1054116
-        - 1057063
-        - 1057067
