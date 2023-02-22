@@ -13,14 +13,10 @@ templates:
     tmdb_movie: <<movie>>
     sort_title: <<collection_sort>>
   auto_collections:
-    minimum_items: 2
     tmdb_collection_details: <<value>>
-    sort_title: <<collection_sort>>
     move_prefix: The,A
-    collection_mode: hide_items
-    collection_order: release
 dynamic_collections:
-  TMDb Collections:
+  auto_tmdb_collections:
     type: tmdb_collection
     template: 
       - auto_collections
