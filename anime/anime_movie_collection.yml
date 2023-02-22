@@ -1,34 +1,18 @@
 external_templates:
   repo: templates
 
-templates:
-  collection:
-    collection_mode: hide_items
-    collection_order: release
-    optional:
-      - collection
-      - movie
-    sync_mode: sync
-    tmdb_collection_details: <<collection>>
-    tmdb_movie: <<movie>>
-    sort_title: <<collection_sort>>
-  auto_collections:
-    tmdb_collection_details: <<value>>
-    move_prefix: The,A
 dynamic_collections:
   auto_tmdb_collections:
     type: tmdb_collection
-    template: 
-      - auto_collections
-      - shared
     exclude:
       - 96850
       - 703485
       - 662002
       - 425164
+    template: auto_collections
 collections:
   Neon Genesis Evangelion Collection:
-    templates: 
+    template: 
       name: collection
       movie:
         - 857862
@@ -42,6 +26,7 @@ collections:
       movie:
         - 39323
         - 39324
+
   My Hero Academia Collection:
     template:
       name: collection
@@ -50,3 +35,4 @@ collections:
         - 592350
         - 505262
         - 1054116
+
