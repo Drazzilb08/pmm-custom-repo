@@ -1,3 +1,6 @@
+external_templates:
+  repo: templates
+
 templates:
   collection:
     collection_mode: hide_items
