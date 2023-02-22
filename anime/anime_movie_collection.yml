@@ -29,36 +29,27 @@ dynamic_collections:
 collections:
   Neon Genesis Evangelion Collection:
     template: 
-      name: 
-        - shared
-        - collection
-      movie:
-        - 857862
-        - 21832
-        - 18491
-        - 54270
-  The Seven Deadly Sins Collection:
-    template:
-      name: 
-        - shared
-        - collection
-      collection: 703485
+      - name: shared
+      - name: collection
+        movie:
+          - 857862
+          - 21832
+          - 18491
+          - 54270
   Dragon Ball Z Collection:
     template:
-      name: 
-        - shared
-        - collection
-      collection: 425164
-      movie:
-        - 39323
-        - 39324
+      - name: shared
+      - name: collection
+        collection: 425164
+        movie:
+          - 39323
+          - 39324
   My Hero Academia Collection:
     template:
-      name: 
-        - shared
-        - collection
-      movie:
-        - 768744
-        - 592350
-        - 505262
-        - 1054116
+      - name: shared
+      - name: collection
+        movie:
+          - 768744
+          - 592350
+          - 505262
+          - 1054116
