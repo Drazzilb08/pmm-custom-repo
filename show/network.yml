@@ -40,17 +40,25 @@ collections:
     template:
       - name: separator
         separator: network
+      - name: translation
+        key_name: Network
+        translation_key: separator
 
 dynamic_collections:
-  Network US:
+  Network:
     type: network
     title_format: <<key_name>>
     template:
-      - networks_dynamic
+      - smart_filter
+      - translation
       - shared
-    other_template:
-      - networks_dynamic
-      - shared
+    template_variables:
+      search_term:
+        default: network
+      image:
+        default: network/<<key_encoded>>
+      translation_key:
+        default: network
     include:
       - A&E
       - ABC
