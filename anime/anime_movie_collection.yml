@@ -30,8 +30,8 @@ collections:
   Neon Genesis Evangelion Collection:
     template: 
       name: 
-      - shared
-      - collection
+        - shared
+        - collection
       movie:
         - 857862
         - 21832
@@ -40,14 +40,14 @@ collections:
   The Seven Deadly Sins Collection:
     template:
       name: 
-      - shared
-      - collection
+        - shared
+        - collection
       collection: 703485
   Dragon Ball Z Collection:
     template:
       name: 
-      - shared
-      - collection
+        - shared
+        - collection
       collection: 425164
       movie:
         - 39323
@@ -55,8 +55,8 @@ collections:
   My Hero Academia Collection:
     template:
       name: 
-      - shared
-      - collection
+        - shared
+        - collection
       movie:
         - 768744
         - 592350
