@@ -20,8 +20,8 @@ dynamic_collections:
   TMDb Collections:
     type: tmdb_collection
     template: 
-      - name: auto_collections
-      - name: shared
+      - auto_collections
+      - shared
     exclude:
       - 96850
       - 703485
