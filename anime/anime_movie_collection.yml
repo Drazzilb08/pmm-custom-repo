@@ -1,7 +1,5 @@
 external_templates:
   repo: templates
-  template_variables:
-    collection_section: ""
 
 templates:
   collection:
