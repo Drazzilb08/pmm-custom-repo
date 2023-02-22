@@ -1,20 +1,6 @@
 external_templates:
   repo: templates
 
-templates:
-  collection:
-    collection_mode: hide_items
-    collection_order: release
-    optional:
-      - collection
-      - movie
-    sync_mode: sync
-    tmdb_collection_details: <<collection>>
-    tmdb_movie: <<movie>>
-    sort_title: <<collection_sort>>
-  auto_collections:
-    tmdb_collection_details: <<value>>
-    move_prefix: The,A
 dynamic_collections:
   auto_tmdb_collections:
     type: tmdb_collection
