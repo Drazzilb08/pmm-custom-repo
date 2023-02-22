@@ -29,34 +29,34 @@ dynamic_collections:
 collections:
   Neon Genesis Evangelion Collection:
     template: 
-      name: collection
+      name: 
+        - collection
+        - shared
       movie:
         - 857862
         - 21832
         - 18491
         - 54270
-  Ghost in the Shell (Animated) Collection: 
-    template:
-      name: collection
-      collection: 23026
   The Seven Deadly Sins Collection:
     template:
-      name: collection
+      name: 
+        - collection
+        - shared
       collection: 703485
   Dragon Ball Z Collection:
     template:
-      name: collection
+      name: 
+        - collection
+        - shared
       collection: 425164
       movie:
         - 39323
         - 39324
-  Pokémon Collection:
-    template:
-      name: collection
-      collection: 34055
   My Hero Academia Collection:
     template:
-      name: collection
+      name: 
+        - collection
+        - shared
       movie:
         - 768744
         - 592350
