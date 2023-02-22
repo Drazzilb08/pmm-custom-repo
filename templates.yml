@@ -60,6 +60,7 @@ templates:
       - ignore_ids
       - ignore_imdb_ids
       - minimum_items
+      - movie
     allowed_library_types:
       - <<use_<<key>>>>
       - <<allowed_libraries>>
