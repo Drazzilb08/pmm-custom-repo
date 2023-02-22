@@ -1,5 +1,7 @@
 external_templates:
   repo: templates
+  template_variables:
+    collection_section: ""
 
 templates:
   collection:
@@ -30,8 +32,8 @@ collections:
   Neon Genesis Evangelion Collection:
     template: 
       name: 
-        - collection
-        - shared
+      - shared
+      - collection
       movie:
         - 857862
         - 21832
@@ -40,14 +42,14 @@ collections:
   The Seven Deadly Sins Collection:
     template:
       name: 
-        - collection
-        - shared
+      - shared
+      - collection
       collection: 703485
   Dragon Ball Z Collection:
     template:
       name: 
-        - collection
-        - shared
+      - shared
+      - collection
       collection: 425164
       movie:
         - 39323
@@ -55,8 +57,8 @@ collections:
   My Hero Academia Collection:
     template:
       name: 
-        - collection
-        - shared
+      - shared
+      - collection
       movie:
         - 768744
         - 592350
