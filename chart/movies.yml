@@ -3,7 +3,7 @@ external_templates:
   template_variables:
     collection_section: "01"
     image:
-        default: chart/<<collection_encoded>>
+        default: chart/<<collection_name_encoded>>
 
 translations:
   pmm: translations
@@ -52,6 +52,8 @@ collections:
 #         - translation
 #         - shared
 #         - arr
+#       template_variables:
+        
 #       image:
 #         default: chart/<<key_name_encoded>>
 
