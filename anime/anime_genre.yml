@@ -1,29 +1,9 @@
-#############################################################
-#                 Dynamic Genre Collections                 #
-#                    Created by Drazzilb                    #
-#############################################################
-#  Call this from your config.yml (Movie or Show)           #
-#  If nothing is specified these are the defaults           #
-#                                                           #
-#    metadata_path:                                         #
-#      - repo: anime_genre                                  #
-#        template_variables:                                #
-#          # Turn the separator collection on/off           #
-#          use_separator: false                             #
-#          # Sets how the collection is sorted              #
-#          sort_by: release.desc                            #
-#          # Sets the collection mode of the collection     #
-#          collection_mode: hide                            #
-#          # Sets the value at the start of the sort title  #
-#          collection_section: "06"                         #
-#############################################################
 external_templates:
   repo: templates
   template_variables:
     collection_section: "06"
     image:
       default: anime_genre/<<key_encoded>>
-    # url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/anime_genre/<<collection_name_encoded>>.jpg
 collections:
   Action:
     template:
