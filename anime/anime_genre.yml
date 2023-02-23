@@ -24,7 +24,6 @@ external_templates:
     image:
       default: anime_genre/<<key_encoded>>
     # url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/anime_genre/<<collection_name_encoded>>.jpg
-
 collections:
   Action:
     template:
