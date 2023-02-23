@@ -12,7 +12,7 @@ templates:
     smart_label: release.desc
   template_variables:
       image:
-        default: studio/<<key_encoded>>
+        default: studio/<<collection_encoded>>
       translation_key:
         default: studio
 
