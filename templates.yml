@@ -36,8 +36,6 @@ templates:
     tmdb_collection_details: <<value>>
 
   collection:
-    default:
-      collection_section: "00"
     collection_mode: hide_items
     collection_order: release
     optional:
