@@ -3,7 +3,7 @@ external_templates:
   template_variables:
     collection_section: "01"
     default:
-      image: chart/<<key_name_encoded>>
+      image: chart/<<key_encoded>>
 
 collections:
   Trending Movies:
@@ -14,8 +14,8 @@ collections:
         label: <<smart_label>>
     summary: Trending movies from the internet listing from release date.
     template:
-      - name: shared
-        key: trending_movies
+      name: shared
+      key: trending_movies
 
   Internet's Most Popular:
     mdblist_list: https://mdblist.com/lists/drazzilb/top-200-movies
@@ -25,5 +25,5 @@ collections:
         label: <<smart_label>>
     summary: The internet's most popular movies from the last 10 years sorted by rank.
     template:
-      - name: shared
-        key: popular_movies
+      name: shared
+      key: popular_movies
