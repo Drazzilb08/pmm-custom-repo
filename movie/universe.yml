@@ -90,4 +90,4 @@ dynamic_collections:
         bat: https://mdblist.com/lists/drazzilb/batman-universe
         with_dc: https://mdblist.com/lists/drazzilb/in-association-with-dc
       image:
-        default: universe/<<key>>
+        default: universe/<<key_name_encoded>>
