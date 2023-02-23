@@ -11,7 +11,7 @@ collections:
     summary: Trending movies from the internet listing from release date.
     template:
       - name: shared
-      - name: smart_filter
+      - name: filter
         key: trending_movies
 
   Internet's Most Popular:
@@ -19,5 +19,5 @@ collections:
     summary: The internet's most popular movies from the last 10 years sorted by rank.
     template:
       - name: shared
-      - name: smart_filter
+      - name: filter
         key: popular_movies
