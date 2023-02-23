@@ -22,5 +22,5 @@ dynamic_collections:
       mdblist_list:
         default: https://mdblist.com/lists/drazzilb/<<key>>-<<library_type>>s
       image:
-        default: chart/<<key>>-<<library>>s
+        default: chart/<<key>>-<<library_type>>s
 
