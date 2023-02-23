@@ -62,7 +62,6 @@ dynamic_collections:
       spider: Spiderverse
       bat: Batman Universe
       with_dc: In Association With DC
-      monster: MonsterVerse
     template:
       - universe
       - shared
@@ -73,7 +72,6 @@ dynamic_collections:
         dcu: https://trakt.tv/users/donxy/lists/dc-extended-universe
         mcu: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
         avp: https://trakt.tv/users/donxy/lists/alien-predator-timeline
-        monster: https://trakt.tv/users/rzepkowski/lists/monsterverse-movies
       mdblist_list:
         dca: https://mdblist.com/lists/drazzilb/dc-animated-universe
         star: https://mdblist.com/lists/drazzilb/star-wars-universe
