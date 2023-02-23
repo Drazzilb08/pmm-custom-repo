@@ -36,6 +36,7 @@ templates:
     move_prefix: The,A
     sort_title: "!<<collection_section>>_!<<collection_name>>"
     tmdb_collection_details: <<value>>
+
   collection:
     default:
       collection_section: "00"
