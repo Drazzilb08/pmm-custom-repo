@@ -2,8 +2,6 @@ external_templates:
   repo: templates
   template_variables:
     collection_section: "01"
-    image:
-        default: chart/<<collection_name_encoded>>
 
 translations:
   pmm: translations
@@ -55,6 +53,6 @@ dynamic_collections:
       template_variables:
         mdblist_list:
           default: https://mdblist.com/lists/drazzilb/<<key>>-<<library_type>>s
-      image:
-        default: chart/<<key_name_encoded>>
+        image:
+          default: chart/<<key_name_encoded>>
 
