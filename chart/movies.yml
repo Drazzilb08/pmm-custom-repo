@@ -8,52 +8,53 @@ external_templates:
 translations:
   pmm: translations
 
-collections:
-  Trending Movies:
-    mdblist_list: https://mdblist.com/lists/drazzilb/trending-movies-top-20
-    smart_label:
-      sort_by: release.desc
-      all:
-        label: <<smart_label>>
-    summary: Trending movies from the internet listing from release date.
-    template:
-      name: shared
-      key: trending_movies
-
-  Internet's Most Popular:
-    mdblist_list: https://mdblist.com/lists/drazzilb/top-200-movies
-    smart_label:
-      sort_by: random
-      all:
-        label: <<smart_label>>
-    summary: The internet's most popular movies from the last 10 years sorted by rank.
-    template:
-      name: shared
-      key: popular_movies
-
 # collections:
-#   Chart Collections:
+#   Trending Movies:
+#     mdblist_list: https://mdblist.com/lists/drazzilb/trending-movies-top-20
+#     smart_label:
+#       sort_by: release.desc
+#       all:
+#         label: <<smart_label>>
+#     summary: Trending movies from the internet listing from release date.
 #     template:
-#       - name: separator
-#         separator: streaming
-#       - name: translation
-#         key_name: Streaming
-#         translation_key: separator
+#       name: shared
+#       key: trending_movies
 
-# dynamic_collections:
-#     Charts:
-#       type: custom
-#       data:
-#         popular: Internet's Most Popular
-#         trending: Trending Movies
-#       title_format: <<key_name>> <<library_typeU>>s
-#       template:
-#         - mdb_smart
-#         - translation
-#         - shared
-#         - arr
-#       template_variables:
-        
-#       image:
-#         default: chart/<<key_name_encoded>>
+#   Internet's Most Popular:
+#     mdblist_list: https://mdblist.com/lists/drazzilb/top-200-movies
+#     smart_label:https://mdblist.com/lists/drazzilb/popular-movies
+#       sort_by: random
+#       all:
+#         label: <<smart_label>>
+#     summary: The internet's most popular movies from the last 10 years sorted by rank.
+#     template:
+#       name: shared
+#       key: popular_movies
+
+collections:
+  Chart Collections:
+    template:
+      - name: separator
+        separator: chart
+      - name: translation
+        key_name: Chart
+        translation_key: separator
+
+dynamic_collections:
+    Charts:
+      type: custom
+      data:
+        popular: Internet's Most Popular
+        trending: Trending
+      title_format: <<key_name>> <<library_typeU>>s
+      template:
+        - mdb_smart
+        - translation
+        - shared
+        - arr
+      template_variables:
+        mdblist_list:
+          default: https://mdblist.com/lists/drazzilb/<<key>>-<<library_type>>s
+      image:
+        default: chart/<<key_name_encoded>>
 
