@@ -31,10 +31,8 @@ templates:
     url_poster: <<url_poster_<<key>>>>
 
   auto_collections:
-    default:
-      collection_section: "00"
     move_prefix: The,A
-    sort_title: "!<<collection_section>>_!<<collection_name>>"
+    sort_title: <<collection_name>>
     tmdb_collection_details: <<value>>
 
   collection:
@@ -48,7 +46,7 @@ templates:
     sync_mode: sync
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
-    sort_title: "!<<collection_section>>_!<<collection_name>>"
+    sort_title: <<collection_name>>
 
   shared:
     default:
