@@ -6,15 +6,6 @@ external_templates:
 translations:
   pmm: translations
 
-collections:
-  Chart Collections:
-    template:
-      - name: separator
-        separator: chart
-      - name: translation
-        key_name: Chart
-        translation_key: separator
-
 dynamic_collections:
   Charts:
     type: custom
@@ -31,5 +22,5 @@ dynamic_collections:
       mdblist_list:
         default: https://mdblist.com/lists/drazzilb/<<key>>-<<library_type>>s
       image:
-        default: chart/<<key_name_encoded>>
+        default: chart/<<key>>-<<library>>s
 
