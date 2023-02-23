@@ -2,8 +2,11 @@ external_templates:
   repo: templates
   template_variables:
     collection_section: "01"
-    default:
-      image: chart/<<key_encoded>>
+    image:
+        default: studio/<<collection_encoded>>
+
+translations:
+  pmm: translations
 
 collections:
   Trending Movies:
@@ -27,3 +30,28 @@ collections:
     template:
       name: shared
       key: popular_movies
+
+# collections:
+#   Chart Collections:
+#     template:
+#       - name: separator
+#         separator: streaming
+#       - name: translation
+#         key_name: Streaming
+#         translation_key: separator
+
+# dynamic_collections:
+#     Charts:
+#       type: custom
+#       data:
+#         popular: Internet's Most Popular
+#         trending: Trending Movies
+#       title_format: <<key_name>> <<library_typeU>>s
+#       template:
+#         - mdb_smart
+#         - translation
+#         - shared
+#         - arr
+#       image:
+#         default: chart/<<key_name_encoded>>
+
