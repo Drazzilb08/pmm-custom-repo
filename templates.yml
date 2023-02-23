@@ -46,6 +46,11 @@ templates:
     tmdb_movie: <<movie>>
     sort_title: <<collection_name>>
 
+  anime_genre:
+    mal_search:
+      genre: <<mal_id>>
+      limit: 0
+
   shared:
     default:
       collection_section: "00"
