@@ -9,6 +9,7 @@ dynamic_collections:
       - 703485
       - 662002
       - 425164
+      - 34055
     template: auto_collections
 collections:
   Neon Genesis Evangelion Collection:
@@ -26,7 +27,6 @@ collections:
       movie:
         - 39323
         - 39324
-
   My Hero Academia Collection:
     template:
       name: collection
@@ -35,4 +35,11 @@ collections:
         - 592350
         - 505262
         - 1054116
+  Pokémon collection:
+      template:
+        name: collection
+        collection: 34055
+        movie:
+          - 36897
+          - 571891
 
