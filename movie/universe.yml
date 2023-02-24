@@ -6,7 +6,7 @@
 ##############################################################################
 
 external_templates:
-  pmm: templates
+  repo: templates
   template_variables:
     collection_section: "02"
 
