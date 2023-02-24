@@ -13,6 +13,8 @@ templates:
       name_mapping_<<key>>: <<name_mapping>>
       summary_<<key>>: <<summary>> 
       minimum_items: 2
+      sort_by: release.desc
+      sort_by_<<key>>: <<sort_by>>
     optional:
       - name_mapping
       - name_<<key>>
@@ -58,7 +60,7 @@ dynamic_collections:
       - studio
       - shared
       - arr
-      - mdb_smart
+      - custom
     template_variables:
       mdblist_list:
         A24: https://mdblist.com/lists/drazzilb/a24-ctgm1e6c7c
