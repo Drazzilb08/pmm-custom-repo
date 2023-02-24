@@ -44,7 +44,21 @@ dynamic_collections:
   Universe Collections:
     type: custom
     data:
-      view: View Askewniverse
+      view_askew: View Askewniverse
+      with_dc: In Association with DC
+      spiderverse: Spiderverse
+      with_marvel: In Association With Marvel
+      conjuring: The Conjuring Universe
+      batman: Batman Universe
+      rockycreed: Rocky / Creed
+      mummy: The Mummy Universe
+      star_wars: Star Wars Universe
+      wizarding: Wizarding World
+      xmen: X-Men Universe
+      fast_and_furious: Fast and Furious Universe
+      star_trek: Star Trek Universe
+      middle_earth: Middle Earth Universe
+      dc_animated: DC Animated Universe
     template:
       - universe
       - shared
@@ -52,6 +66,20 @@ dynamic_collections:
       - custom
     template_variables:
       mdblist_list:
-        view: https://mdblist.com/lists/drazzilb/view-askewniverse
+        view_askew: https://mdblist.com/lists/drazzilb/view-askewniverse
+        with_dc: https://mdblist.com/lists/drazzilb/in-association-with-dc
+        spiderverse: https://mdblist.com/lists/drazzilb/spiderverse
+        with_marvel: https://mdblist.com/lists/drazzilb/in-association-with-marvel
+        conjuring: https://mdblist.com/lists/drazzilb/the-conjuring-universe
+        bat: https://mdblist.com/lists/drazzilb/batman-universe
+        rockycreed: https://mdblist.com/lists/drazzilb/rocky-creed
+        mummy: https://mdblist.com/lists/drazzilb/the-mummy-universe
+        star_wars: https://mdblist.com/lists/drazzilb/star-wars-universe
+        wizarding: https://mdblist.com/lists/drazzilb/wizarding-world
+        xmen: https://mdblist.com/lists/drazzilb/x-men-universe
+        fast_and_furious: https://mdblist.com/lists/drazzilb/fast-and-furious-universe
+        star_trek: https://mdblist.com/lists/drazzilb/star-trek-universe
+        middle_earth: https://mdblist.com/lists/drazzilb/middle-earth-universe
+        dc_animated: https://mdblist.com/lists/drazzilb/dc-animated-universe
       image:
         default: universe/<<key_name_encoded>>
