@@ -12,6 +12,8 @@ templates:
       mdblist_list_<<key>>: <<mdblist_list>>
       name_mapping_<<key>>: <<name_mapping>>
       summary_<<key>>: <<summary>> 
+      sort_by: release.desc
+      sort_by_<<key>>: <<sort_by>>
       minimum_items: 2
     optional:
       - name_mapping
