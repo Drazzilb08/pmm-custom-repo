@@ -12,15 +12,12 @@ templates:
       mdblist_list_<<key>>: <<mdblist_list>>
       name_mapping_<<key>>: <<name_mapping>>
       summary_<<key>>: <<summary>> 
-      sort_by_<<key>>: <<sort_by>>
-      sort_by: release.desc
       minimum_items: 2
     optional:
       - name_mapping
       - name_<<key>>
       - summary_<<key>>
       - imdb_list_<<key>>
-      - sort_by_<<key>>
     minimum_items: <<minimum_items>>
     name_mapping: <<name_mapping_<<key>>>>
     imdb_list: <<imdb_list_<<key>>>>
@@ -61,7 +58,7 @@ dynamic_collections:
       - studio
       - shared
       - arr
-      - custom
+      - mdb_smart
     template_variables:
       mdblist_list:
         A24: https://mdblist.com/lists/drazzilb/a24-ctgm1e6c7c
