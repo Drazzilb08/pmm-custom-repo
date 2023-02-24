@@ -66,7 +66,6 @@ dynamic_collections:
       - shared
       - arr
       - custom
-      - mdb_smart
     template_variables:
       # trakt_list:
       #   dcu: https://trakt.tv/users/donxy/lists/dc-extended-universe
