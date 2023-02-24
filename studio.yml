@@ -44,7 +44,7 @@ dynamic_collections:
   Universe Collections:
     type: custom
     data:
-      A24: A24
+      A24: A24 is an American independent entertainment company that specializes in film and television production, as well as film distribution. It is based in New York City.
       pixar_animation_studios: Pixar Animation Studios
       walt_disney_animation_studio: Walt Disney Animation Studio
       illumination_entertainment: Illumination Entertainment
@@ -64,7 +64,6 @@ dynamic_collections:
       - studio
       - shared
       - arr
-      - custom
     template_variables:
       mdblist_list:
         A24: https://mdblist.com/lists/drazzilb/a24-ctgm1e6c7c
