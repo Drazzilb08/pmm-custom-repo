@@ -78,11 +78,9 @@ templates:
       - minimum_items
       - item_radarr_tag
       - item_sonarr_tag
-      - mdblist_list
       - image
       - ignore_ids
       - ignore_imdb_ids
-      - minimum_items
     allowed_library_types:
       - <<use_<<key>>>>
       - <<allowed_libraries>>
