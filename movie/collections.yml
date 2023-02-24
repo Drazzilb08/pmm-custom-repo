@@ -1449,14 +1449,6 @@ collections:
       movie:
         - 354912
         - 449621
-  MonsterVerse Collection:
-    template:
-      name: collection
-      movie:
-        - 124905
-        - 399566
-        - 373571
-        - 293167
   Moana Collection:
     template:
       name: kids-collection
