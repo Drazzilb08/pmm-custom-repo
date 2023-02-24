@@ -1,14 +1,7 @@
-##############################################################################
-#                            Universe Collections                            #
-#                 Created by Yozora, Bullmoose20, & Sohjiro                  #
-#          EDITING THIS FILE MAY CAUSE PULLING NEW UPDATES TO FAIL           #
-#      https://metamanager.wiki/en/latest/defaults/movie/universe.html       #
-##############################################################################
-
 external_templates:
   repo: templates
   template_variables:
-    collection_section: "02"
+    collection_section: "03"
 
 translations:
   pmm: translations
