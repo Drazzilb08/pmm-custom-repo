@@ -42,13 +42,13 @@ collections:
         translation_key: separator
 
 dynamic_collections:
-  Universe Collections:
+  traktUniverse Collections:
     type: custom
     data:
       star: Star Wars Universe
       dca: DC Animated Universe
-      dcu: Worlds of DC (DCEU)
-      mcu: Marvel Cinematic Universe
+      # dcu: Worlds of DC (DCEU)
+      # mcu: Marvel Cinematic Universe
       wizard: Wizarding World
       xmen: X-Men Universe
       middle: Middle Earth
@@ -60,7 +60,7 @@ dynamic_collections:
       spider: Spiderverse
       bat: Batman Universe
       with_dc: In Association With DC
-      monster: MonsterVerse
+      # monster: MonsterVerse
     template:
       - universe
       - shared
@@ -68,10 +68,10 @@ dynamic_collections:
       - custom
       - mdb_smart
     template_variables:
-      trakt_list:
-        dcu: https://trakt.tv/users/donxy/lists/dc-extended-universe
-        mcu: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
-        monster: https://trakt.tv/users/rzepkowski/lists/monsterverse-movies
+      # trakt_list:
+      #   dcu: https://trakt.tv/users/donxy/lists/dc-extended-universe
+      #   mcu: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
+      #   monster: https://trakt.tv/users/rzepkowski/lists/monsterverse-movies
       mdblist_list:
         dca: https://mdblist.com/lists/drazzilb/dc-animated-universe
         star: https://mdblist.com/lists/drazzilb/star-wars-universe
