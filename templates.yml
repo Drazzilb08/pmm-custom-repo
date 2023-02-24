@@ -76,7 +76,6 @@ templates:
       - visible_shared
       - item_radarr_tag
       - item_sonarr_tag
-      - trakt_list
       - mdblist_list
       - image
       - ignore_ids
@@ -87,7 +86,6 @@ templates:
       - <<allowed_libraries>>
     ignore_ids: <<ignore_ids>>
     ignore_imdb_ids: <<ignore_imdb_ids>>
-    trakt_list: <<trakt_list>>
     mdblist_list: <<mdblist_list>>
     ignore_blank_results: true
     collection_mode: <<collection_mode>>
@@ -100,10 +98,10 @@ templates:
     url_poster: <<url_poster_<<key>>>>
     minimum_items: <<minimum_items_<<key>>>>
 
-  trakt:
+  mdblist:
     optional:
-      - trakt_list
-    trakt_list: <<trakt_list>>
+      - mdblist_list
+    mdblist_list: <<mdblist_list>>
 
   imdb:
     optional:
