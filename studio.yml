@@ -1,116 +1,104 @@
+##############################################################################
+#                            Universe Collections                            #
+#                 Created by Yozora, Bullmoose20, & Sohjiro                  #
+#          EDITING THIS FILE MAY CAUSE PULLING NEW UPDATES TO FAIL           #
+#      https://metamanager.wiki/en/latest/defaults/movie/universe.html       #
+##############################################################################
 
 external_templates:
   repo: templates
   template_variables:
-    collection_section: "07"
+    collection_section: "02"
 
 translations:
   pmm: translations
 
 templates:
   studio:
-    smart_label: release.desc
-  template_variables:
-      image:
-        default: studio/<<collection_encoded>>
-      translation_key:
-        default: studio
+    default:
+      mdblist_list_<<key>>: <<mdblist_list>>
+      name_mapping_<<key>>: <<name_mapping>>
+      minimum_items: 2
+    optional:
+      - name_mapping
+      - name_<<key>>
+      - summary_<<key>>
+      - imdb_list_<<key>>
+    minimum_items: <<minimum_items>>
+    name_mapping: <<name_mapping_<<key>>>>
+    imdb_list: <<imdb_list_<<key>>>>
+    mdblist_list: <<mdblist_list_<<key>>>>
+    summary: <<key>>
+    name: <<name_<<key>>>>
 
 collections:
-  Pixar Animation Studios:
+  Studio Collections:
     template:
-      - name: studio
-      - name: shared
-    mdblist_list: https://mdblist.com/lists/drazzilb/pixar-animation-studios
-    summary: Pixar Animation Studios is an American animation studio based in Emeryville, California, that is a subsidiary of The Walt Disney Studios, owned by The Walt Disney Company.
-    label: kids
-  Walt Disney Animation Studio:
+      - name: separator
+        separator: studio
+      - name: translation
+        key_name: Studio
+        translation_key: separator
+
+dynamic_collections:
+  Universe Collections:
+    type: custom
+    data:
+      A24: A24
+      pixar_animation_studios: Pixar Animation Studios
+      walt_disney_animation_studio: Walt Disney Animation Studio
+      illumination_entertainment: Illumination Entertainment
+      sony_pictures_animation: Sony Pictures Animation
+      dreamworks_animation: DreamWorks Animation
+      warner_animation_group: Warner Animation Group
+      blue_sky_studios: Blue Sky Studios
+      nickelodeon_animation_studio: Nickelodeon Animation Studio
+      aardman_studios: Aardman Studios
+      laika_studios: Laika Studios
+      don_bluth_studios: Don Bluth Studios
+      disney_live_action_remakes: Disney Live-Action Remakes
+      cartoon_saloon: Cartoon Saloon
+      broken_lizard_industries: Broken Lizard Industries
+      studio_ghibli: Studio Ghibli
     template:
-      - name: studio
-      - name: shared
-    mdblist_list: https://mdblist.com/lists/drazzilb/walt-disney-animation-studio
-    summary: Walt Disney Animation Studios, also referred to as Disney Animation, is an American animation studio that creates animated feature films, short films, and television specials for The Walt Disney Company.
-    label: kids
-  Illumination Entertainment:
-    template:
-      - name: studio
-      - name: shared
-    mdblist_list: https://mdblist.com/lists/drazzilb/illumination-entertainment
-    summary: Illumination is an American film and animation studio responsible for the Despicable Me and The Secret Life of Pets franchises and the film adaptations of Dr. Seuss books The Lorax and How the Grinch Stole Christmas. The Minions, characters from the Despicable Me series, are the studio mascots.
-    label: kids
-  Sony Pictures Animation:
-    template:
-      - name: studio
-      - name: shared
-    mdblist_list: https://mdblist.com/lists/drazzilb/sony-pictures-animation
-    summary: Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002. The studio's films are distributed worldwide by Sony Pictures Releasing under their Columbia Pictures label, while all direct-to-video releases are released by Sony Pictures Home Entertainment.
-    label: kids
-  DreamWorks Animation:
-    template:
-      - name: studio
-      - name: shared
-    mdblist_list: https://mdblist.com/lists/hdlists/dreamworks-movie-collection/
-    summary: DreamWorks Animation LLC (also simply known as DreamWorks) is an American animation studio and a subsidiary of Universal Pictures, itself a subsidiary of Comcast's NBCUniversal. It is based in Glendale, California, and produces animated feature films, television programs, and online virtual games.
-    label: kids
-  Warner Animation Group:
-    template:
-      - name: studio
-      - name: shared
-    tmdb_list: https://www.themoviedb.org/list/8070163
-    summary: The Warner Animation Group (WAG) is an American animation studio that is the feature animation division of Warner Bros. Entertainment. Established on January 7, 2013, the studio is the successor to the dissolved 2D traditional hand-drawn animation studio Warner Bros. Feature Animation, which shut down in 2003 and the dissolved family film division Warner Bros. Family Entertainment, which shut down in 2009. The entity is also a sister animation studio of the regular animation studio Warner Bros. Animation
-    label: kids
-  Blue Sky Studios:
-    template:
-      - name: studio
-      - name: shared
-    tmdb_list: https://www.themoviedb.org/list/8169603
-    summary: Blue Sky Studios, Inc. was an American computer animation film studio based in Greenwich.
-    label: kids
-  Nickelodeon Animation Studio:
-    template:
-      - name: studio
-      - name: shared
-    tmdb_list: https://www.themoviedb.org/list/8169611
-    summary: "Nickelodeon Animation Studio is an American animation studio owned by ViacomCBS. It has created many original television programs for Nickelodeon, such as SpongeBob SquarePants, The Fairly OddParents, Rugrats and Avatar: The Last Airbender, among various others."
-    label: kids
-  Aardman Studios:
-    template:
-      - name: studio
-      - name: shared
-    tmdb_list: https://www.themoviedb.org/list/8174158
-    summary: The Aardman collection is made by films and series animated by Aardman Animations; a British film production company founded in 1972. The founders are Peter Lord and David Sproxton. The company is best known for their clay-animated productions Wallace and Gromit and Shaun the Sheep. and Chicken Run
-    label: kids
-  Laika Studios:
-    template:
-      - name: studio
-      - name: shared
-    tmdb_list: https://www.themoviedb.org/list/8174159
-    summary: Laika, LLC, simply known as Laika, is an American stop-motion animation studio specializing in feature films, commercial content for all media, music videos, and short films.
-    label: kids
-  Don Bluth Studios:
-    template:
-      - name: studio
-      - name: shared
-    tmdb_list: https://www.themoviedb.org/list/8174161
-    summary: Don Bluth Studios was an Irish-American animation studio established in 1979 by animator Don Bluth. Bluth and several colleagues, all of whom were former Disney animators, left Disney on September 13, 1979
-    label: kids
-  Disney Live-Action Remakes:
-    template:
-      - name: studio
-      - name: shared
-    tmdb_list: https://www.themoviedb.org/list/8174280
-    summary: This is a list of live-action or photorealistic remakes produced by Walt Disney Pictures of its animated films.
-  Cartoon Saloon:
-    template:
-      - name: studio
-      - name: shared
-    tmdb_list: https://www.themoviedb.org/list/8174693
-    summary: Cartoon Saloon is an Irish animation film, short film and television studio based in Kilkenny which provides film TV and short film services.
-  A24:
-    template:
-      - name: studio
-      - name: shared
-    mdblist_list: https://mdblist.com/lists/drazzilb/a24-ctgm1e6c7c
-    summary: A24 is an American independent entertainment company that specializes in film and television production, as well as film distribution. It is based in New York City. A24 was founded in 2012 by Daniel Katz, David Fenkel and John Hodges.
-  #Broken Lizard Industries:
-  #Studio Ghibli
+      - studio
+      - shared
+      - arr
+      - custom
+    template_variables:
+      mdblist_list:
+        A24: https://mdblist.com/lists/drazzilb/a24-ctgm1e6c7c
+        pixar_animation_studios: https://mdblist.com/lists/drazzilb/pixar-animation-studios
+        walt_disney_animation_studio: https://mdblist.com/lists/drazzilb/walt-disney-animation-studio
+        illumination_entertainment: https://mdblist.com/lists/drazzilb/illumination-entertainment
+        sony_pictures_animation: https://mdblist.com/lists/drazzilb/sony-pictures-animation
+        dreamworks_animation: https://mdblist.com/lists/drazzilb/dreamworks-animation
+        warner_animation_group: https://mdblist.com/lists/drazzilb/warner-animation-group
+        blue_sky_studios: https://mdblist.com/lists/drazzilb/blue-sky-studios
+        nickelodeon_animation_studio: https://mdblist.com/lists/drazzilb/nickelodeon-animation-studio
+        aardman_studios: https://mdblist.com/lists/drazzilb/aardman-studios
+        laika_studios: https://mdblist.com/lists/drazzilb/laika-studios
+        don_bluth_studios: https://mdblist.com/lists/drazzilb/don-bluth-studios
+        disney_live_action_remakes: https://mdblist.com/lists/drazzilb/disney-live-action-remakes
+        cartoon_saloon: https://mdblist.com/lists/drazzilb/cartoon-saloon
+        broken_lizard_industries: https://mdblist.com/lists/drazzilb/broken-lizard-industries
+        studio_ghibli: https://mdblist.com/lists/drazzilb/studio-ghibli
+      summary:
+        A24: 
+        pixar_animation_studios: Pixar Animation Studios is an American animation studio based in Emeryville, California, that is a subsidiary of The Walt Disney Studios, owned by The Walt Disney Company.
+        walt_disney_animation_studio:  Walt Disney Animation Studios, also referred to as Disney Animation, is an American animation studio that creates animated feature films, short films, and television specials for The Walt Disney Company.
+        illumination_entertainment: Illumination is an American film and animation studio responsible for the Despicable Me and The Secret Life of Pets franchises and the film adaptations of Dr. Seuss books The Lorax and How the Grinch Stole Christmas. The Minions, characters from the Despicable Me series, are the studio mascots.
+        sony_pictures_animation: Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002. The studio's films are distributed worldwide by Sony Pictures Releasing under their Columbia Pictures label, while all direct-to-video releases are released by Sony Pictures Home Entertainment.
+        dreamworks_animation: DreamWorks Animation LLC (also simply known as DreamWorks) is an American animation studio and a subsidiary of Universal Pictures, itself a subsidiary of Comcast's NBCUniversal. It is based in Glendale, California, and produces animated feature films, television programs, and online virtual games.
+        warner_animation_group: The Warner Animation Group (WAG) is an American animation studio that is the feature animation division of Warner Bros. Entertainment. Established on January 7, 2013, the studio is the successor to the dissolved 2D traditional hand-drawn animation studio Warner Bros. Feature Animation, which shut down in 2003 and the dissolved family film division Warner Bros. Family Entertainment, which shut down in 2009. The entity is also a sister animation studio of the regular animation studio Warner Bros. Animation
+        blue_sky_studios: Blue Sky Studios, Inc. was an American computer animation film studio based in Greenwich.
+        nickelodeon_animation_studio: "Nickelodeon Animation Studio is an American animation studio owned by ViacomCBS. It has created many original television programs for Nickelodeon, such as SpongeBob SquarePants, The Fairly OddParents, Rugrats and Avatar: The Last Airbender, among various others."
+        aardman_studios: The Aardman collection is made by films and series animated by Aardman Animations; a British film production company founded in 1972. The founders are Peter Lord and David Sproxton. The company is best known for their clay-animated productions Wallace and Gromit and Shaun the Sheep. and Chicken Run.
+        laika_studios: Laika, LLC, simply known as Laika, is an American stop-motion animation studio specializing in feature films, commercial content for all media, music videos, and short films.
+        don_bluth_studios: Don Bluth Studios was an Irish-American animation studio established in 1979 by animator Don Bluth. Bluth and several colleagues, all of whom were former Disney animators, left Disney on September 13, 1979
+        disney_live_action_remakes: This is a list of live-action or photorealistic remakes produced by Walt Disney Pictures of its animated films.
+        cartoon_saloon: Cartoon Saloon is an Irish animation film, short film and television studio based in Kilkenny which provides film TV and short film services.
+        broken_lizard_industries: Broken Lizard is an American comedy troupe that comprises Jay Chandrasekhar, Kevin Heffernan, Steve Lemme, Paul Soter, and Erik Stolhanske. They collaborate on the screen-writing, acting and productions of their films, with Chandrasekhar and Heffernan being the primary directors; the team however does not have any single leader and they work collaboratively when choosing material and writing projects.
+        studio_ghibli: Studio Ghibli, Inc. is a Japanese animation studio based in Koganei, Tokyo. It is best known for its range of animated feature films and has also produced several short subjects, television commercials, and two television films.
+      image:
+        default: studio/<<key>>
