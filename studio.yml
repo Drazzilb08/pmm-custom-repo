@@ -44,7 +44,7 @@ dynamic_collections:
   Universe Collections:
     type: custom
     data:
-      A24: A24 is an American independent entertainment company that specializes in film and television production, as well as film distribution. It is based in New York City.
+      A24: A24
       pixar_animation_studios: Pixar Animation Studios
       walt_disney_animation_studio: Walt Disney Animation Studio
       illumination_entertainment: Illumination Entertainment
@@ -83,7 +83,7 @@ dynamic_collections:
         broken_lizard_industries: https://mdblist.com/lists/drazzilb/broken-lizard-industries
         studio_ghibli: https://mdblist.com/lists/drazzilb/studio-ghibli
       summary:
-        A24: 
+        A24: A24 is an American independent entertainment company that specializes in film and television production, as well as film distribution. It is based in New York City.
         pixar_animation_studios: Pixar Animation Studios is an American animation studio based in Emeryville, California, that is a subsidiary of The Walt Disney Studios, owned by The Walt Disney Company.
         walt_disney_animation_studio:  Walt Disney Animation Studios, also referred to as Disney Animation, is an American animation studio that creates animated feature films, short films, and television specials for The Walt Disney Company.
         illumination_entertainment: Illumination is an American film and animation studio responsible for the Despicable Me and The Secret Life of Pets franchises and the film adaptations of Dr. Seuss books The Lorax and How the Grinch Stole Christmas. The Minions, characters from the Despicable Me series, are the studio mascots.
