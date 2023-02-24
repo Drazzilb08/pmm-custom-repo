@@ -34,6 +34,18 @@ templates:
     move_prefix: The,A
     sort_title: <<collection_name>>
     tmdb_collection_details: <<value>>
+  
+  kids-collection:
+    collection_mode: hide_items
+    collection_order: release
+    label: kids
+    optional:
+      - collection
+      - movie
+    sync_mode: sync
+    tmdb_collection_details: <<collection>>
+    sort_title: <<collection_sort>>
+    tmdb_movie: <<movie>>
 
   collection:
     collection_mode: hide_items
