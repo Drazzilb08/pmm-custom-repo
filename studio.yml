@@ -12,7 +12,7 @@ templates:
       mdblist_list_<<key>>: <<mdblist_list>>
       name_mapping_<<key>>: <<name_mapping>>
       summary_<<key>>: <<summary>> 
-      sort_by_<<key>>: <<sort_by>>
+      sort_by: release.desc
       minimum_items: 2
     optional:
       - name_mapping
@@ -26,7 +26,6 @@ templates:
     mdblist_list: <<mdblist_list_<<key>>>>
     summary: <<summary_<<key>>>>
     name: <<name_<<key>>>>
-    sort_by: release.desc
 
 collections:
   Studio Collections:
