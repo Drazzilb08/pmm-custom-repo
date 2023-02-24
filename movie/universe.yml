@@ -50,12 +50,10 @@ dynamic_collections:
       dcu: Worlds of DC (DCEU)
       mcu: Marvel Cinematic Universe
       wizard: Wizarding World
-      avp: Alien / Predator
       xmen: X-Men Universe
       middle: Middle Earth
       fast: Fast & Furious
       trek: Star Trek
-      rocky: Rocky / Creed
       mummy: The Mummy Universe
       with_marvel: In Association With Marvel
       view: View Askewniverse
@@ -72,7 +70,6 @@ dynamic_collections:
       trakt_list:
         dcu: https://trakt.tv/users/donxy/lists/dc-extended-universe
         mcu: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe
-        avp: https://trakt.tv/users/donxy/lists/alien-predator-timeline
         monster: https://trakt.tv/users/rzepkowski/lists/monsterverse-movies
       mdblist_list:
         dca: https://mdblist.com/lists/drazzilb/dc-animated-universe
@@ -82,7 +79,6 @@ dynamic_collections:
         middle: https://mdblist.com/lists/drazzilb/middle-earth-universe
         fast: https://mdblist.com/lists/drazzilb/fast-and-furious-universe/
         trek: https://mdblist.com/lists/drazzilb/star-trek-universe
-        rocky: https://mdblist.com/lists/drazzilb/rocky-creed
         mummy: https://mdblist.com/lists/drazzilb/the-mummy-universe
         with_marvel: https://mdblist.com/lists/drazzilb/in-association-with-marvel
         view: https://mdblist.com/lists/drazzilb/view-askewniverse
