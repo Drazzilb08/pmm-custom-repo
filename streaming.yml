@@ -3,7 +3,7 @@
 external_templates:
   repo: templates
   template_variables:
-    collection_section: "03"
+    collection_section: "04"
 
 translations:
   pmm: translations
