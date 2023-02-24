@@ -74,6 +74,8 @@ templates:
       - visible_library
       - visible_home
       - visible_shared
+      - mdblist_list
+      - minimum_items
       - item_radarr_tag
       - item_sonarr_tag
       - mdblist_list
