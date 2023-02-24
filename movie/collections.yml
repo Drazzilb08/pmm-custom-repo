@@ -1,14 +1,7 @@
+external_templates:
+  repo: templates
+
 templates:
-  collection:
-    collection_mode: hide_items
-    collection_order: release
-    optional:
-      - collection
-      - movie
-    sync_mode: sync
-    tmdb_collection_details: <<collection>>
-    tmdb_movie: <<movie>>
-    sort_title: <<collection_sort>>
   mixed-collection:
     optional:
       - collection
@@ -17,24 +10,6 @@ templates:
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
     sort_title: <<collection_sort>>
-  kids-collection:
-    collection_mode: hide_items
-    collection_order: release
-    label: kids
-    optional:
-      - collection
-      - movie
-    sync_mode: sync
-    tmdb_collection_details: <<collection>>
-    sort_title: <<collection_sort>>
-    tmdb_movie: <<movie>>
-  auto_collections:
-    minimum_items: 2
-    tmdb_collection_details: <<value>>
-    sort_title: <<collection_sort>>
-    move_prefix: The,A
-    collection_mode: hide_items
-    collection_order: release
 dynamic_collections:
   auto_tmdb_collections:
     type: tmdb_collection
