@@ -60,7 +60,7 @@ dynamic_collections:
       - studio
       - shared
       - arr
-      - custom
+      # - custom
     template_variables:
       mdblist_list:
         A24: https://mdblist.com/lists/drazzilb/a24-ctgm1e6c7c
