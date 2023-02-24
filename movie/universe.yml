@@ -1,10 +1,3 @@
-##############################################################################
-#                            Universe Collections                            #
-#                 Created by Yozora, Bullmoose20, & Sohjiro                  #
-#          EDITING THIS FILE MAY CAUSE PULLING NEW UPDATES TO FAIL           #
-#      https://metamanager.wiki/en/latest/defaults/movie/universe.html       #
-##############################################################################
-
 external_templates:
   repo: templates
   template_variables:
@@ -18,6 +11,7 @@ templates:
     default:
       mdblist_list_<<key>>: <<mdblist_list>>
       name_mapping_<<key>>: <<name_mapping>>
+      summary_<<key>>: <<summary>> 
       minimum_items: 2
     optional:
       - name_mapping
@@ -59,6 +53,9 @@ dynamic_collections:
       star_trek_universe: Star Trek Universe
       middle_earth: Middle Earth Universe
       dc_animated_universe: DC Animated Universe
+      marvel_cinematic_universe: Marvel Cinematic Universe
+      dc_extended_universe: DC Extended Universe
+      
     template:
       - universe
       - shared
@@ -81,5 +78,10 @@ dynamic_collections:
         star_trek_universe: https://mdblist.com/lists/drazzilb/star-trek-universe
         middle_earth: https://mdblist.com/lists/drazzilb/middle-earth-universe
         dc_animated_universe: https://mdblist.com/lists/drazzilb/dc-animated-universe
+        marvel_cinematic_universe: https://mdblist.com/lists/drazzilb/marvel-cinematic-universe
+        dc_extended_universe: https://mdblist.com/lists/drazzilb/dc-extended-universe
+      summary:
+        view_askewniverse: The View Askewniverse is a fictional universe created by writer/director Kevin Smith, featured in several films, comics and a television series; it is named for Smith's production company, View Askew Productions.
+        in_association_with_dc: Films made in association with DC Commics or that used DC Comics characters.
       image:
         default: universe/<<key>>
