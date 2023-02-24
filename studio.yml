@@ -18,6 +18,7 @@ templates:
     default:
       mdblist_list_<<key>>: <<mdblist_list>>
       name_mapping_<<key>>: <<name_mapping>>
+      summary_<<key>>: <<summary>> 
       minimum_items: 2
     optional:
       - name_mapping
@@ -28,7 +29,7 @@ templates:
     name_mapping: <<name_mapping_<<key>>>>
     imdb_list: <<imdb_list_<<key>>>>
     mdblist_list: <<mdblist_list_<<key>>>>
-    summary: <<key>>
+    summary: <<summary_<<key>>>>
     name: <<name_<<key>>>>
 
 collections:
