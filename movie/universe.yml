@@ -60,7 +60,7 @@ dynamic_collections:
       - universe
       - shared
       - arr
-      - custom
+      - mdb_smart
     template_variables:
       mdblist_list:
         view_askewniverse: https://mdblist.com/lists/drazzilb/view-askewniverse
