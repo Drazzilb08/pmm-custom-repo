@@ -35,7 +35,7 @@ collections:
         - 592350
         - 505262
         - 1054116
-  Pokémon collection:
+  Pokémon Collection:
       template:
         name: collection
         collection: 34055
