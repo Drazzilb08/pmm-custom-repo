@@ -338,12 +338,6 @@ collections:
         - 816688
         - 431562
       name: kids-collection
-  Ghostbusters Collection:
-    template:
-      collection: 2980
-      movie:
-        - 43074
-      name: collection
   Gnomes Collection:
     template:
       collection: 493668
