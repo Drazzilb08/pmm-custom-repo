@@ -236,8 +236,6 @@ metadata:
     Label: kids
   "Hey Arnold!: The Movie":
     Label: kids
-  Hiccups:
-    label: kids
   Home:
     label: kids
     year: 2015
@@ -589,7 +587,7 @@ metadata:
     label: kids
   Rugrats Go Wild:
     Label: kids
-  "Rugrats in Paris: The Movie":
+  "Rugrats in Paris":
     Label: kids
   Rumble:
     label: kids
@@ -745,9 +743,9 @@ metadata:
     label: kids
   The Legend of Mor'du:
     label: kids
-  The Lego Batman Movie:
+  The LEGO Batman Movie:
     label: kids
-  The Lego Ninjago Movie:
+  The LEGO Ninjago Movie:
     label: kids
   The Lion King:
     label: kids
@@ -954,7 +952,7 @@ metadata:
     title: Pinocchio
     year: 2022
     label: kids
-  Lego Star Wars Summer Vacation:
+  LEGO Star Wars Summer Vacation:
     label: kids
   It's the Great Pumpkin, Charlie Brown:
     label: kids
