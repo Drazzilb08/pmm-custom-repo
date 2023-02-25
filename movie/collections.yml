@@ -398,7 +398,7 @@ collections:
         - 638507
         - 654571
       name: kids-collection
-  I am Legend Collection:
+  I Am Legend Collection:
     template:
       movie:
         - 21159
@@ -560,7 +560,7 @@ collections:
         - 878357
         - 553903
       name: kids-collection
-  Monsters vs. Aliens Collection:
+  Monsters Vs. Aliens Collection:
     template:
       movie:
         - 15512

@@ -73,6 +73,7 @@ dynamic_collections:
       halloween: Halloween
       thanksgiving: Thanksgiving
       christmas: Christmas
+      veteran: Veteran's Day
     title_format: <<key_name>> <<library_typeU>>s
     template:
       - holiday
@@ -92,6 +93,7 @@ dynamic_collections:
         halloween: "🎃 "
         thanksgiving: "🦃 "
         christmas: "🎅 "
+        veteran: "🪖 "
       schedule:
         years: range(12/26-01/04)
         valentine: range(02/01-02/29)
@@ -105,6 +107,7 @@ dynamic_collections:
         halloween: range(10/01-10/31)
         thanksgiving: range(11/01-11/30)
         christmas: range(12/01-12/31)
+        schedule_veteran: range(11/01-11/30)
       imdb_list:
         years: https://www.imdb.com/list/ls066838460/
         valentine:
@@ -129,6 +132,7 @@ dynamic_collections:
           - https://www.imdb.com/list/ls000835734/
           - https://www.imdb.com/list/ls091597850/
         christmas: https://www.imdb.com/list/ls000096828/
+        veteran: https://www.imdb.com/list/ls002014923/
       tmdb_collection:
         halloween:
           - 185103    # Hotel Transylvania
