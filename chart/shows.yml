@@ -10,8 +10,9 @@ dynamic_collections:
   Charts:
     type: custom
     data:
-      popular: Internet's Most Popular
       trending: Trending
+      popular:
+      popular-animated: Trending Animated
     title_format: <<key_name>> <<library_typeU>>s
     template:
       - mdb_smart
