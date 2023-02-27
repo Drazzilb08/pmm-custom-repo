@@ -34,7 +34,7 @@ dynamic_collections:
       search_term:
         default: studio.is
       image:
-        default: studio/<<key_encoded>>
+        default: anime_studio/<<key_encoded>>
       translation_key:
         default: studio
     include:
