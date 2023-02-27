@@ -1,56 +1,42 @@
-#############################################################
-#                Dynamic Network Collections                #
-#         Created by Yozora, Bullmoose20, & Sohjiro         #
-#############################################################
-#  Call this from your config.yml (Show only)               #
-#  If nothing is specified these are the defaults           #
-#                                                           #
-#    metadata_path:                                         #
-#      - repo: show/network                                 #
-#        template_variables:                                #
-#          # Turn the separator collection on/off           #
-#          use_separator: true                              #
-#          # Turn the other collection on/off               #
-#          use_other: true                                  #
-#          # Sets how the collection is sorted              #
-#          sort_by: release.desc                            #
-#          # Sets the collection mode of the collection     #
-#          collection_mode:                                 #
-#          # Sets the value at the start of the sort title  #
-#          collection_section: "04"                         #
-#############################################################
+##############################################################################
+#                            Network Collections                             #
+#                 Created by Yozora, Bullmoose20, & Sohjiro                  #
+#          EDITING THIS FILE MAY CAUSE PULLING NEW UPDATES TO FAIL           #
+#       https://metamanager.wiki/en/latest/defaults/show/network.html        #
+##############################################################################
 
 external_templates:
   repo: templates
   template_variables:
-    collection_section: "04"
+    collection_section: "03"
 
-templates:
-  networks_dynamic:
-    default:
-      sort_by: release.desc
-    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
-    smart_filter:
-      sort_by: <<sort_by>>
-      any:
-        network: <<value>>
+translations:
+  pmm: translations
 
 collections:
   Network Collections:
     template:
       - name: separator
         separator: network
+      - name: translation
+        key_name: Network
+        translation_key: separator
 
 dynamic_collections:
-  Network US:
+  Network:
     type: network
     title_format: <<key_name>>
     template:
-      - networks_dynamic
+      - smart_filter
+      - translation
       - shared
-    other_template:
-      - networks_dynamic
-      - shared
+    template_variables:
+      search_term:
+        default: network
+      image:
+        default: network/<<key_encoded>>
+      translation_key:
+        default: network
     include:
       - A&E
       - ABC
