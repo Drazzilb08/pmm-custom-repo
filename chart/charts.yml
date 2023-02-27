@@ -12,7 +12,7 @@ dynamic_collections:
     data:
       popular: Internet's Most Popular
       trending: Trending
-      trending-animated: Trending Animated
+      trending_animated: Trending Animated
     title_format: <<key_name>> <<library_typeU>>s
     template:
       - mdb_smart
