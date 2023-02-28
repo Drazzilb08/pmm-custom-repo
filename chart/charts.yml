@@ -24,4 +24,8 @@ dynamic_collections:
         default: https://mdblist.com/lists/drazzilb/<<key>>-<<library_type>>s
       image:
         default: chart/<<key>>
+      allowed_libraries:
+        trending_animated: show
+        popular: movie
+        trending: movie
 
