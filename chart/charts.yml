@@ -26,6 +26,3 @@ dynamic_collections:
         default: chart/<<key>>
       allowed_libraries:
         trending_animated: show
-        popular: movie
-        trending: movie
-
