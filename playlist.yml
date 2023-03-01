@@ -7,7 +7,7 @@ translations:
 templates:
   playlist:
     default:
-      libraries: Movies, Series, Animated Series
+      libraries: Movies, Series, Animated Series, Anime Movies, Anime Series
       item_radarr_tag_<<key>>: <<item_radarr_tag>>
       item_sonarr_tag_<<key>>: <<item_sonarr_tag>>
       trakt_url_<<key>>: <<trakt_url>>
