@@ -34,6 +34,7 @@ dynamic_collections:
       - 115762
       - 8091
       - 135416
+      - 606301
       - 86027
       - 275402
       - 725600
@@ -1552,3 +1553,10 @@ collections:
     template:
       name: collection
       collection: 722971
+  Halo Collection:
+    template:
+      name: collection
+      movie:
+        - 573531
+        - 487186
+    description: Series of films based around the popular video game
