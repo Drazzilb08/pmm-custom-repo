@@ -1560,3 +1560,10 @@ collections:
         - 573531
         - 487186
     summary: Series of films based around the popular video game
+  Van Helsing Collection:
+    template:
+      name: collection
+      movie:
+        - 7131
+        - 7092
+    summary: Series of films based around the Van Helsing
