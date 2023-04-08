@@ -37,7 +37,6 @@ templates:
       - summary_format
       - name_format
       - key_name
-      - translation_key
       - limit
     smart_label:
       sort_by: <<sort_by_<<key>>>>
@@ -53,12 +52,10 @@ templates:
     trakt_list: <<trakt_list_<<key>>>>
     mdblist_list: <<mdblist_list_<<key>>>>
     cache_builders: 1
-    translation_key: <<translation_key>>
     key_name: <<key_name>>
     summary: <<summary_<<key>>>>
     name: <<name_<<key>>>>
     limit: <<limit_<<key>>>>
-    translation_prefix: <<emoji_<<key>>>>
 
 collections:
   Seasonal Collections:
@@ -67,7 +64,6 @@ collections:
         separator: seasonal
         use_separator: false
         key_name: Seasonal
-        translation_key: separator
 
 dynamic_collections:
   Seasonal:
@@ -162,5 +158,3 @@ dynamic_collections:
         default: true
       image:
         default: seasonal/<<key>>
-      translation_key:
-        default: seasonal

@@ -3,8 +3,6 @@ external_templates:
   template_variables:
     collection_section: "02"
 
-translations:
-  pmm: translations
 
 templates:
   universe:
@@ -30,9 +28,6 @@ collections:
     template:
       - name: separator
         separator: universe
-      - name: translation
-        key_name: Universe
-        translation_key: separator
 
 dynamic_collections:
   Universe Collections:

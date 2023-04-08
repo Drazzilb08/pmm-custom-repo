@@ -1,9 +1,6 @@
 external_templates:
   repo: templates
 
-translations:
-  pmm: translations
-
 templates:
   playlist:
     default:

@@ -3,9 +3,6 @@ external_templates:
   template_variables:
     collection_section: "03"
 
-translations:
-  pmm: translations
-
 templates:
   studio:
     default:
@@ -30,9 +27,6 @@ collections:
     template:
       - name: separator
         separator: studio
-      - name: translation
-        key_name: Studio
-        translation_key: separator
 
 dynamic_collections:
   Universe Collections:
