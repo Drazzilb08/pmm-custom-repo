@@ -2,7 +2,7 @@ external_templates:
   repo: templates
   template_variables:
     collection_section: "01"
-    image: chart/<<collection_name_encoded>>
+    image: chart/<<mapping_name_encoded>>
 
 translations:
   pmm: translations

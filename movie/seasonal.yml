@@ -1,4 +1,3 @@
-
 external_templates:
   repo: templates
 
@@ -19,8 +18,8 @@ templates:
       imdb_list_<<key>>: <<imdb_list>>
       trakt_list_<<key>>: <<trakt_list>>
       mdblist_list_<<key>>: <<mdblist_list>>
-      summary_<<key>>: <<seasonal_summary>>
-      name_<<key>>: <<seasonal_name>>
+      summary_<<key>>: <<summary_format>>
+      name_<<key>>: <<name_format>>
       emoji_<<key>>: <<emoji>>
     optional:
       - schedule
