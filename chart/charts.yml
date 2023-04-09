@@ -1,5 +1,5 @@
 external_templates:
-  repo: templates
+  pmm: templates
   template_variables:
     collection_section: "01"
 
