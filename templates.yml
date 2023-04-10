@@ -1,5 +1,4 @@
 templates:
-
   auto_collections:
     move_prefix: The,A
     sort_title: <<collection_name>>
