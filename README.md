@@ -104,7 +104,7 @@ libraries:
         collection_mode: hide
         append_data:
             monsterverse: MonsterVerse
-            in_association_with_dc: In Association with DC
+            in_association_with_dc: In Association With DC
             the_spiderverse: The Spiderverse
             the_conjuring_universe: The Conjuring Universe
             batman_universe: The Batman Universe
