@@ -419,7 +419,9 @@ libraries:
       delete_unamanaged_collections: true
       assets_for_all: true
 playlist_files:
-  repo: playlist
+  pmm: playlist
+  template_variables:
+    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/playlist/<<key>>.jpg
 ```
 
 Custom Repo: `custom_repo: https://github.com/Drazzilb08/pmm-custom-repo/tree/master/`
