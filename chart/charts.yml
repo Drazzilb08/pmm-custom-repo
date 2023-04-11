@@ -1,0 +1,25 @@
+external_templates:
+  pmm: templates
+  template_variables:
+    collection_section: "01"
+
+
+dynamic_collections:
+  Charts:
+    type: custom
+    data:
+      popular: Internet's Most Popular
+      trending: Trending
+      trending_animated: Trending Animated
+    title_format: <<key_name>> <<library_typeU>>s
+    template:
+      - mdb_smart
+      - shared
+      - arr
+    template_variables:
+      mdblist_list:
+        default: https://mdblist.com/lists/drazzilb/<<key>>-<<library_type>>s
+      image:
+        default: chart/<<key>>
+      allowed_libraries:
+        trending_animated: show

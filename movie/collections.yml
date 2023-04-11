@@ -1,14 +1,7 @@
+external_templates:
+  repo: templates
+
 templates:
-  collection:
-    collection_mode: hide_items
-    collection_order: release
-    optional:
-      - collection
-      - movie
-    sync_mode: sync
-    tmdb_collection_details: <<collection>>
-    tmdb_movie: <<movie>>
-    sort_title: <<collection_sort>>
   mixed-collection:
     optional:
       - collection
@@ -17,29 +10,12 @@ templates:
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
     sort_title: <<collection_sort>>
-  kids-collection:
-    collection_mode: hide_items
-    collection_order: release
-    label: kids
-    optional:
-      - collection
-      - movie
-    sync_mode: sync
-    tmdb_collection_details: <<collection>>
-    sort_title: <<collection_sort>>
-    tmdb_movie: <<movie>>
-  auto_collections:
-    minimum_items: 2
-    tmdb_collection_details: <<value>>
-    sort_title: <<collection_sort>>
-    move_prefix: The,A
-    collection_mode: hide_items
-    collection_order: release
 dynamic_collections:
   auto_tmdb_collections:
     type: tmdb_collection
     exclude:
       - 115839
+      - 768464
       - 785583
       - 1028525
       - 593251
@@ -53,12 +29,12 @@ dynamic_collections:
       - 33514
       - 933959
       - 9485
-      - 34055
       - 2344
       - 809185
       - 115762
       - 8091
       - 135416
+      - 606301
       - 86027
       - 275402
       - 725600
@@ -75,6 +51,7 @@ dynamic_collections:
       - 702342
       - 242587
       - 256287
+      - 743824
       - 846090
       - 920666
       - 535313
@@ -363,12 +340,6 @@ collections:
         - 816688
         - 431562
       name: kids-collection
-  Ghostbusters Collection:
-    template:
-      collection: 2980
-      movie:
-        - 43074
-      name: collection
   Gnomes Collection:
     template:
       collection: 493668
@@ -424,7 +395,7 @@ collections:
         - 638507
         - 654571
       name: kids-collection
-  I am Legend Collection:
+  I Am Legend Collection:
     template:
       movie:
         - 21159
@@ -586,7 +557,7 @@ collections:
         - 878357
         - 553903
       name: kids-collection
-  Monsters vs. Aliens Collection:
+  Monsters Vs. Aliens Collection:
     template:
       movie:
         - 15512
@@ -1450,14 +1421,6 @@ collections:
       movie:
         - 354912
         - 449621
-  MonsterVerse Collection:
-    template:
-      name: collection
-      movie:
-        - 124905
-        - 399566
-        - 373571
-        - 293167
   Moana Collection:
     template:
       name: kids-collection
@@ -1590,3 +1553,17 @@ collections:
     template:
       name: collection
       collection: 722971
+  Halo Collection:
+    template:
+      name: collection
+      movie:
+        - 573531
+        - 487186
+    summary: Series of films based around the popular video game
+  Van Helsing Collection:
+    template:
+      name: collection
+      movie:
+        - 7131
+        - 7092
+    summary: Series of films based around the Van Helsing

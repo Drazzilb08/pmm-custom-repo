@@ -1,298 +1,430 @@
-This is my custom repo for PMM (Plex-Meta-Manager), this is heavily influenced by the official PMM configuration found [Here](https://github.com/meisnate12/Plex-Meta-Manager-Configs/tree/master/PMM). Thanks to Yozora, Bullmoose20, & Sohjiro for all of that.
+So the way PMM is setup now I'm using a lot of the default builds. This is much easier for management and if any changes come down the pipe I'm not spending hours trying to figure out what all was added/changed.
 
-Finally the images that I'm using are modified versions of the official images found [here](https://github.com/meisnate12/Plex-Meta-Manager-Images).
-Thanks Bullmoose20 for support on modifying these images.
+Below you'll see my config file. I unlike most of you have many different libraries splitting up my content.
 
-The Anime Genre images were sourced from [jjjonesjr23](https://theposterdb.com/user/jjjonesjr33) on ThePosterDb's website.
+Most of the changes that I've made have been due to me wanting to use custom posters to match the theme that I'm using. 
 
-The studio albums were sourced from [musikmann2000](https://theposterdb.com/user/musikmann2000) on ThePosterDb's website
-<br>
-**Movies Screenshot**
-![movies](screenshots/movies.jpg)
-**Shows Screenshot**
-![Shows](screenshots/series.jpg)
-Lists are from [mdblist.com](https://mdblist.com)
+None of the posters are my original design. Movie posters are from MusikMann2000 from [ThePosterDB](http://theposterdb.com), other posters are from the official PMM poster repository [Here](https://github.com/meisnate12/Plex-Meta-Manager/tree/nightly/defaults/both)
 
-Thank you so much to everybody who has made this possible especially Sohjiro for PMM.
+If you want more information with regards to each of these settings please visit PMM's wiki [here](https://metamanager.wiki/en/latest/)
 
----
-Below you can see my current config file. The key notes you should take away from it is each of the collection files are called using the `- repo:` tag this is different from the `- git:` tag that is in the offical PMM config, the reason for this is I'm using a `custom_repo`. Which you can see near the bottom.
-
-Note: If you're going to use `chart/myanimelist` then you'll need to fill in all your myanimelist information. Info for this can be fhound [here](https://metamanager.wiki/en/latest/config/myanimelist.html) 
-
-Most of these lists require mdblist to operate. Fill in your information for this [here](https://metamanager.wiki/en/latest/config/mdblist.html)
-
-**Example:**
-
-```yaml
-####################################
-#            Libraries             #
-####################################
+Config file:
+```yml
 libraries:
-  Animated Series:
-    metadata_path:
-      - repo: chart/other
-        template_variables:
-          collection_mode: hide
-          use_stevenlu: false
-          use_anidb: false
-          use_pirated: false
-          use_trending_movies: false
-          use_popular_movies: false
-          use_trending_animated: true
-          visible_library_trending_animated: true
-          visible_home_trending_animated: true
-          visible_shared_trending_animated: true
-          use_popular_series: false
-          use_trending_series: false
-      - repo: show/network
-        template_variables:
-          use_separator: false
-          collection_mode: hide
-      - repo: streaming
-        template_variables:
-          use_separator: false
-          collection_mode: hide
-    settings:
-      asset_directory: config/assets/series/animated-series/
-    operations:
-      delete_unmanaged_collections: true
-      assets_for_all: true
-    overlay_path:
-      - repo: overlays/streaming
-        template_variables:
-          vertical_offset: 15
-  Anime Series:
-    metadata_path:
-      - repo: chart/myanimelist
-        template_variables:
-          collection_mode: hide
-          visible_library_popular: true
-          visible_shared_popular: true
-          visible_library_top: true
-          visible_shared_top: true
-          visible_library_trending: true
-          visible_shared_trending: true
-          visible_library_season: true
-          visible_shared_season: true
-      - repo: anime/anime_genre
-        template_variables:
-          collection_mode: hide
-    settings:
-      asset_directory: config/assets/series/anime-series/
-    operations:
-      delete_unmanaged_collections: true
-      assets_for_all: true
-  Kids Series:
-    metadata_path:
-      - repo: show/network
-        template_variables:
-          use_separator: false
-          collection_mode: hide
-      - repo: streaming
-        template_variables:
-          use_separator: false
-          collection_mode: hide
-    settings:
-      asset_directory: config/assets/series/kids-series/
-    operations:
-      delete_unmanaged_collections: true
-      assets_for_all: true
-    overlay_path:
-      - repo: overlays/streaming
-        template_variables:
-          vertical_offset: 15
-  Documentary Series:
-    metadata_path:
-      - repo: show/network
-        template_variables:
-          use_separator: false
-          collection_mode: hide
-      - repo: streaming
-        template_variables:
-          collection_mode: hide
-          use_separator: false
-    settings:
-      asset_directory: config/assets/series/documentary-series/
-    operations:
-      delete_unmanaged_collections: true
-      assets_for_all: true
-    overlay_path:
-      - repo: overlays/streaming
-        template_variables:
-          vertical_offset: 15
-  Reality Series:
-    metadata_path:
-      - repo: show/network
-        template_variables:
-          use_separator: false
-          collection_mode: hide
-      - repo: streaming
-        template_variables:
-          collection_mode: hide
-          use_separator: false
-    settings:
-      asset_directory: config/assets/series/reality-series/
-    operations:
-      delete_unmanaged_collections: true
-      assets_for_all: true
-    overlay_path:
-      - repo: overlays/streaming
-        template_variables:
-          vertical_offset: 15
-  Series:
-    metadata_path:
-      - repo: chart/other
-        template_variables:
-          collection_mode: hide
-          use_stevenlu: false
-          use_anidb: false
-          use_pirated: false
-          use_trending_movies: false
-          use_popular_movies: false
-          use_trending_animated: false
-          visible_library_trending_animated: true
-          visible_home_trending_animated: true
-          visible_shared_trending_animated: true
-          use_popular_series: true
-          visible_library_popular_series: true
-          visible_home_popular_series: true
-          visible_shared_popular_series: true
-          use_trending_series: true
-          visible_library_trending_series: true
-          visible_home_trending_series: true
-          visible_shared_trending_series: true
-      - repo: show/network
-        template_variables:
-          use_separator: false
-          collection_mode: hide
-      - repo: streaming
-        template_variables:
-          use_separator: false
-          collection_mode: hide
-    settings:
-      asset_directory: config/assets/series/live-action-series
-    operations:
-      delete_unmanaged_collections: true
-      assets_for_all: true
-    overlay_path:
-      - repo: overlays/streaming
-        template_variables:
-          vertical_offset: 15
   Anime Movies:
     metadata_path:
-      - repo: anime/anime_movie_collection
-    settings:
-      asset_directory: config/assets/films/anime-movies
-      show_missing_assets: false
-      delete_unmanaged_collections: true
+    - repo: anime/anime_collection
+      template_variables:
+        collection_mode: hide_items
+        use_separator: false
+    - pmm: streaming
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key_encoded>>.jpg
+        collection_mode: hide
+        use_separator: false
+        use_crunchyroll: false
+        use_hayu: false
+        use_all4: false
+        use_now: false
+        visible_library_appletv: true
+        visible_library_bet: true
+        visible_library_disney: true
+        visible_library_hbomax: true
+        visible_library_hulu: true
+        visible_library_netflix: true
+        visible_library_paramount: true
+        visible_library_peacock: true
+        visible_library_amazon: true
+        visible_library_showtime: true
+        sort_by: random
+    - repo: studio
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio/<<key>>.jpg
+        collection_mode: hide
+        visible_library_studio_ghibli: true
+        use_separator: false
+    overlay_path:
+    - reapply_overlay: true
+    - pmm: ribbon
+      template_variables:
+        use_common: false
+        use_oscars: false
+        use_rotten: false
+        use_metacritic: false
+    - pmm: language_count
+      template_variables:
+        use_multi: false
+        vertical_align: top
+        vertical_offset: 40
+    - remove_overlays: false
     operations:
-      delete_unmanaged_collections: true
+      delete_unamanaged_collections: true
       assets_for_all: true
   Documentary Movies:
     metadata_path:
-      - repo: streaming
-        template_variables:
-          use_separator: false
-          collection_mode: hide
-          visible_library_amazon: true
-    settings:
-      asset_directory: config/assets/films/documentary-movies
-    operations:
-      delete_unmanaged_collections: true
-      assets_for_all: true
+    - pmm: streaming
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key_encoded>>.jpg
+        collection_mode: hide
+        use_separator: false
+        use_crunchyroll: false
+        use_hayu: false
+        visible_library_all4: true
+        visible_library_appletv: true
+        visible_library_bet: true
+        visible_library_britbox: true
+        visible_library_disney: true
+        visible_library_hbomax: true
+        visible_library_hulu: true
+        visible_library_netflix: true
+        visible_library_now: true
+        visible_library_paramount: true
+        visible_library_peacock: true
+        visible_library_amazon: true
+        visible_library_showtime: true
+        sort_by: random
     overlay_path:
-      - repo: overlays/imdb_top_250
-      - repo: overlays/streaming
-        template_variables:
-          vertical_offset: 15
+    - reapply_overlay: true
+    - pmm: ribbon
+      template_variables:
+        use_common: false
+        use_oscars: false
+        use_rotten: false
+        use_metacritic: false
+    - remove_overlays: false
+    operations:
+      delete_unamanaged_collections: true
+      assets_for_all: true
   Movies:
     metadata_path:
-      - repo: streaming
-        template_variables:
-          collection_mode: hide
-          use_separator: false
-      - repo: chart/other
-        template_variables:
-          collection_mode: hide
-          use_stevenlu: false
-          use_anidb: false
-          use_pirated: false
-          use_trending_movies: true
-          use_popular_movies: true
-          use_trending_animated: false
-          visible_library_popular_movies: true
-          visible_home_popular_movies: true
-          visible_shared_popular_movies: true
-          visible_library_trending_movies: true
-          visible_home_trending_movies: true
-          visible_shared_trending_movies: true
-      - repo: movie/metadata
-      - repo: movie/collections
-      - repo: studio
-        template_variables:
-          collection_mode: hide
-          use_separator: false
-      - repo: movie/universe
-        template_variables:
-          collection_mode: hide
-          use_separator: false
-    settings:
-      asset_directory: config/assets/films/movies
-    operations:
-      delete_unmanaged_collections: true
-      assets_for_all: true
+    - pmm: universe
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/universe/<<key>>.jpg
+        use_separator: false
+        collection_mode: hide
+        append_data:
+            monsterverse: MonsterVerse
+            in_association_with_dc: In Association with DC
+            the_spiderverse: The Spiderverse
+            the_conjuring_universe: The Conjuring Universe
+            batman_universe: The Batman Universe
+        mdblist_list_monsterverse: https://mdblist.com/lists/drazzilb/monsterverse
+        mdblist_list_in_association_with_dc: https://mdblist.com/lists/drazzilb/in-association-with-dc
+        mdblist_list_the_spiderverse: https://mdblist.com/lists/drazzilb/spiderverse
+        mdblist_list_the_conjuring_universe: https://mdblist.com/lists/drazzilb/the-conjuring-universe
+        mdblist_list_batman_universe: https://mdblist.com/lists/drazzilb/batman-universe
+        summary_avp: Alien vs. Predator is a science-fiction action horror media franchise created by comic book writers Randy Stradley and Chris Warner. The series is a crossover between, and part of, the larger Alien and Predator franchises, depicting the two species as being in conflict with one another.
+        summary_dca: The DC Animated Universe (DCAU, also referred to as the Timmverse or Diniverse by fans) is a shared universe centered on a group of animated television series based on DC Comics and produced by Warner Bros. Animation.
+        summary_dcu: The DC Extended Universe is an American media franchise and shared universe centered on a series of superhero films and television series produced by DC Studios and distributed by Warner Bros. Pictures. It is based on characters that appear in American comic books published by DC Comics
+        summary_fast: Over many missions and against impossible odds, Dom Toretto and his family have outsmarted and outdriven every foe in their path. Now, they must confront the most lethal opponent they've ever faced. Fueled by revenge, a terrifying threat emerges from the shadows of the past to shatter Dom's world and destroy everything -- and everyone -- he loves.
+        summary_marvel: Films made in association with Marvel Comics or that used Marvel Comics characters.
+        summary_mcu: The Marvel Cinematic Universe is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios. The films are based on characters that appear in American comic books published by Marvel Comics.
+        summary_middle: Professor J. R. R. Tolkien's fantasy novels The Hobbit and The Lord of the Rings, which tell the story of a mythical war and heroic quests set in the lands of Middle-earth, have been the subject of various film and TV adaptations, chiefly six feature films produced, written and directed by Sir Peter Jackson from 2001 to 2015.
+        summary_mummy: The Mummy is an action adventure horror film media franchise based on films by Universal Pictures about a mummified ancient Egyptian priest who is accidentally resurrected, bringing with him a powerful curse, and the ensuing efforts of heroic archaeologists to stop him.
+        summary_rocky: Rocky is an American sports drama multimedia franchise created by Sylvester Stallone, based on the life of Chuck Wepner, which began with the eponymous 1976 film and has since become a cultural phenomenon, centered on the boxing careers of Rocky Balboa and his protégé Donnie Creed
+        summary_trek: Star Trek is an American science fiction media franchise created by Gene Roddenberry, which began with the eponymous 1960s television series and quickly became a worldwide pop-culture phenomenon. The franchise has expanded into various films, television series, video games, novels, and comic books
+        summary_star: Star Wars is an American epic space opera multimedia franchise created by George Lucas, which began with the eponymous 1977 film and quickly became a worldwide pop culture phenomenon.
+        summary_askew: The View Askewniverse is a fictional universe created by writer/director Kevin Smith, featured in several films, comics and a television series; it is named for Smith's production company, View Askew Productions.
+        summary_wizard: The Wizarding World is a fantasy media franchise and shared fictional universe centred on the Harry Potter novel series by J. K. Rowling.
+        summary_xmen: X-Men is an American superhero film series based on the Marvel Comics superhero team of the same name.
+        summary_monsterverse: The MonsterVerse is an American multimedia franchise and shared fictional universe featuring Godzilla, King Kong, and other monster characters owned and created by Toho Co., Ltd. The franchise is produced by Legendary Pictures and co-produced and distributed by Warner Bros. Pictures.
+        summary_in_association_with_dc: Films made in association with DC Commics or that used DC Comics characters.
+        summary_the_spiderverse: The fictional character Spider-Man, a comic book superhero created by Stan Lee and Steve Ditko and featured in Marvel Comics publications, has appeared as a main character in numerous theatrical and made-for-television films.
+        summary_the_conjuring_universe: The Conjuring Universe is an American media franchise and shared universe centered on a series of supernatural horror films. The franchise is produced by New Line Cinema, the Safran Company, and Atomic Monster Productions and distributed by Warner Bros. Pictures.
+        batman_universe: The Batman film franchise follows various incarnations of the character created by DC Comics. The franchise consists of a total of nine theatrical live-action films and two live-action serials, excluding various villain spin-off and crossovers with other DC films
+    - repo: movie/collections
+    - pmm: movie/seasonal
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/seasonal/<<key>>.jpg
+        sort_by: random
+        schedule_valentine: range(02/01-02/15)
+        schedule_christmas: range(12/01-12/26)
+    - repo: chart/charts
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/chart/<<key_encoded>>.jpg
+        collection_mode: hide
+        visible_home_popular: true
+        visible_home_trending: true
+        visible_library_popular: true
+        visible_library_trending: true
+        visible_shared_popular: true
+        visible_shared_trending: true
+        sort_by_popular: random
+    - repo: movie/metadata
+    - repo: studio
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio/<<key>>.jpg
+        collection_mode: hide
+        use_separator: false
+    - pmm: streaming
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        collection_mode: hide
+        use_separator: false
+        use_crunchyroll: false
+        use_hayu: false
+        visible_library_all4: true
+        visible_library_appletv: true
+        visible_library_bet: true
+        visible_library_britbox: true
+        visible_library_disney: true
+        visible_library_hbomax: true
+        visible_library_hulu: true
+        visible_library_netflix: true
+        visible_library_now: true
+        visible_library_paramount: true
+        visible_library_peacock: true
+        visible_library_amazon: true
+        visible_library_showtime: true
+        sort_by: random
     overlay_path:
-      - repo: overlays/imdb_top_250
-      - repo: overlays/streaming
-        template_variables:
-          vertical_offset: 15
-playlist_files:
-  - repo: playlist
-    template_variables:
-      libraries: Movies, Series, Animated Series
-settings:
-  cache: true
-  cache_expiration: 60
-  asset_folders: true
-  asset_depth: 0
-  dimensional_asset_rename: true
-  show_missing_season_assets: false
-  sync_mode: sync
-  delete_below_minimum: false
-  delete_not_scheduled: false
-  run_again_delay: 0
-  missing_only_released: true
-  only_filter_missing: false
-  show_unmanaged: true
-  show_filtered: false
-  show_options: false
-  show_missing: false
-  show_missing_assets: false
-  tvdb_language: default
-  ignore_ids:
-  ignore_imdb_ids:
-  minimum_items: 2
-  default_collection_order:
-  create_asset_folders: true
-  download_url_assets: false
-  verify_ssl: true
-  item_refresh_delay: 0
-  playlist_sync_to_users: all
-  show_missing_episode_assets: false
-  show_asset_not_needed: false
-  custom_repo: https://github.com/Drazzilb08/pmm-custom-repo/tree/master/
-  save_missing: false
-  prioritize_assets: false
-  playlist_report: false
-  check_nightly: false
-  asset_directory:
+    - reapply_overlay: true
+    - pmm: ribbon
+      template_variables:
+        use_common: false
+        use_oscars: false
+        use_rotten: false
+        use_metacritic: false
+    - remove_overlays: false
+    operations:
+      delete_unamanaged_collections: true
+      assets_for_all: true
+  Animated Series:
+    metadata_path:
+    - repo: chart/charts
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/chart/<<key_encoded>>.jpg
+        visible_home_trending_animated: true
+        visible_library_trending_animated: true
+        visible_shared_trending_animated: true
+    - pmm: show/network
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
+        use_separator: false
+    - pmm: streaming
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        collection_mode: hide
+        use_separator: false
+        use_all4: false
+        use_now: false
+        visible_library_appletv: true
+        visible_library_bet: true
+        visible_library_britbox: true
+        visible_library_disney: true
+        visible_library_hbomax: true
+        visible_library_hulu: true
+        visible_library_netflix: true
+        visible_library_paramount: true
+        visible_library_peacock: true
+        visible_library_amazon: true
+        visible_library_showtime: true
+        visible_library_hayu: true
+        visible_library_crunchyroll: true
+        sort_by: random
+    overlay_path:
+    - remove_overlays: false
+    operations:
+      delete_unamanaged_collections: true
+      assets_for_all: true
+  Anime Series:
+    metadata_path:
+    - pmm: chart/myanimelist
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/anime/<<key>>.jpg
+        use_separator: false
+        use_airing: false
+        use_favorited: false
+        visible_library_popular: true
+        visible_library_top: true
+        visible_library_season: true
+    - pmm: studio_anime
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio_anime/<<key_encoded>>.jpg
+        use_separator: false
+    - pmm: streaming
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        collection_mode: hide
+        use_separator: false
+        use_all4: false
+        use_now: false
+        visible_library_appletv: true
+        visible_library_bet: true
+        visible_library_britbox: true
+        visible_library_disney: true
+        visible_library_hbomax: true
+        visible_library_hulu: true
+        visible_library_netflix: true
+        visible_library_paramount: true
+        visible_library_peacock: true
+        visible_library_amazon: true
+        visible_library_showtime: true
+        visible_library_hayu: true
+        visible_library_crunchyroll: true
+        sort_by: random
+    overlay_path:
+    - remove_overlays: false
+    - pmm: language_count
+      template_variables:
+        overlay_level: episode
+        use_multi: false
+        vertical_align: top
+        vertical_offset: 40
+    - pmm: language_count
+      template_variables:
+        overlay_level: season
+        use_multi: false
+        vertical_align: top
+        vertical_offset: 40
+    - pmm: language_count
+      template_variables:
+        overlay_level: episode
+        use_multi: false
+    operations:
+      delete_unamanaged_collections: true
+      assets_for_all: true
+  Documentary Series:
+    metadata_path:
+    - pmm: streaming
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        collection_mode: hide
+        use_separator: false
+        use_all4: false
+        use_now: false
+        visible_library_appletv: true
+        visible_library_bet: true
+        visible_library_britbox: true
+        visible_library_disney: true
+        visible_library_hbomax: true
+        visible_library_hulu: true
+        visible_library_netflix: true
+        visible_library_paramount: true
+        visible_library_peacock: true
+        visible_library_amazon: true
+        visible_library_showtime: true
+        visible_library_hayu: true
+        visible_library_crunchyroll: true
+        sort_by: random
+    - pmm: show/network
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
+        use_separator: false
+    overlay_path:
+    - remove_overlays: false
+    operations:
+      delete_unamanaged_collections: true
+      assets_for_all: true
+  Kids Series:
+    metadata_path:
+    - pmm: streaming
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        collection_mode: hide
+        use_separator: false
+        use_all4: false
+        use_now: false
+        visible_library_appletv: true
+        visible_library_bet: true
+        visible_library_britbox: true
+        visible_library_disney: true
+        visible_library_hbomax: true
+        visible_library_hulu: true
+        visible_library_netflix: true
+        visible_library_paramount: true
+        visible_library_peacock: true
+        visible_library_amazon: true
+        visible_library_showtime: true
+        visible_library_hayu: true
+        visible_library_crunchyroll: true
+        sort_by: random
+    - pmm: show/network
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
+        use_separator: false
+    overlay_path:
+    - remove_overlays: false
+    operations:
+      delete_unamanaged_collections: true
+      assets_for_all: true
+  Reality Series:
+    metadata_path:
+    - pmm: streaming
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        collection_mode: hide
+        use_separator: false
+        use_all4: false
+        use_now: false
+        visible_library_appletv: true
+        visible_library_bet: true
+        visible_library_britbox: true
+        visible_library_disney: true
+        visible_library_hbomax: true
+        visible_library_hulu: true
+        visible_library_netflix: true
+        visible_library_paramount: true
+        visible_library_peacock: true
+        visible_library_amazon: true
+        visible_library_showtime: true
+        visible_library_hayu: true
+        visible_library_crunchyroll: true
+        sort_by: random
+    - pmm: show/network
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
+        use_separator: false
+    overlay_path:
+    - remove_overlays: false
+    operations:
+      delete_unamanaged_collections: true
+      assets_for_all: true
+  Series:
+    metadata_path:
+    - repo: chart/charts
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/chart/<<key_encoded>>.jpg
+        use_trending_animated: false
+        visible_home_popular: true
+        visible_library_popular: true
+        visible_shared_popular: true
+        visible_home_trending: true
+        visible_library_trending: true
+        visible_shared_trending: true
+    - pmm: show/network
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
+        use_separator: false
+    - pmm: streaming
+      template_variables:
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        collection_mode: hide
+        use_separator: false
+        use_all4: false
+        use_now: false
+        visible_library_appletv: true
+        visible_library_bet: true
+        visible_library_britbox: true
+        visible_library_disney: true
+        visible_library_hbomax: true
+        visible_library_hulu: true
+        visible_library_netflix: true
+        visible_library_paramount: true
+        visible_library_peacock: true
+        visible_library_amazon: true
+        visible_library_showtime: true
+        visible_library_hayu: true
+        visible_library_crunchyroll: true
+        sort_by: random
+    overlay_path:
+    - remove_overlays: false
+    operations:
+      delete_unamanaged_collections: true
+      assets_for_all: true
 ```
 
-Drop me a line if you have questions or any issues. I spent a bit of time to get this to work on my setup without any problems. However if you do please let me know.
+Custom Repo: `custom_repo: https://github.com/Drazzilb08/pmm-custom-repo/tree/master/`
 
-PRs are welcome to update and improve the configs.
-
-Finally **Use at your own risk**, I take no responsability if you screw up your Plex instance. Always remember the golden rule **Back up, Back up, Back up**.
-
-Cheers
+Please note that these Screenshots are a work in progress and do not reflect the actual state of things, they arej ust an example <br><br>
+You can see how this is set up [here](screenshots/README.md)

@@ -1,0 +1,48 @@
+external_templates:
+  repo: templates
+
+dynamic_collections:
+  auto_tmdb_collections:
+    type: tmdb_collection
+    exclude:
+      - 96850
+      - 703485
+      - 662002
+      - 425164
+      - 34055
+      - 1094000
+      - 1092136
+    template: auto_collections
+collections:
+  Neon Genesis Evangelion Collection:
+    template: 
+      name: collection
+      movie:
+        - 857862
+        - 21832
+        - 18491
+        - 54270
+  Dragon Ball Z Collection:
+    template:
+      name: collection
+      collection: 425164
+      movie:
+        - 39323
+        - 39324
+  My Hero Academia Collection:
+    template:
+      name: collection
+      movie:
+        - 768744
+        - 592350
+        - 505262
+        - 1054116
+  Pokémon Collection:
+      template:
+        name: collection
+        collection: 34055
+        movie:
+          - 36897
+          - 571891
+          - 211814
+
