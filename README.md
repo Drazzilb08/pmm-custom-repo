@@ -10,6 +10,9 @@ If you want more information with regards to each of these settings please visit
 
 Config file:
 ```yml
+####################################
+#            Libraries             #
+####################################
 libraries:
   Anime Movies:
     metadata_path:
@@ -51,11 +54,13 @@ libraries:
         use_oscars: false
         use_rotten: false
         use_metacritic: false
-    - pmm: language_count
+    - pmm: languages
       template_variables:
-        use_multi: false
-        vertical_align: top
-        vertical_offset: 40
+        overlay_level: episode
+        languages:
+            - en
+            - ja
+        style: square
     - remove_overlays: false
     operations:
       delete_unamanaged_collections: true
@@ -265,22 +270,13 @@ libraries:
         sort_by: random
     overlay_path:
     - remove_overlays: false
-    - pmm: language_count
+    - pmm: languages
       template_variables:
         overlay_level: episode
-        use_multi: false
-        vertical_align: top
-        vertical_offset: 40
-    - pmm: language_count
-      template_variables:
-        overlay_level: season
-        use_multi: false
-        vertical_align: top
-        vertical_offset: 40
-    - pmm: language_count
-      template_variables:
-        overlay_level: episode
-        use_multi: false
+        languages:
+            - en
+            - ja
+        style: square
     operations:
       delete_unamanaged_collections: true
       assets_for_all: true
@@ -422,6 +418,8 @@ libraries:
     operations:
       delete_unamanaged_collections: true
       assets_for_all: true
+playlist_files:
+  repo: playlist
 ```
 
 Custom Repo: `custom_repo: https://github.com/Drazzilb08/pmm-custom-repo/tree/master/`
