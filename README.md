@@ -421,6 +421,10 @@ libraries:
 playlist_files:
   pmm: playlist
   template_variables:
+    libraries: 
+      - Movies
+      - Series
+      - Animated Series
     url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/playlist/<<key>>.jpg
 ```
 
