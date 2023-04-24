@@ -92,9 +92,9 @@ libraries:
     metadata_path:
     - pmm: universe
       template_variables:
+        sort_title: <<order_<<key>>>><<title>>
         url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/universe/<<key>>.jpg
         use_separator: false
-        collection_mode: hide
         append_data:
             monsterverse: MonsterVerse
             in_association_with_dc: In Association With DC
@@ -170,6 +170,9 @@ libraries:
         visible_library_amazon: true
         visible_library_showtime: true
         sort_by: random
+    - pmm: collectionless
+      template_variables:
+        summary_collectionless: This is a grouping of movies that have no collection. This collection is solely for the purpose of ensuring collections display in the proper fashion. This is a dummy collection, pay it no mind.
     overlay_path:
     - reapply_overlay: true
     - pmm: ribbon
