@@ -1567,3 +1567,7 @@ collections:
         - 7131
         - 7092
     summary: Series of films based around the Van Helsing
+  Mariachi collection:
+    template:
+      name: collection
+      collections: 9649
