@@ -1570,4 +1570,4 @@ collections:
   Mariachi collection:
     template:
       name: collection
-      collections: 9649
+      collection: 9649
