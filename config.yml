@@ -180,6 +180,7 @@ libraries:
           nine theatrical live-action films and two live-action serials, excluding
           various villain spin-off and crossovers with other DC films
     - repo: movie/collections
+    - repo: movie/metadata
     - pmm: movie/seasonal
       template_variables:
         url_poster: 
@@ -281,6 +282,7 @@ libraries:
         visible_library_hayu: true
         visible_library_crunchyroll: true
         sort_by: random
+    - repo: series/animated-series-metadata
     overlay_path:
     - remove_overlays: false
     operations:
