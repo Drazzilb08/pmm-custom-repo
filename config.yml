@@ -180,7 +180,6 @@ libraries:
           nine theatrical live-action films and two live-action serials, excluding
           various villain spin-off and crossovers with other DC films
     - repo: movie/collections
-    - repo: movie/metadata
     - pmm: movie/seasonal
       template_variables:
         url_poster: 
@@ -248,6 +247,7 @@ libraries:
       assets_for_all: true
   Animated Series:
     metadata_path:
+    - repo: series/animated-series-metadata
     - repo: chart/charts
       template_variables:
         url_poster: 
@@ -282,9 +282,72 @@ libraries:
         visible_library_hayu: true
         visible_library_crunchyroll: true
         sort_by: random
-    - repo: series/animated-series-metadata
     overlay_path:
     - remove_overlays: false
+    - pmm: status         # AIRING
+      template_variables:
+        use_returning: false
+        use_canceled: false
+        use_ended: false
+        font_color: '#2ECC71'
+        font_size: 64
+        text_airing: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
+    - pmm: status         # RETURNING
+      template_variables:
+        use_airing: false
+        use_canceled: false
+        use_ended: false
+        font_color: '#3498DB'
+        font_size: 64
+        text_returning: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
+    - pmm: status         # CANCELED
+      template_variables:
+        use_returning: false
+        use_airing: false
+        use_ended: false
+        font_color: '#E74C3C'
+        font_size: 64
+        text_canceled: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
+    - pmm: status         # ENDED
+      template_variables:
+        use_airing: false
+        use_canceled: false
+        use_returning: false
+        font_color: '#E74C3C'
+        font_size: 64
+        text_ended: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
     operations:
       delete_unamanaged_collections: true
       assets_for_all: true
@@ -329,6 +392,70 @@ libraries:
         sort_by: random
     overlay_path:
     - remove_overlays: false
+    - pmm: status         # AIRING
+      template_variables:
+        use_returning: false
+        use_canceled: false
+        use_ended: false
+        font_color: '#2ECC71'
+        font_size: 64
+        text_airing: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
+    - pmm: status         # RETURNING
+      template_variables:
+        use_airing: false
+        use_canceled: false
+        use_ended: false
+        font_color: '#3498DB'
+        font_size: 64
+        text_returning: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
+    - pmm: status         # CANCELED
+      template_variables:
+        use_returning: false
+        use_airing: false
+        use_ended: false
+        font_color: '#E74C3C'
+        font_size: 64
+        text_canceled: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
+    - pmm: status         # ENDED
+      template_variables:
+        use_airing: false
+        use_canceled: false
+        use_returning: false
+        font_color: '#E74C3C'
+        font_size: 64
+        text_ended: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
     - pmm: languages
       template_variables:
         overlay_level: episode
@@ -370,6 +497,70 @@ libraries:
         use_separator: false
     overlay_path:
     - remove_overlays: false
+    - pmm: status         # AIRING
+      template_variables:
+        use_returning: false
+        use_canceled: false
+        use_ended: false
+        font_color: '#2ECC71'
+        font_size: 64
+        text_airing: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
+    - pmm: status         # RETURNING
+      template_variables:
+        use_airing: false
+        use_canceled: false
+        use_ended: false
+        font_color: '#3498DB'
+        font_size: 64
+        text_returning: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
+    - pmm: status         # CANCELED
+      template_variables:
+        use_returning: false
+        use_airing: false
+        use_ended: false
+        font_color: '#E74C3C'
+        font_size: 64
+        text_canceled: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
+    - pmm: status         # ENDED
+      template_variables:
+        use_airing: false
+        use_canceled: false
+        use_returning: false
+        font_color: '#E74C3C'
+        font_size: 64
+        text_ended: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
     operations:
       delete_unamanaged_collections: true
       assets_for_all: true
@@ -404,6 +595,70 @@ libraries:
         use_separator: false
     overlay_path:
     - remove_overlays: false
+    - pmm: status         # AIRING
+      template_variables:
+        use_returning: false
+        use_canceled: false
+        use_ended: false
+        font_color: '#2ECC71'
+        font_size: 64
+        text_airing: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
+    - pmm: status         # RETURNING
+      template_variables:
+        use_airing: false
+        use_canceled: false
+        use_ended: false
+        font_color: '#3498DB'
+        font_size: 64
+        text_returning: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
+    - pmm: status         # CANCELED
+      template_variables:
+        use_returning: false
+        use_airing: false
+        use_ended: false
+        font_color: '#E74C3C'
+        font_size: 64
+        text_canceled: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
+    - pmm: status         # ENDED
+      template_variables:
+        use_airing: false
+        use_canceled: false
+        use_returning: false
+        font_color: '#E74C3C'
+        font_size: 64
+        text_ended: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
     operations:
       delete_unamanaged_collections: true
       assets_for_all: true
@@ -437,6 +692,70 @@ libraries:
           https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
         use_separator: false
     overlay_path:
+    - pmm: status         # AIRING
+      template_variables:
+        use_returning: false
+        use_canceled: false
+        use_ended: false
+        font_color: '#2ECC71'
+        font_size: 64
+        text_airing: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
+    - pmm: status         # RETURNING
+      template_variables:
+        use_airing: false
+        use_canceled: false
+        use_ended: false
+        font_color: '#3498DB'
+        font_size: 64
+        text_returning: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
+    - pmm: status         # CANCELED
+      template_variables:
+        use_returning: false
+        use_airing: false
+        use_ended: false
+        font_color: '#E74C3C'
+        font_size: 64
+        text_canceled: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
+    - pmm: status         # ENDED
+      template_variables:
+        use_airing: false
+        use_canceled: false
+        use_returning: false
+        font_color: '#E74C3C'
+        font_size: 64
+        text_ended: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
     - remove_overlays: false
     operations:
       delete_unamanaged_collections: true
@@ -483,6 +802,70 @@ libraries:
         sort_by: random
     overlay_path:
     - remove_overlays: false
+    - pmm: status         # AIRING
+      template_variables:
+        use_returning: false
+        use_canceled: false
+        use_ended: false
+        font_color: '#2ECC71'
+        font_size: 64
+        text_airing: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
+    - pmm: status         # RETURNING
+      template_variables:
+        use_airing: false
+        use_canceled: false
+        use_ended: false
+        font_color: '#3498DB'
+        font_size: 64
+        text_returning: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
+    - pmm: status         # CANCELED
+      template_variables:
+        use_returning: false
+        use_airing: false
+        use_ended: false
+        font_color: '#E74C3C'
+        font_size: 64
+        text_canceled: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
+    - pmm: status         # ENDED
+      template_variables:
+        use_airing: false
+        use_canceled: false
+        use_returning: false
+        font_color: '#E74C3C'
+        font_size: 64
+        text_ended: ●
+        stroke_width: 6
+        stroke_color: '#00000099'
+        vertical_align: top
+        vertical_offset: 75
+        horizontal_align: left
+        horizontal_offset: 75
+        back_width: 0
+        back_height: 0
     operations:
       delete_unamanaged_collections: true
       assets_for_all: true
