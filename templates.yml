@@ -1,9 +1,10 @@
 templates:
   auto_collections:
-    move_prefix: The,A
+    move_prefix: 
+      - The
+      - A
     sort_title: <<collection_name>>
     tmdb_collection_details: <<value>>
-  
   kids-collection:
     collection_mode: hide_items
     collection_order: release
@@ -14,6 +15,9 @@ templates:
     sync_mode: sync
     tmdb_collection_details: <<collection>>
     sort_title: <<collection_sort>>
+    move_prefix: 
+      - The
+      - A
     tmdb_movie: <<movie>>
 
   collection:
@@ -26,3 +30,6 @@ templates:
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
     sort_title: <<collection_name>>
+    move_prefix: 
+      - The
+      - A
