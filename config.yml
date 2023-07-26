@@ -405,7 +405,7 @@ libraries:
         back_color: '#000000'
         back_width: 300
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#27C24C'
     - pmm: status
@@ -421,7 +421,7 @@ libraries:
         back_color: '#000000'
         back_width: 480
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#FFA500'
     - pmm: status
@@ -437,7 +437,7 @@ libraries:
         back_color: '#000000'
         back_width: 430
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#FF0000'
     - pmm: status
@@ -453,7 +453,7 @@ libraries:
         back_color: '#000000'
         back_width: 280
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#FF0000'
     - pmm: languages
@@ -510,7 +510,7 @@ libraries:
         back_color: '#000000'
         back_width: 300
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#27C24C'
     - pmm: status
@@ -526,7 +526,7 @@ libraries:
         back_color: '#000000'
         back_width: 480
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#FFA500'
     - pmm: status
@@ -542,7 +542,7 @@ libraries:
         back_color: '#000000'
         back_width: 430
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#FF0000'
     - pmm: status
@@ -558,7 +558,7 @@ libraries:
         back_color: '#000000'
         back_width: 280
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#FF0000'
     operations:
@@ -608,7 +608,7 @@ libraries:
         back_color: '#000000'
         back_width: 300
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#27C24C'
     - pmm: status
@@ -624,7 +624,7 @@ libraries:
         back_color: '#000000'
         back_width: 480
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#FFA500'
     - pmm: status
@@ -640,7 +640,7 @@ libraries:
         back_color: '#000000'
         back_width: 430
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#FF0000'
     - pmm: status
@@ -656,7 +656,7 @@ libraries:
         back_color: '#000000'
         back_width: 280
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#FF0000'
     operations:
@@ -705,7 +705,7 @@ libraries:
         back_color: '#000000'
         back_width: 300
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#27C24C'
     - pmm: status
@@ -721,7 +721,7 @@ libraries:
         back_color: '#000000'
         back_width: 480
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#FFA500'
     - pmm: status
@@ -737,7 +737,7 @@ libraries:
         back_color: '#000000'
         back_width: 430
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#FF0000'
     - pmm: status
@@ -753,7 +753,7 @@ libraries:
         back_color: '#000000'
         back_width: 280
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#FF0000'
     - remove_overlays: false
@@ -815,7 +815,7 @@ libraries:
         back_color: '#000000'
         back_width: 300
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#27C24C'
     - pmm: status
@@ -831,7 +831,7 @@ libraries:
         back_color: '#000000'
         back_width: 480
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#FFA500'
     - pmm: status
@@ -847,7 +847,7 @@ libraries:
         back_color: '#000000'
         back_width: 430
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#FF0000'
     - pmm: status
@@ -863,7 +863,7 @@ libraries:
         back_color: '#000000'
         back_width: 280
         back_height: 34
-        font: config/fonts/Arial.ttf
+        font: config/fonts/ARIAL.TTF
         font_size: 44
         font_color: '#FF0000'
     operations:
