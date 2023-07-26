@@ -286,66 +286,66 @@ libraries:
     - remove_overlays: false
     - pmm: status         # AIRING
       template_variables:
+        text_airing: "A I R I N G"
         use_returning: false
         use_canceled: false
         use_ended: false
-        font_color: '#2ECC71'
-        font_size: 64
-        text_airing: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
+        font: config/fonts/ARIAL.TTF
+        font_color: '#27C24C'
+        font_size: 55
+        # horizontal_offset: 35
+        horizontal_align: center
+        vertical_offset: 65
+        vertical_align: bottom
+        back_color: "#000000"
         back_width: 0
         back_height: 0
     - pmm: status         # RETURNING
       template_variables:
+        text_returning: "R E T U R N I N G"
         use_airing: false
         use_canceled: false
         use_ended: false
-        font_color: '#3498DB'
-        font_size: 64
-        text_returning: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
+        font: config/fonts/ARIAL.TTF
+        font_color: '#FFA500'
+        font_size: 55
+        # horizontal_offset: 35
+        horizontal_align: center
+        vertical_offset: 65
+        vertical_align: bottom
+        back_color: "#000000"
         back_width: 0
         back_height: 0
     - pmm: status         # CANCELED
       template_variables:
+        text_canceled: "C A N C E L L E D"
         use_returning: false
         use_airing: false
         use_ended: false
-        font_color: '#E74C3C'
-        font_size: 64
-        text_canceled: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
+        font: config/fonts/ARIAL.TTF
+        font_color: '#FF0000'
+        font_size: 55
+        # horizontal_offset: 35
+        horizontal_align: center
+        vertical_offset: 65
+        vertical_align: bottom
+        back_color: "#000000"
         back_width: 0
         back_height: 0
     - pmm: status         # ENDED
       template_variables:
+        text_ended: "E N D E D"
         use_airing: false
         use_canceled: false
         use_returning: false
-        font_color: '#E74C3C'
-        font_size: 64
-        text_ended: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
+        font: config/fonts/ARIAL.TTF
+        font_color: '#FF0000'
+        font_size: 55
+        # horizontal_offset: 35
+        horizontal_align: center
+        vertical_offset: 65
+        vertical_align: bottom
+        back_color: "#000000"
         back_width: 0
         back_height: 0
     operations:
@@ -363,7 +363,7 @@ libraries:
         visible_library_popular: true
         visible_library_top: true
         visible_library_season: true
-    - pmm: studio_anime
+    - pmm: studio
       template_variables:
         url_poster: 
           https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio_anime/<<key_encoded>>.jpg
@@ -392,70 +392,70 @@ libraries:
         sort_by: random
     overlay_path:
     - remove_overlays: false
-    - pmm: status         # AIRING
+    - pmm: status
       template_variables:
+        text_airing: "A  I  R  I  N  G"
+        use_airing: true
         use_returning: false
         use_canceled: false
         use_ended: false
-        font_color: '#2ECC71'
-        font_size: 64
-        text_airing: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
-    - pmm: status         # RETURNING
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 300
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#27C24C'
+    - pmm: status
       template_variables:
+        text_returning: "R  E  T  U  R  N  I  N  G"
         use_airing: false
+        use_returning: true
         use_canceled: false
         use_ended: false
-        font_color: '#3498DB'
-        font_size: 64
-        text_returning: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
-    - pmm: status         # CANCELED
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 480
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#FFA500'
+    - pmm: status
       template_variables:
-        use_returning: false
+        text_canceled: "C  A  N  C  E  L  E  D"
         use_airing: false
+        use_returning: false
+        use_canceled: true
         use_ended: false
-        font_color: '#E74C3C'
-        font_size: 64
-        text_canceled: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
-    - pmm: status         # ENDED
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 430
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#FF0000'
+    - pmm: status
       template_variables:
+        text_ended: "E  N  D  E  D"
         use_airing: false
-        use_canceled: false
         use_returning: false
-        font_color: '#E74C3C'
-        font_size: 64
-        text_ended: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
+        use_canceled: false
+        use_ended: true
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 280
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#FF0000'
     - pmm: languages
       template_variables:
         overlay_level: episode
@@ -497,70 +497,70 @@ libraries:
         use_separator: false
     overlay_path:
     - remove_overlays: false
-    - pmm: status         # AIRING
+    - pmm: status
       template_variables:
+        text_airing: "A  I  R  I  N  G"
+        use_airing: true
         use_returning: false
         use_canceled: false
         use_ended: false
-        font_color: '#2ECC71'
-        font_size: 64
-        text_airing: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
-    - pmm: status         # RETURNING
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 300
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#27C24C'
+    - pmm: status
       template_variables:
+        text_returning: "R  E  T  U  R  N  I  N  G"
         use_airing: false
+        use_returning: true
         use_canceled: false
         use_ended: false
-        font_color: '#3498DB'
-        font_size: 64
-        text_returning: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
-    - pmm: status         # CANCELED
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 480
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#FFA500'
+    - pmm: status
       template_variables:
-        use_returning: false
+        text_canceled: "C  A  N  C  E  L  E  D"
         use_airing: false
+        use_returning: false
+        use_canceled: true
         use_ended: false
-        font_color: '#E74C3C'
-        font_size: 64
-        text_canceled: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
-    - pmm: status         # ENDED
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 430
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#FF0000'
+    - pmm: status
       template_variables:
+        text_ended: "E  N  D  E  D"
         use_airing: false
-        use_canceled: false
         use_returning: false
-        font_color: '#E74C3C'
-        font_size: 64
-        text_ended: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
+        use_canceled: false
+        use_ended: true
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 280
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#FF0000'
     operations:
       delete_unamanaged_collections: true
       assets_for_all: true
@@ -595,70 +595,70 @@ libraries:
         use_separator: false
     overlay_path:
     - remove_overlays: false
-    - pmm: status         # AIRING
+    - pmm: status
       template_variables:
+        text_airing: "A  I  R  I  N  G"
+        use_airing: true
         use_returning: false
         use_canceled: false
         use_ended: false
-        font_color: '#2ECC71'
-        font_size: 64
-        text_airing: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
-    - pmm: status         # RETURNING
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 300
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#27C24C'
+    - pmm: status
       template_variables:
+        text_returning: "R  E  T  U  R  N  I  N  G"
         use_airing: false
+        use_returning: true
         use_canceled: false
         use_ended: false
-        font_color: '#3498DB'
-        font_size: 64
-        text_returning: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
-    - pmm: status         # CANCELED
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 480
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#FFA500'
+    - pmm: status
       template_variables:
-        use_returning: false
+        text_canceled: "C  A  N  C  E  L  E  D"
         use_airing: false
+        use_returning: false
+        use_canceled: true
         use_ended: false
-        font_color: '#E74C3C'
-        font_size: 64
-        text_canceled: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
-    - pmm: status         # ENDED
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 430
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#FF0000'
+    - pmm: status
       template_variables:
+        text_ended: "E  N  D  E  D"
         use_airing: false
-        use_canceled: false
         use_returning: false
-        font_color: '#E74C3C'
-        font_size: 64
-        text_ended: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
+        use_canceled: false
+        use_ended: true
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 280
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#FF0000'
     operations:
       delete_unamanaged_collections: true
       assets_for_all: true
@@ -692,70 +692,70 @@ libraries:
           https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
         use_separator: false
     overlay_path:
-    - pmm: status         # AIRING
+    - pmm: status
       template_variables:
+        text_airing: "A  I  R  I  N  G"
+        use_airing: true
         use_returning: false
         use_canceled: false
         use_ended: false
-        font_color: '#2ECC71'
-        font_size: 64
-        text_airing: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
-    - pmm: status         # RETURNING
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 300
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#27C24C'
+    - pmm: status
       template_variables:
+        text_returning: "R  E  T  U  R  N  I  N  G"
         use_airing: false
+        use_returning: true
         use_canceled: false
         use_ended: false
-        font_color: '#3498DB'
-        font_size: 64
-        text_returning: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
-    - pmm: status         # CANCELED
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 480
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#FFA500'
+    - pmm: status
       template_variables:
-        use_returning: false
+        text_canceled: "C  A  N  C  E  L  E  D"
         use_airing: false
+        use_returning: false
+        use_canceled: true
         use_ended: false
-        font_color: '#E74C3C'
-        font_size: 64
-        text_canceled: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
-    - pmm: status         # ENDED
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 430
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#FF0000'
+    - pmm: status
       template_variables:
+        text_ended: "E  N  D  E  D"
         use_airing: false
-        use_canceled: false
         use_returning: false
-        font_color: '#E74C3C'
-        font_size: 64
-        text_ended: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
+        use_canceled: false
+        use_ended: true
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 280
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#FF0000'
     - remove_overlays: false
     operations:
       delete_unamanaged_collections: true
@@ -802,70 +802,70 @@ libraries:
         sort_by: random
     overlay_path:
     - remove_overlays: false
-    - pmm: status         # AIRING
+    - pmm: status
       template_variables:
+        text_airing: "A  I  R  I  N  G"
+        use_airing: true
         use_returning: false
         use_canceled: false
         use_ended: false
-        font_color: '#2ECC71'
-        font_size: 64
-        text_airing: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
-    - pmm: status         # RETURNING
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 300
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#27C24C'
+    - pmm: status
       template_variables:
+        text_returning: "R  E  T  U  R  N  I  N  G"
         use_airing: false
+        use_returning: true
         use_canceled: false
         use_ended: false
-        font_color: '#3498DB'
-        font_size: 64
-        text_returning: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
-    - pmm: status         # CANCELED
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 480
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#FFA500'
+    - pmm: status
       template_variables:
-        use_returning: false
+        text_canceled: "C  A  N  C  E  L  E  D"
         use_airing: false
+        use_returning: false
+        use_canceled: true
         use_ended: false
-        font_color: '#E74C3C'
-        font_size: 64
-        text_canceled: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
-    - pmm: status         # ENDED
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 430
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#FF0000'
+    - pmm: status
       template_variables:
+        text_ended: "E  N  D  E  D"
         use_airing: false
-        use_canceled: false
         use_returning: false
-        font_color: '#E74C3C'
-        font_size: 64
-        text_ended: ●
-        stroke_width: 6
-        stroke_color: '#00000099'
-        vertical_align: top
-        vertical_offset: 75
-        horizontal_align: left
-        horizontal_offset: 75
-        back_width: 0
-        back_height: 0
+        use_canceled: false
+        use_ended: true
+        horizontal_align: center
+        vertical_offset: 45
+        vertical_align: bottom
+        back_color: '#000000'
+        back_width: 280
+        back_height: 34
+        font: config/fonts/Arial.ttf
+        font_size: 44
+        font_color: '#FF0000'
     operations:
       delete_unamanaged_collections: true
       assets_for_all: true
