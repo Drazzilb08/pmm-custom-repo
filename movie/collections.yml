@@ -14,6 +14,7 @@ dynamic_collections:
   auto_tmdb_collections:
     type: tmdb_collection
     exclude:
+      - 1184152
       - 115839
       - 768464
       - 785583
