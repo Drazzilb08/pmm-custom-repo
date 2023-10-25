@@ -10,8 +10,7 @@ libraries:
         use_separator: false
     - pmm: streaming
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key_encoded>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key_encoded>>.jpg
         collection_mode: hide
         use_separator: false
         use_crunchyroll: false
@@ -32,13 +31,11 @@ libraries:
         sort_by: random
     - repo: studio
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio/<<key>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio/<<key>>.jpg
         collection_mode: hide
         visible_library_studio_ghibli: true
         use_separator: false
     overlay_path:
-    - reapply_overlay: true
     - pmm: ribbon
       template_variables:
         use_common: false
@@ -47,21 +44,20 @@ libraries:
         use_metacritic: false
     - pmm: languages
       template_variables:
-        overlay_level: episode
+        builder_level: episode
         languages:
         - en
         - ja
         style: square
     - remove_overlays: false
     operations:
-      delete_unamanaged_collections: true
       assets_for_all: true
+
   Documentary Movies:
     metadata_path:
     - pmm: streaming
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key_encoded>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key_encoded>>.jpg
         collection_mode: hide
         use_separator: false
         use_crunchyroll: false
@@ -81,7 +77,6 @@ libraries:
         visible_library_showtime: true
         sort_by: random
     overlay_path:
-    - reapply_overlay: true
     - pmm: ribbon
       template_variables:
         use_common: false
@@ -90,15 +85,14 @@ libraries:
         use_metacritic: false
     - remove_overlays: false
     operations:
-      delete_unamanaged_collections: true
       assets_for_all: true
+
   Movies:
     metadata_path:
     - pmm: universe
       template_variables:
         sort_title: <<order_<<key>>>><<title>>
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/universe/<<key>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/universe/<<key>>.jpg
         use_separator: false
         append_data:
           monsterverse: MonsterVerse
@@ -180,17 +174,15 @@ libraries:
           nine theatrical live-action films and two live-action serials, excluding
           various villain spin-off and crossovers with other DC films
     - repo: movie/collections
-    - pmm: movie/seasonal
+    - pmm: seasonal
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/seasonal/<<key>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/seasonal/<<key>>.jpg
         sort_by: random
         schedule_valentine: range(02/01-02/15)
         schedule_christmas: range(12/01-12/26)
     - repo: chart/charts
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/chart/<<key_encoded>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/chart/<<key_encoded>>.jpg
         collection_mode: hide
         visible_home_popular: true
         visible_home_trending: true
@@ -199,17 +191,14 @@ libraries:
         visible_shared_popular: true
         visible_shared_trending: true
         sort_by_popular: random
-    - repo: movie/metadata
     - repo: studio
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio/<<key>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio/<<key>>.jpg
         collection_mode: hide
         use_separator: false
     - pmm: streaming
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
         collection_mode: hide
         use_separator: false
         use_crunchyroll: false
@@ -234,7 +223,6 @@ libraries:
           This collection is solely for the purpose of ensuring collections display
           in the proper fashion. This is a dummy collection, pay it no mind.
     overlay_path:
-    - reapply_overlay: true
     - pmm: ribbon
       template_variables:
         use_common: false
@@ -243,27 +231,24 @@ libraries:
         use_metacritic: false
     - remove_overlays: false
     operations:
-      delete_unamanaged_collections: true
       assets_for_all: true
+
   Animated Series:
     metadata_path:
     - repo: series/animated-series-metadata
     - repo: chart/charts
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/chart/<<key_encoded>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/chart/<<key_encoded>>.jpg
         visible_home_trending_animated: true
         visible_library_trending_animated: true
         visible_shared_trending_animated: true
-    - pmm: show/network
+    - pmm: network
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
         use_separator: false
     - pmm: streaming
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
         collection_mode: hide
         use_separator: false
         use_all4: false
@@ -286,7 +271,7 @@ libraries:
     - remove_overlays: false
     - pmm: status         # AIRING
       template_variables:
-        text_airing: "A I R I N G"
+        text_airing: A I R I N G
         use_returning: false
         use_canceled: false
         use_ended: false
@@ -297,12 +282,12 @@ libraries:
         horizontal_align: center
         vertical_offset: 65
         vertical_align: bottom
-        back_color: "#000000"
+        back_color: '#000000'
         back_width: 0
         back_height: 0
     - pmm: status         # RETURNING
       template_variables:
-        text_returning: "R E T U R N I N G"
+        text_returning: R E T U R N I N G
         use_airing: false
         use_canceled: false
         use_ended: false
@@ -313,12 +298,12 @@ libraries:
         horizontal_align: center
         vertical_offset: 65
         vertical_align: bottom
-        back_color: "#000000"
+        back_color: '#000000'
         back_width: 0
         back_height: 0
     - pmm: status         # CANCELED
       template_variables:
-        text_canceled: "C A N C E L L E D"
+        text_canceled: C A N C E L L E D
         use_returning: false
         use_airing: false
         use_ended: false
@@ -329,12 +314,12 @@ libraries:
         horizontal_align: center
         vertical_offset: 65
         vertical_align: bottom
-        back_color: "#000000"
+        back_color: '#000000'
         back_width: 0
         back_height: 0
     - pmm: status         # ENDED
       template_variables:
-        text_ended: "E N D E D"
+        text_ended: E N D E D
         use_airing: false
         use_canceled: false
         use_returning: false
@@ -345,18 +330,17 @@ libraries:
         horizontal_align: center
         vertical_offset: 65
         vertical_align: bottom
-        back_color: "#000000"
+        back_color: '#000000'
         back_width: 0
         back_height: 0
     operations:
-      delete_unamanaged_collections: true
       assets_for_all: true
+
   Anime Series:
     metadata_path:
-    - pmm: chart/myanimelist
+    - pmm: myanimelist
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/anime/<<key>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/anime/<<key>>.jpg
         use_separator: false
         use_airing: false
         use_favorited: false
@@ -365,13 +349,11 @@ libraries:
         visible_library_season: true
     - pmm: studio
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio_anime/<<key_encoded>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio_anime/<<key_encoded>>.jpg
         use_separator: false
     - pmm: streaming
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
         collection_mode: hide
         use_separator: false
         use_all4: false
@@ -394,7 +376,7 @@ libraries:
     - remove_overlays: false
     - pmm: status
       template_variables:
-        text_airing: "A  I  R  I  N  G"
+        text_airing: A  I  R  I  N  G
         use_airing: true
         use_returning: false
         use_canceled: false
@@ -410,7 +392,7 @@ libraries:
         font_color: '#27C24C'
     - pmm: status
       template_variables:
-        text_returning: "R  E  T  U  R  N  I  N  G"
+        text_returning: R  E  T  U  R  N  I  N  G
         use_airing: false
         use_returning: true
         use_canceled: false
@@ -426,7 +408,7 @@ libraries:
         font_color: '#FFA500'
     - pmm: status
       template_variables:
-        text_canceled: "C  A  N  C  E  L  E  D"
+        text_canceled: C  A  N  C  E  L  E  D
         use_airing: false
         use_returning: false
         use_canceled: true
@@ -442,7 +424,7 @@ libraries:
         font_color: '#FF0000'
     - pmm: status
       template_variables:
-        text_ended: "E  N  D  E  D"
+        text_ended: E  N  D  E  D
         use_airing: false
         use_returning: false
         use_canceled: false
@@ -458,20 +440,19 @@ libraries:
         font_color: '#FF0000'
     - pmm: languages
       template_variables:
-        overlay_level: episode
+        builder_level: episode
         languages:
         - en
         - ja
         style: square
     operations:
-      delete_unamanaged_collections: true
       assets_for_all: true
+
   Documentary Series:
     metadata_path:
     - pmm: streaming
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
         collection_mode: hide
         use_separator: false
         use_all4: false
@@ -490,16 +471,15 @@ libraries:
         visible_library_hayu: true
         visible_library_crunchyroll: true
         sort_by: random
-    - pmm: show/network
+    - pmm: network
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
         use_separator: false
     overlay_path:
     - remove_overlays: false
     - pmm: status
       template_variables:
-        text_airing: "A  I  R  I  N  G"
+        text_airing: A  I  R  I  N  G
         use_airing: true
         use_returning: false
         use_canceled: false
@@ -515,7 +495,7 @@ libraries:
         font_color: '#27C24C'
     - pmm: status
       template_variables:
-        text_returning: "R  E  T  U  R  N  I  N  G"
+        text_returning: R  E  T  U  R  N  I  N  G
         use_airing: false
         use_returning: true
         use_canceled: false
@@ -531,7 +511,7 @@ libraries:
         font_color: '#FFA500'
     - pmm: status
       template_variables:
-        text_canceled: "C  A  N  C  E  L  E  D"
+        text_canceled: C  A  N  C  E  L  E  D
         use_airing: false
         use_returning: false
         use_canceled: true
@@ -547,7 +527,7 @@ libraries:
         font_color: '#FF0000'
     - pmm: status
       template_variables:
-        text_ended: "E  N  D  E  D"
+        text_ended: E  N  D  E  D
         use_airing: false
         use_returning: false
         use_canceled: false
@@ -562,14 +542,13 @@ libraries:
         font_size: 44
         font_color: '#FF0000'
     operations:
-      delete_unamanaged_collections: true
       assets_for_all: true
+
   Kids Series:
     metadata_path:
     - pmm: streaming
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
         collection_mode: hide
         use_separator: false
         use_all4: false
@@ -588,16 +567,15 @@ libraries:
         visible_library_hayu: true
         visible_library_crunchyroll: true
         sort_by: random
-    - pmm: show/network
+    - pmm: network
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
         use_separator: false
     overlay_path:
     - remove_overlays: false
     - pmm: status
       template_variables:
-        text_airing: "A  I  R  I  N  G"
+        text_airing: A  I  R  I  N  G
         use_airing: true
         use_returning: false
         use_canceled: false
@@ -613,7 +591,7 @@ libraries:
         font_color: '#27C24C'
     - pmm: status
       template_variables:
-        text_returning: "R  E  T  U  R  N  I  N  G"
+        text_returning: R  E  T  U  R  N  I  N  G
         use_airing: false
         use_returning: true
         use_canceled: false
@@ -629,7 +607,7 @@ libraries:
         font_color: '#FFA500'
     - pmm: status
       template_variables:
-        text_canceled: "C  A  N  C  E  L  E  D"
+        text_canceled: C  A  N  C  E  L  E  D
         use_airing: false
         use_returning: false
         use_canceled: true
@@ -645,7 +623,7 @@ libraries:
         font_color: '#FF0000'
     - pmm: status
       template_variables:
-        text_ended: "E  N  D  E  D"
+        text_ended: E  N  D  E  D
         use_airing: false
         use_returning: false
         use_canceled: false
@@ -660,14 +638,13 @@ libraries:
         font_size: 44
         font_color: '#FF0000'
     operations:
-      delete_unamanaged_collections: true
       assets_for_all: true
+
   Reality Series:
     metadata_path:
     - pmm: streaming
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
         collection_mode: hide
         use_separator: false
         use_all4: false
@@ -686,15 +663,14 @@ libraries:
         visible_library_hayu: true
         visible_library_crunchyroll: true
         sort_by: random
-    - pmm: show/network
+    - pmm: network
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
         use_separator: false
     overlay_path:
     - pmm: status
       template_variables:
-        text_airing: "A  I  R  I  N  G"
+        text_airing: A  I  R  I  N  G
         use_airing: true
         use_returning: false
         use_canceled: false
@@ -710,7 +686,7 @@ libraries:
         font_color: '#27C24C'
     - pmm: status
       template_variables:
-        text_returning: "R  E  T  U  R  N  I  N  G"
+        text_returning: R  E  T  U  R  N  I  N  G
         use_airing: false
         use_returning: true
         use_canceled: false
@@ -726,7 +702,7 @@ libraries:
         font_color: '#FFA500'
     - pmm: status
       template_variables:
-        text_canceled: "C  A  N  C  E  L  E  D"
+        text_canceled: C  A  N  C  E  L  E  D
         use_airing: false
         use_returning: false
         use_canceled: true
@@ -742,7 +718,7 @@ libraries:
         font_color: '#FF0000'
     - pmm: status
       template_variables:
-        text_ended: "E  N  D  E  D"
+        text_ended: E  N  D  E  D
         use_airing: false
         use_returning: false
         use_canceled: false
@@ -758,14 +734,13 @@ libraries:
         font_color: '#FF0000'
     - remove_overlays: false
     operations:
-      delete_unamanaged_collections: true
       assets_for_all: true
+
   Series:
     metadata_path:
     - repo: chart/charts
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/chart/<<key_encoded>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/chart/<<key_encoded>>.jpg
         use_trending_animated: false
         visible_home_popular: true
         visible_library_popular: true
@@ -773,15 +748,13 @@ libraries:
         visible_home_trending: true
         visible_library_trending: true
         visible_shared_trending: true
-    - pmm: show/network
+    - pmm: network
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
         use_separator: false
     - pmm: streaming
       template_variables:
-        url_poster: 
-          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
         collection_mode: hide
         use_separator: false
         use_all4: false
@@ -804,7 +777,7 @@ libraries:
     - remove_overlays: false
     - pmm: status
       template_variables:
-        text_airing: "A  I  R  I  N  G"
+        text_airing: A  I  R  I  N  G
         use_airing: true
         use_returning: false
         use_canceled: false
@@ -820,7 +793,7 @@ libraries:
         font_color: '#27C24C'
     - pmm: status
       template_variables:
-        text_returning: "R  E  T  U  R  N  I  N  G"
+        text_returning: R  E  T  U  R  N  I  N  G
         use_airing: false
         use_returning: true
         use_canceled: false
@@ -836,7 +809,7 @@ libraries:
         font_color: '#FFA500'
     - pmm: status
       template_variables:
-        text_canceled: "C  A  N  C  E  L  E  D"
+        text_canceled: C  A  N  C  E  L  E  D
         use_airing: false
         use_returning: false
         use_canceled: true
@@ -852,7 +825,7 @@ libraries:
         font_color: '#FF0000'
     - pmm: status
       template_variables:
-        text_ended: "E  N  D  E  D"
+        text_ended: E  N  D  E  D
         use_airing: false
         use_returning: false
         use_canceled: false
@@ -867,8 +840,8 @@ libraries:
         font_size: 44
         font_color: '#FF0000'
     operations:
-      delete_unamanaged_collections: true
       assets_for_all: true
+
 playlist_files:
   pmm: playlist
   template_variables:
@@ -877,5 +850,4 @@ playlist_files:
     - Movies
     - Series
     - Animated Series
-    url_poster: 
-      https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/playlist/<<key>>.jpg
+    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/playlist/<<key>>.jpg
