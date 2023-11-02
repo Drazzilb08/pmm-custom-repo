@@ -14,12 +14,11 @@ templates:
       - movie
     sync_mode: sync
     tmdb_collection_details: <<collection>>
-    sort_title: <<collection_sort>>
+    sort_title: <<collection_name>>
     move_prefix: 
       - The
       - A
     tmdb_movie: <<movie>>
-
   collection:
     collection_mode: hide_items
     collection_order: release
