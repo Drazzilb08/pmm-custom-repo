@@ -1570,3 +1570,22 @@ collections:
     template:
       name: collection
       collection: 9649
+  Cars Toons collection:
+    template:
+      name: collection
+      movie:
+        - 56553
+        - 140967
+        - 39030
+        - 24328
+        - 171536
+        - 148605
+        - 148607
+        - 148608
+        - 148606
+        - 145316
+        - 141528
+        - 230767
+        - 296159
+        - 296137
+        - 286189
