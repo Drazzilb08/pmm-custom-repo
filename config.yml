@@ -52,6 +52,17 @@ libraries:
     - remove_overlays: false
     operations:
       assets_for_all: true
+      delete_collections:
+        less: 2
+      mass_genre_update: tmdb
+      mass_content_rating_update: mdb_commonsense
+      mass_studio_update: tmdb
+      mass_originally_available_update: tmdb
+      mass_audience_rating_update: mdb_tomatoesaudience
+      mass_critic_rating_update: mdb_metacritic
+      mass_user_rating_update: tmdb
+      mass_imdb_parental_labels: mild
+      split_duplicates: false
 
   Documentary Movies:
     metadata_path:
@@ -86,12 +97,28 @@ libraries:
     - remove_overlays: false
     operations:
       assets_for_all: true
+      delete_collections:
+        less: 2
+      mass_genre_update: tmdb
+      mass_content_rating_update: mdb_commonsense
+      mass_studio_update: tmdb
+      mass_originally_available_update: tmdb
+      mass_audience_rating_update: mdb_tomatoesaudience
+      mass_critic_rating_update: mdb_metacritic
+      mass_user_rating_update: tmdb
+      mass_imdb_parental_labels: mild
+      split_duplicates: false
 
   Movies:
     metadata_path:
     - pmm: universe
       template_variables:
-        sort_title: <<order_<<key>>>><<title>>
+        collection_mode: hide
+        visible_library_the_spiderverse: true
+        visible_library_mcu: true
+        visible_library_middle: true
+        visible_library_star: true
+        visible_library_wizard: true
         url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/universe/<<key>>.jpg
         use_separator: false
         append_data:
@@ -232,6 +259,17 @@ libraries:
     - remove_overlays: false
     operations:
       assets_for_all: true
+      delete_collections:
+        less: 2
+      mass_genre_update: tmdb
+      mass_content_rating_update: mdb_commonsense
+      mass_studio_update: tmdb
+      mass_originally_available_update: tmdb
+      mass_audience_rating_update: mdb_tomatoesaudience
+      mass_critic_rating_update: mdb_metacritic
+      mass_user_rating_update: tmdb
+      mass_imdb_parental_labels: mild
+      split_duplicates: false
 
   Animated Series:
     metadata_path:
@@ -280,7 +318,7 @@ libraries:
         font_size: 55
         # horizontal_offset: 35
         horizontal_align: center
-        vertical_offset: 65
+        vertical_offset: 45
         vertical_align: bottom
         back_color: '#000000'
         back_width: 0
@@ -296,7 +334,7 @@ libraries:
         font_size: 55
         # horizontal_offset: 35
         horizontal_align: center
-        vertical_offset: 65
+        vertical_offset: 45
         vertical_align: bottom
         back_color: '#000000'
         back_width: 0
@@ -312,7 +350,7 @@ libraries:
         font_size: 55
         # horizontal_offset: 35
         horizontal_align: center
-        vertical_offset: 65
+        vertical_offset: 45
         vertical_align: bottom
         back_color: '#000000'
         back_width: 0
@@ -328,13 +366,24 @@ libraries:
         font_size: 55
         # horizontal_offset: 35
         horizontal_align: center
-        vertical_offset: 65
+        vertical_offset: 45
         vertical_align: bottom
         back_color: '#000000'
         back_width: 0
         back_height: 0
     operations:
       assets_for_all: true
+      delete_collections:
+        less: 2
+      mass_genre_update: tmdb
+      mass_content_rating_update: mdb_commonsense
+      mass_studio_update: tmdb
+      mass_originally_available_update: tmdb
+      mass_audience_rating_update: mdb_tomatoesaudience
+      mass_critic_rating_update: mdb_metacritic
+      mass_user_rating_update: tmdb
+      mass_imdb_parental_labels: mild
+      split_duplicates: false
 
   Anime Series:
     metadata_path:
@@ -447,6 +496,17 @@ libraries:
         style: square
     operations:
       assets_for_all: true
+      delete_collections:
+        less: 2
+      mass_genre_update: tmdb
+      mass_content_rating_update: mdb_commonsense
+      mass_studio_update: tmdb
+      mass_originally_available_update: tmdb
+      mass_audience_rating_update: mdb_tomatoesaudience
+      mass_critic_rating_update: mdb_metacritic
+      mass_user_rating_update: tmdb
+      mass_imdb_parental_labels: mild
+      split_duplicates: false
 
   Documentary Series:
     metadata_path:
@@ -543,6 +603,17 @@ libraries:
         font_color: '#FF0000'
     operations:
       assets_for_all: true
+      delete_collections:
+        less: 2
+      mass_genre_update: tmdb
+      mass_content_rating_update: mdb_commonsense
+      mass_studio_update: tmdb
+      mass_originally_available_update: tmdb
+      mass_audience_rating_update: mdb_tomatoesaudience
+      mass_critic_rating_update: mdb_metacritic
+      mass_user_rating_update: tmdb
+      mass_imdb_parental_labels: mild
+      split_duplicates: false
 
   Kids Series:
     metadata_path:
@@ -639,7 +710,18 @@ libraries:
         font_color: '#FF0000'
     operations:
       assets_for_all: true
-
+      delete_collections:
+        less: 2
+      mass_genre_update: tmdb
+      mass_content_rating_update: mdb_commonsense
+      mass_studio_update: tmdb
+      mass_originally_available_update: tmdb
+      mass_audience_rating_update: mdb_tomatoesaudience
+      mass_critic_rating_update: mdb_metacritic
+      mass_user_rating_update: tmdb
+      mass_imdb_parental_labels: mild
+      split_duplicates: false
+      
   Reality Series:
     metadata_path:
     - pmm: streaming
@@ -735,6 +817,17 @@ libraries:
     - remove_overlays: false
     operations:
       assets_for_all: true
+      delete_collections:
+        less: 2
+      mass_genre_update: tmdb
+      mass_content_rating_update: mdb_commonsense
+      mass_studio_update: tmdb
+      mass_originally_available_update: tmdb
+      mass_audience_rating_update: mdb_tomatoesaudience
+      mass_critic_rating_update: mdb_metacritic
+      mass_user_rating_update: tmdb
+      mass_imdb_parental_labels: mild
+      split_duplicates: false
 
   Series:
     metadata_path:
@@ -841,6 +934,17 @@ libraries:
         font_color: '#FF0000'
     operations:
       assets_for_all: true
+      delete_collections:
+        less: 2
+      mass_genre_update: tmdb
+      mass_content_rating_update: mdb_commonsense
+      mass_studio_update: tmdb
+      mass_originally_available_update: tmdb
+      mass_audience_rating_update: mdb_tomatoesaudience
+      mass_critic_rating_update: mdb_metacritic
+      mass_user_rating_update: tmdb
+      mass_imdb_parental_labels: mild
+      split_duplicates: false
 
 playlist_files:
   pmm: playlist
