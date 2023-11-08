@@ -22,6 +22,7 @@ dynamic_collections:
       - 9649
       - 593251
       - 286558
+      - 660861
       - 363015
       - 493668
       - 1028532
@@ -1537,7 +1538,7 @@ collections:
         - 791348
   Super Mario Bros. Collection:
     template:
-      name: collection
+      name: kids-collection
       movie:
         - 502356
         - 9607
@@ -1566,7 +1567,7 @@ collections:
       collection: 9649
   Cars Toons collection:
     template:
-      name: collection
+      name: kids-collection
       movie:
         - 56553
         - 140967
@@ -1583,3 +1584,17 @@ collections:
         - 296159
         - 296137
         - 286189
+  Forky Asks a Question collection:
+    template:
+      name: kids-collection
+      movie:
+        - 660867
+        - 660861
+        - 660862
+        - 660856
+        - 662666
+        - 660858
+        - 660851
+        - 660859
+        - 660855
+        - 660866
