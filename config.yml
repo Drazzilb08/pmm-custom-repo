@@ -10,7 +10,8 @@ libraries:
         use_separator: false
     - pmm: streaming
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key_encoded>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key_encoded>>.jpg
         collection_mode: hide
         use_separator: false
         use_crunchyroll: false
@@ -31,7 +32,8 @@ libraries:
         sort_by: random
     - repo: studio
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio/<<key>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio/<<key>>.jpg
         collection_mode: hide
         visible_library_studio_ghibli: true
         use_separator: false
@@ -60,7 +62,6 @@ libraries:
       mass_originally_available_update: tmdb
       mass_audience_rating_update: mdb_tomatoesaudience
       mass_critic_rating_update: mdb_metacritic
-      mass_user_rating_update: tmdb
       mass_imdb_parental_labels: mild
       split_duplicates: false
 
@@ -68,7 +69,8 @@ libraries:
     metadata_path:
     - pmm: streaming
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key_encoded>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key_encoded>>.jpg
         collection_mode: hide
         use_separator: false
         use_crunchyroll: false
@@ -105,7 +107,6 @@ libraries:
       mass_originally_available_update: tmdb
       mass_audience_rating_update: mdb_tomatoesaudience
       mass_critic_rating_update: mdb_metacritic
-      mass_user_rating_update: tmdb
       mass_imdb_parental_labels: mild
       split_duplicates: false
 
@@ -119,7 +120,8 @@ libraries:
         visible_library_middle: true
         visible_library_star: true
         visible_library_wizard: true
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/universe/<<key>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/universe/<<key>>.jpg
         use_separator: false
         append_data:
           monsterverse: MonsterVerse
@@ -203,13 +205,17 @@ libraries:
     - repo: movie/collections
     - pmm: seasonal
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/seasonal/<<key>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/seasonal/<<key>>.jpg
         sort_by: random
         schedule_valentine: range(02/01-02/15)
         schedule_christmas: range(12/01-12/26)
+        schedule_veteran: range(11/01-11/12)
+        schedule_thanksgiving: range(11/01-11/29)
     - repo: chart/charts
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/chart/<<key_encoded>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/chart/<<key_encoded>>.jpg
         collection_mode: hide
         visible_home_popular: true
         visible_home_trending: true
@@ -220,12 +226,14 @@ libraries:
         sort_by_popular: random
     - repo: studio
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio/<<key>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio/<<key>>.jpg
         collection_mode: hide
         use_separator: false
     - pmm: streaming
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
         collection_mode: hide
         use_separator: false
         use_crunchyroll: false
@@ -267,7 +275,6 @@ libraries:
       mass_originally_available_update: tmdb
       mass_audience_rating_update: mdb_tomatoesaudience
       mass_critic_rating_update: mdb_metacritic
-      mass_user_rating_update: tmdb
       mass_imdb_parental_labels: mild
       split_duplicates: false
 
@@ -276,17 +283,20 @@ libraries:
     - repo: series/animated-series-metadata
     - repo: chart/charts
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/chart/<<key_encoded>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/chart/<<key_encoded>>.jpg
         visible_home_trending_animated: true
         visible_library_trending_animated: true
         visible_shared_trending_animated: true
     - pmm: network
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
         use_separator: false
     - pmm: streaming
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
         collection_mode: hide
         use_separator: false
         use_all4: false
@@ -381,7 +391,6 @@ libraries:
       mass_originally_available_update: tmdb
       mass_audience_rating_update: mdb_tomatoesaudience
       mass_critic_rating_update: mdb_metacritic
-      mass_user_rating_update: tmdb
       mass_imdb_parental_labels: mild
       split_duplicates: false
 
@@ -389,7 +398,8 @@ libraries:
     metadata_path:
     - pmm: myanimelist
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/anime/<<key>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/anime/<<key>>.jpg
         use_separator: false
         use_airing: false
         use_favorited: false
@@ -398,11 +408,13 @@ libraries:
         visible_library_season: true
     - pmm: studio
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio_anime/<<key_encoded>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio_anime/<<key_encoded>>.jpg
         use_separator: false
     - pmm: streaming
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
         collection_mode: hide
         use_separator: false
         use_all4: false
@@ -504,7 +516,6 @@ libraries:
       mass_originally_available_update: tmdb
       mass_audience_rating_update: mdb_tomatoesaudience
       mass_critic_rating_update: mdb_metacritic
-      mass_user_rating_update: tmdb
       mass_imdb_parental_labels: mild
       split_duplicates: false
 
@@ -512,7 +523,8 @@ libraries:
     metadata_path:
     - pmm: streaming
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
         collection_mode: hide
         use_separator: false
         use_all4: false
@@ -533,7 +545,8 @@ libraries:
         sort_by: random
     - pmm: network
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
         use_separator: false
     overlay_path:
     - remove_overlays: false
@@ -611,7 +624,6 @@ libraries:
       mass_originally_available_update: tmdb
       mass_audience_rating_update: mdb_tomatoesaudience
       mass_critic_rating_update: mdb_metacritic
-      mass_user_rating_update: tmdb
       mass_imdb_parental_labels: mild
       split_duplicates: false
 
@@ -619,7 +631,8 @@ libraries:
     metadata_path:
     - pmm: streaming
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
         collection_mode: hide
         use_separator: false
         use_all4: false
@@ -640,7 +653,8 @@ libraries:
         sort_by: random
     - pmm: network
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
         use_separator: false
     overlay_path:
     - remove_overlays: false
@@ -718,15 +732,15 @@ libraries:
       mass_originally_available_update: tmdb
       mass_audience_rating_update: mdb_tomatoesaudience
       mass_critic_rating_update: mdb_metacritic
-      mass_user_rating_update: tmdb
       mass_imdb_parental_labels: mild
       split_duplicates: false
-      
+
   Reality Series:
     metadata_path:
     - pmm: streaming
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
         collection_mode: hide
         use_separator: false
         use_all4: false
@@ -747,7 +761,8 @@ libraries:
         sort_by: random
     - pmm: network
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
         use_separator: false
     overlay_path:
     - pmm: status
@@ -825,7 +840,6 @@ libraries:
       mass_originally_available_update: tmdb
       mass_audience_rating_update: mdb_tomatoesaudience
       mass_critic_rating_update: mdb_metacritic
-      mass_user_rating_update: tmdb
       mass_imdb_parental_labels: mild
       split_duplicates: false
 
@@ -833,7 +847,8 @@ libraries:
     metadata_path:
     - repo: chart/charts
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/chart/<<key_encoded>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/chart/<<key_encoded>>.jpg
         use_trending_animated: false
         visible_home_popular: true
         visible_library_popular: true
@@ -843,11 +858,13 @@ libraries:
         visible_shared_trending: true
     - pmm: network
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/network/<<key_encoded>>.jpg
         use_separator: false
     - pmm: streaming
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
+        url_poster: 
+          https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/streaming/<<key>>.jpg
         collection_mode: hide
         use_separator: false
         use_all4: false
@@ -942,7 +959,6 @@ libraries:
       mass_originally_available_update: tmdb
       mass_audience_rating_update: mdb_tomatoesaudience
       mass_critic_rating_update: mdb_metacritic
-      mass_user_rating_update: tmdb
       mass_imdb_parental_labels: mild
       split_duplicates: false
 
@@ -954,4 +970,5 @@ playlist_files:
     - Movies
     - Series
     - Animated Series
-    url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/playlist/<<key>>.jpg
+    url_poster: 
+      https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/playlist/<<key>>.jpg
