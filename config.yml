@@ -224,7 +224,6 @@ libraries:
 
   Animated Series:
     collection_files:
-    - repo: series/animated-series-metadata
     - repo: chart/charts
       template_variables:
         url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/chart/<<key_encoded>>.jpg
@@ -897,7 +896,7 @@ libraries:
       split_duplicates: false
 
 playlist_files:
-  pmm: playlist
+- pmm: playlist
   template_variables:
     use_dragonball: false
     libraries:
