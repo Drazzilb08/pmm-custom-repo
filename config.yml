@@ -6,7 +6,7 @@ libraries:
     collection_files:
     - repo: anime/anime_collection
       template_variables:
-        collection_mode: hide_items
+        collection_mode: hide
         use_separator: false
     - pmm: streaming
       template_variables:
@@ -31,7 +31,7 @@ libraries:
         sort_by: random
     - repo: studio
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio_anime/<<key>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio_pmm/<<key>>.jpg
         collection_mode: hide
         visible_library_studio_ghibli: true
         use_separator: false
@@ -60,7 +60,6 @@ libraries:
       mass_originally_available_update: tmdb
       mass_audience_rating_update: mdb_tomatoesaudience
       mass_critic_rating_update: mdb_metacritic
-
       mass_imdb_parental_labels: mild
       split_duplicates: false
 
@@ -105,7 +104,6 @@ libraries:
       mass_originally_available_update: tmdb
       mass_audience_rating_update: mdb_tomatoesaudience
       mass_critic_rating_update: mdb_metacritic
-
       mass_imdb_parental_labels: mild
       split_duplicates: false
 
@@ -152,6 +150,7 @@ libraries:
         summary_the_conjuring_universe: The Conjuring Universe is an American media franchise and shared universe centered on a series of supernatural horror films. The franchise is produced by New Line Cinema, the Safran Company, and Atomic Monster Productions and distributed by Warner Bros. Pictures.
         batman_universe: The Batman film franchise follows various incarnations of the character created by DC Comics. The franchise consists of a total of nine theatrical live-action films and two live-action serials, excluding various villain spin-off and crossovers with other DC films
     - repo: movie/collections
+    - repo: movie/weekly
     - pmm: seasonal
       template_variables:
         url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/seasonal/<<key>>.jpg
@@ -197,9 +196,6 @@ libraries:
         visible_library_amazon: true
         visible_library_showtime: true
         sort_by: random
-    - pmm: collectionless
-      template_variables:
-        summary_collectionless: This is a grouping of movies that have no collection. This collection is solely for the purpose of ensuring collections display in the proper fashion. This is a dummy collection, pay it no mind.
     overlay_files:
     - pmm: ribbon
       template_variables:
@@ -218,7 +214,6 @@ libraries:
       mass_originally_available_update: tmdb
       mass_audience_rating_update: mdb_tomatoesaudience
       mass_critic_rating_update: mdb_metacritic
-
       mass_imdb_parental_labels: mild
       split_duplicates: false
 
@@ -257,70 +252,24 @@ libraries:
         sort_by: random
     overlay_files:
     - remove_overlays: false
-    - pmm: status         # AIRING
+    - pmm: status
       template_variables:
-        text_airing: A I R I N G
-        use_returning: false
-        use_canceled: false
-        use_ended: false
-        font: config/fonts/ARIAL.TTF
-        font_color: '#27C24C'
-        font_size: 55
-        # horizontal_offset: 35
+        text_airing: A  I  R  I  N  G
+        text_returning: R  E  T  U  R  N  I  N  G
+        text_canceled: C  A  N  C  E  L  E  D
+        text_ended: E  N  D  E  D
         horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 0
-        back_height: 0
-    - pmm: status         # RETURNING
-      template_variables:
-        text_returning: R E T U R N I N G
-        use_airing: false
-        use_canceled: false
-        use_ended: false
-        font: config/fonts/ARIAL.TTF
-        font_color: '#FFA500'
-        font_size: 55
-        # horizontal_offset: 35
-        horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 0
-        back_height: 0
-    - pmm: status         # CANCELED
-      template_variables:
-        text_canceled: C A N C E L L E D
-        use_returning: false
-        use_airing: false
-        use_ended: false
-        font: config/fonts/ARIAL.TTF
-        font_color: '#FF0000'
-        font_size: 55
-        # horizontal_offset: 35
-        horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 0
-        back_height: 0
-    - pmm: status         # ENDED
-      template_variables:
-        text_ended: E N D E D
-        use_airing: false
-        use_canceled: false
-        use_returning: false
-        font: config/fonts/ARIAL.TTF
-        font_color: '#FF0000'
-        font_size: 55
-        # horizontal_offset: 35
-        horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 0
-        back_height: 0
+        vertical_align: top
+        vertical_offset: 0
+        horizontal_offset: 0
+        back_height: 85
+        back_width: 1100
+        font_size: 60
+        back_color_airing: '#4a95f0'
+        back_color_returning: '#81007F'
+        back_color_canceled: '#ed1f1f'
+        back_color_ended: '#27c24b'
+        font: config/custom_fonts/arial_bold.ttf
     operations:
       assets_for_all: true
       delete_collections:
@@ -331,7 +280,6 @@ libraries:
       mass_originally_available_update: tmdb
       mass_audience_rating_update: mdb_tomatoesaudience
       mass_critic_rating_update: mdb_metacritic
-
       mass_imdb_parental_labels: mild
       split_duplicates: false
 
@@ -348,7 +296,7 @@ libraries:
         visible_library_season: true
     - pmm: studio
       template_variables:
-        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio_anime/<<key_encoded>>.jpg
+        url_poster: https://raw.githubusercontent.com/Drazzilb08/pmm-custom-repo-posters/master/studio_pmm/<<key_encoded>>.jpg
         use_separator: false
     - pmm: streaming
       template_variables:
@@ -376,67 +324,21 @@ libraries:
     - pmm: status
       template_variables:
         text_airing: A  I  R  I  N  G
-        use_airing: true
-        use_returning: false
-        use_canceled: false
-        use_ended: false
-        horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 300
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#27C24C'
-    - pmm: status
-      template_variables:
         text_returning: R  E  T  U  R  N  I  N  G
-        use_airing: false
-        use_returning: true
-        use_canceled: false
-        use_ended: false
-        horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 480
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#FFA500'
-    - pmm: status
-      template_variables:
         text_canceled: C  A  N  C  E  L  E  D
-        use_airing: false
-        use_returning: false
-        use_canceled: true
-        use_ended: false
-        horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 430
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#FF0000'
-    - pmm: status
-      template_variables:
         text_ended: E  N  D  E  D
-        use_airing: false
-        use_returning: false
-        use_canceled: false
-        use_ended: true
         horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 280
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#FF0000'
+        vertical_align: top
+        vertical_offset: 0
+        horizontal_offset: 0
+        back_height: 85
+        back_width: 1100
+        font_size: 60
+        back_color_airing: '#4a95f0'
+        back_color_returning: '#81007F'
+        back_color_canceled: '#ed1f1f'
+        back_color_ended: '#27c24b'
+        font: config/custom_fonts/arial_bold.ttf     
     - pmm: languages
       template_variables:
         builder_level: episode
@@ -489,67 +391,21 @@ libraries:
     - pmm: status
       template_variables:
         text_airing: A  I  R  I  N  G
-        use_airing: true
-        use_returning: false
-        use_canceled: false
-        use_ended: false
-        horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 300
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#27C24C'
-    - pmm: status
-      template_variables:
         text_returning: R  E  T  U  R  N  I  N  G
-        use_airing: false
-        use_returning: true
-        use_canceled: false
-        use_ended: false
-        horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 480
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#FFA500'
-    - pmm: status
-      template_variables:
         text_canceled: C  A  N  C  E  L  E  D
-        use_airing: false
-        use_returning: false
-        use_canceled: true
-        use_ended: false
-        horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 430
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#FF0000'
-    - pmm: status
-      template_variables:
         text_ended: E  N  D  E  D
-        use_airing: false
-        use_returning: false
-        use_canceled: false
-        use_ended: true
         horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 280
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#FF0000'
+        vertical_align: top
+        vertical_offset: 0
+        horizontal_offset: 0
+        back_height: 85
+        back_width: 1100
+        font_size: 60
+        back_color_airing: '#4a95f0'
+        back_color_returning: '#81007F'
+        back_color_canceled: '#ed1f1f'
+        back_color_ended: '#27c24b'
+        font: config/custom_fonts/arial_bold.ttf  
     operations:
       assets_for_all: true
       delete_collections:
@@ -560,7 +416,6 @@ libraries:
       mass_originally_available_update: tmdb
       mass_audience_rating_update: mdb_tomatoesaudience
       mass_critic_rating_update: mdb_metacritic
-
       mass_imdb_parental_labels: mild
       split_duplicates: false
 
@@ -596,67 +451,21 @@ libraries:
     - pmm: status
       template_variables:
         text_airing: A  I  R  I  N  G
-        use_airing: true
-        use_returning: false
-        use_canceled: false
-        use_ended: false
-        horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 300
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#27C24C'
-    - pmm: status
-      template_variables:
         text_returning: R  E  T  U  R  N  I  N  G
-        use_airing: false
-        use_returning: true
-        use_canceled: false
-        use_ended: false
-        horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 480
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#FFA500'
-    - pmm: status
-      template_variables:
         text_canceled: C  A  N  C  E  L  E  D
-        use_airing: false
-        use_returning: false
-        use_canceled: true
-        use_ended: false
-        horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 430
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#FF0000'
-    - pmm: status
-      template_variables:
         text_ended: E  N  D  E  D
-        use_airing: false
-        use_returning: false
-        use_canceled: false
-        use_ended: true
         horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 280
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#FF0000'
+        vertical_align: top
+        vertical_offset: 0
+        horizontal_offset: 0
+        back_height: 85
+        back_width: 1100
+        font_size: 60
+        back_color_airing: '#4a95f0'
+        back_color_returning: '#81007F'
+        back_color_canceled: '#ed1f1f'
+        back_color_ended: '#27c24b'
+        font: config/custom_fonts/arial_bold.ttf    
     operations:
       assets_for_all: true
       delete_collections:
@@ -667,7 +476,6 @@ libraries:
       mass_originally_available_update: tmdb
       mass_audience_rating_update: mdb_tomatoesaudience
       mass_critic_rating_update: mdb_metacritic
-
       mass_imdb_parental_labels: mild
       split_duplicates: false
 
@@ -702,67 +510,21 @@ libraries:
     - pmm: status
       template_variables:
         text_airing: A  I  R  I  N  G
-        use_airing: true
-        use_returning: false
-        use_canceled: false
-        use_ended: false
-        horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 300
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#27C24C'
-    - pmm: status
-      template_variables:
         text_returning: R  E  T  U  R  N  I  N  G
-        use_airing: false
-        use_returning: true
-        use_canceled: false
-        use_ended: false
-        horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 480
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#FFA500'
-    - pmm: status
-      template_variables:
         text_canceled: C  A  N  C  E  L  E  D
-        use_airing: false
-        use_returning: false
-        use_canceled: true
-        use_ended: false
-        horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 430
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#FF0000'
-    - pmm: status
-      template_variables:
         text_ended: E  N  D  E  D
-        use_airing: false
-        use_returning: false
-        use_canceled: false
-        use_ended: true
         horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 280
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#FF0000'
+        vertical_align: top
+        vertical_offset: 0
+        horizontal_offset: 0
+        back_height: 85
+        back_width: 1100
+        font_size: 60
+        back_color_airing: '#4a95f0'
+        back_color_returning: '#81007F'
+        back_color_canceled: '#ed1f1f'
+        back_color_ended: '#27c24b'
+        font: config/custom_fonts/arial_bold.ttf
     - remove_overlays: false
     operations:
       assets_for_all: true
@@ -774,7 +536,6 @@ libraries:
       mass_originally_available_update: tmdb
       mass_audience_rating_update: mdb_tomatoesaudience
       mass_critic_rating_update: mdb_metacritic
-
       mass_imdb_parental_labels: mild
       split_duplicates: false
 
@@ -820,67 +581,21 @@ libraries:
     - pmm: status
       template_variables:
         text_airing: A  I  R  I  N  G
-        use_airing: true
-        use_returning: false
-        use_canceled: false
-        use_ended: false
-        horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 300
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#27C24C'
-    - pmm: status
-      template_variables:
         text_returning: R  E  T  U  R  N  I  N  G
-        use_airing: false
-        use_returning: true
-        use_canceled: false
-        use_ended: false
-        horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 480
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#FFA500'
-    - pmm: status
-      template_variables:
         text_canceled: C  A  N  C  E  L  E  D
-        use_airing: false
-        use_returning: false
-        use_canceled: true
-        use_ended: false
-        horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 430
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#FF0000'
-    - pmm: status
-      template_variables:
         text_ended: E  N  D  E  D
-        use_airing: false
-        use_returning: false
-        use_canceled: false
-        use_ended: true
         horizontal_align: center
-        vertical_offset: 45
-        vertical_align: bottom
-        back_color: '#000000'
-        back_width: 280
-        back_height: 34
-        font: config/fonts/ARIAL.TTF
-        font_size: 44
-        font_color: '#FF0000'
+        vertical_align: top
+        vertical_offset: 0
+        horizontal_offset: 0
+        back_height: 85
+        back_width: 1100
+        font_size: 60
+        back_color_airing: '#4a95f0'
+        back_color_returning: '#81007F'
+        back_color_canceled: '#ed1f1f'
+        back_color_ended: '#27c24b'
+        font: config/custom_fonts/arial_bold.ttf
     operations:
       assets_for_all: true
       delete_collections:
@@ -891,7 +606,6 @@ libraries:
       mass_originally_available_update: tmdb
       mass_audience_rating_update: mdb_tomatoesaudience
       mass_critic_rating_update: mdb_metacritic
-
       mass_imdb_parental_labels: mild
       split_duplicates: false
 
