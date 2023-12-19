@@ -1,6 +1,7 @@
 collections:
   Best of Britain:
     mdblist_list: https://mdblist.com/lists/plexmetamanager/best-of-britain
+    sort_title: ~_Best of Britain
     smart_label: random
     visible_home: weekly(monday)
     visible_shared: weekly(monday)
@@ -9,17 +10,20 @@ collections:
     smart_label: random
     visible_home: weekly(tuesday)
     visible_shared: weekly(tuesday)
+    sort_title: ~_Based on Books & Games
   Heroes & Wizards:
     mdblist_list: https://mdblist.com/lists/plexmetamanager/heroes-wizards
     smart_label: random
     visible_home: weekly(wednesday)
     visible_shared: weekly(wednesday)
+    sort_title: ~_Heroes & Wizards
   Throwback Thursdays:
     mdblist_list: https://mdblist.com/lists/plexmetamanager/80s-90s-nostalgia-movies
     run_definition: movie
     smart_label: random
     visible_home: weekly(thursday)
     visible_shared: weekly(thursday)
+    sort_title: ~_Throwback Thursdays
   Throwback Thursdays (Show):
     name: Throwback Thursdays
     mdblist_list: https://mdblist.com/lists/plexmetamanager/nostalgia-shows
@@ -27,12 +31,14 @@ collections:
     smart_label: random
     visible_home: weekly(thursday)
     visible_shared: weekly(thursday)
+    sort_title: ~_Throwback Thursdays
   The Justice System (Fire, Police, Medical & Law):
     mdblist_list: https://mdblist.com/lists/plexmetamanager/the-justice-system
     smart_label: random
     visible_home: weekly(friday)
     visible_shared: weekly(friday)
     run_definition: movie
+    sort_title: ~_The Justice System (Fire, Police, Medical & Law)
   The Justice System (Fire, Police, Medical & Law) TV:
     name: The Justice System (Fire, Police, Medical & Law)
     trakt_list: https://trakt.tv/users/krissykk/lists/tv-the-law-the-order-of-the-justice-system-5of12
@@ -40,13 +46,16 @@ collections:
     visible_home: weekly(friday)
     visible_shared: weekly(friday)
     run_definition: show
+    sort_title: ~_The Justice System (Fire, Police, Medical & Law)
   Family Favourites:
     mdblist_list: https://mdblist.com/lists/plexmetamanager/family-favorites
     smart_label: random
     visible_home: weekly(saturday)
     visible_shared: weekly(saturday)
+    sort_title: ~_Family Favourites
   Mystery & Drama:
     mdblist_list: https://mdblist.com/lists/plexmetamanager/mystery-drama
     smart_label: random
     visible_home: weekly(sunday)
     visible_shared: weekly(sunday)
+    sort_title: ~_Mystery & Drama
