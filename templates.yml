@@ -4,7 +4,7 @@ templates:
     sort_title: <<collection_sort>>
     tmdb_collection_details: <<value>>
   kids-collection:
-    collection_mode: hide
+    collection_mode: hide_items
     collection_order: release
     label: kids
     optional:
@@ -16,7 +16,7 @@ templates:
     move_prefix: The, A
     tmdb_movie: <<movie>>
   collection:
-    collection_mode: hide
+    collection_mode: hide_items
     collection_order: release
     optional:
       - collection
