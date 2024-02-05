@@ -5,18 +5,21 @@ collections:
     smart_label: random
     visible_home: weekly(monday)
     visible_shared: weekly(monday)
+    collection_mode: hide_items
   Based on Books & Games:
     mdblist_list: https://mdblist.com/lists/plexmetamanager/based-on
     smart_label: random
     visible_home: weekly(tuesday)
     visible_shared: weekly(tuesday)
     sort_title: ~_Based on Books & Games
+    collection_mode: hide_items
   Heroes & Wizards:
     mdblist_list: https://mdblist.com/lists/plexmetamanager/heroes-wizards
     smart_label: random
     visible_home: weekly(wednesday)
     visible_shared: weekly(wednesday)
     sort_title: ~_Heroes & Wizards
+    collection_mode: hide_items
   Throwback Thursdays:
     mdblist_list: https://mdblist.com/lists/plexmetamanager/80s-90s-nostalgia-movies
     run_definition: movie
@@ -24,6 +27,7 @@ collections:
     visible_home: weekly(thursday)
     visible_shared: weekly(thursday)
     sort_title: ~_Throwback Thursdays
+    collection_mode: hide_items
   Throwback Thursdays (Show):
     name: Throwback Thursdays
     mdblist_list: https://mdblist.com/lists/plexmetamanager/nostalgia-shows
@@ -32,6 +36,7 @@ collections:
     visible_home: weekly(thursday)
     visible_shared: weekly(thursday)
     sort_title: ~_Throwback Thursdays
+    collection_mode: hide_items
   The Justice System (Fire, Police, Medical & Law):
     mdblist_list: https://mdblist.com/lists/plexmetamanager/the-justice-system
     smart_label: random
@@ -39,6 +44,7 @@ collections:
     visible_shared: weekly(friday)
     run_definition: movie
     sort_title: ~_The Justice System (Fire, Police, Medical & Law)
+    collection_mode: hide_items
   The Justice System (Fire, Police, Medical & Law) TV:
     name: The Justice System (Fire, Police, Medical & Law)
     trakt_list: https://trakt.tv/users/krissykk/lists/tv-the-law-the-order-of-the-justice-system-5of12
@@ -47,15 +53,18 @@ collections:
     visible_shared: weekly(friday)
     run_definition: show
     sort_title: ~_The Justice System (Fire, Police, Medical & Law)
+    collection_mode: hide_items
   Family Favourites:
     mdblist_list: https://mdblist.com/lists/plexmetamanager/family-favorites
     smart_label: random
     visible_home: weekly(saturday)
     visible_shared: weekly(saturday)
-    sort_title: ~_Family Favourites
+    sort_title: ~_Family Favorites
+    collection_mode: hide_items
   Mystery & Drama:
     mdblist_list: https://mdblist.com/lists/plexmetamanager/mystery-drama
     smart_label: random
     visible_home: weekly(sunday)
     visible_shared: weekly(sunday)
     sort_title: ~_Mystery & Drama
+    collection_mode: hide_items
